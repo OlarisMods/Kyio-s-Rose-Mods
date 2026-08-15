@@ -17,7 +17,15 @@ cursors, gauges, and combat text.
 | **Moldie** | royal blue chrome, hat-gold highlights |
 | **Ancient** | slate verdigris chrome, copper highlights, clay and steel gauges |
 
-![UI themes, the same components in each](images/ui_themes_all.png)
+![UI themes in game](images/ui_themes_window.png)
+
+<details><summary>Component breakdown, and all four in game</summary>
+
+![UI components](images/ui_themes_all.png)
+
+![All four in game](images/ui_themes_ingame.png)
+
+</details>
 
 **Download:**
 [Void](../../releases/latest/download/ROSE_UI_Void.zip) ·
@@ -71,7 +79,13 @@ Recolours of the potion flask and the light beam it casts. Two files each — th
 texture, and the beam mesh, which is my own work built from scratch. Works with any UI theme,
 or with none.
 
-![Potion beams, six variants](images/potion_beams_all.png)
+![Potion beams in game](images/potion_beams_ingame.png)
+
+<details><summary>The flask and beam artwork on its own</summary>
+
+![Potion sprites](images/potion_beams_all.png)
+
+</details>
 
 **Download:**
 [Void](../../releases/latest/download/ROSE_Potion_Void.zip) ·
