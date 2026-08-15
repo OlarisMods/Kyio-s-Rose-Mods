@@ -17,6 +17,8 @@ cursors, gauges, and combat text.
 | **Moldie** | royal blue chrome, hat-gold highlights |
 | **Ancient** | slate verdigris chrome, copper highlights, clay and steel gauges |
 
+![UI themes, the same components in each](images/ui_themes_all.png)
+
 **Download:**
 [Void](../../releases/latest/download/ROSE_UI_Void.zip) ·
 [Crimson](../../releases/latest/download/ROSE_UI_Crimson.zip) ·
@@ -51,9 +53,13 @@ tinted the same way:
 - **blocked / absorbed** — muted variants
 - **miss** — neutral grey
 
-Damage taken and healing are **identical in all four themes, on purpose.** Being able to tell
-a hit from a heal at a glance matters more than matching the rest of the palette — and if you
-switch themes, you don't have to relearn your own combat log.
+In **Crimson, Moldie and Ancient**, damage taken and healing are **identical** — they never
+change between themes, so you don't have to relearn your own combat log when you switch.
+
+**Void is the exception.** It was made before I settled on that rule, so its whole set sits in
+the violet/magenta family — healing reads blue, received damage reads magenta. It suits the
+Void interface, but if you want the clearest readout, one of the other three is the better
+pick.
 
 *Already running a full UI theme? You don't need this — the combat text is included in it.*
 

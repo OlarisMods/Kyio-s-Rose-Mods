@@ -12,30 +12,30 @@ what I published. If it does not, do not install it - tell me.
 UI THEME PACKS
 ----------------------------------------------------------------------
   ROSE_UI_Ancient.zip
-    6c92774c5b940fc9eaf96fb1fddcab22e293e282be23ed1b3fbe615644e8d1e6
+    5a0cccc52d6a0e7c887584a88577ddaeee9d0864317f1204039a7d568453bad6
 
   ROSE_UI_Crimson.zip
-    0156564655a7317999436b6096d42bbf337bac3f637daa7c9d2338bc60cb9ffb
+    6217705147913a35974a430453b68a10a6d77abfb8b7da939e1129231d1d811f
 
   ROSE_UI_Moldie.zip
-    ed212ee789851b36d703c42db549b8e8abd09832265e5f891d509b63be636b30
+    0c6c5c12e7f8c934eeac1b29645a8f6a1ef67ff3276f6ee2813181b999d7d9ae
 
   ROSE_UI_Void.zip
-    c40d9ed69e7d4de6efb6d8d70de3e4fe10d8c1d9f0d510920a7ff7c21f78a780
+    60d8aab5fef9f3f30049df85924283ff79103f6adbe3ad79641250b450ed024d
 
 COMBAT TEXT ONLY
 ----------------------------------------------------------------------
   ROSE_CombatText_Ancient.zip
-    b1af2aeb7ef8a2dcfff915e429c9740d0c796750a2255753f35cb31dc96491f6
+    ce1e7fd2507e14d57ca362b2c69aa89e6479caa12bbc4be0d35a2e05711b069b
 
   ROSE_CombatText_Crimson.zip
-    703f4f082b5a96a457143a9212c47c7489a2e0b59408e83c9284b1e647f3f3bb
+    3cd09e033f12aa32eee4a8a74dbaae18879b138d7cf8d963e593ccf4de93dfd1
 
   ROSE_CombatText_Moldie.zip
-    83996c7e0eb0e8c3797ff82fa813a899ae9a4c3fd17ae25e4f767f57014f3640
+    4fb5d22ce3a677719bdb50fe26610c2c218d15521f7f1ee53c5d8fcfe5e80100
 
   ROSE_CombatText_Void.zip
-    1ed39728f0645affc13bd9428360ce730875fc06e51ec22ec9b2a3f399cb754a
+    3497ed084e196a8ef3e6f57002575c7b021976553cb466609723eca465936904
 
 POTION / LOOT BEAM
 ----------------------------------------------------------------------

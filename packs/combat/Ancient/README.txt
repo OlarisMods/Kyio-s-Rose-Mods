@@ -37,8 +37,15 @@ than everything being tinted the same way:
   blocked / absorbed   muted variants
   miss                 neutral grey
 
-Received-red and heal-green never change between themes. Being able to
-tell a hit from a heal at a glance matters more than matching.
+In Crimson, Moldie and Ancient, received-red and heal-green are IDENTICAL
+- they never change between themes, because being able to tell a hit from
+a heal at a glance matters more than matching the palette.
+
+VOID IS THE EXCEPTION. It was made before I settled on that rule, so its
+whole set sits in the violet/magenta family - its healing reads blue and
+its received damage reads magenta. It looks great with the Void UI, but
+if you want the clearest possible readout, one of the other three is the
+better pick.
 
 --------------------------------------------------------------------
 HOW TO UNINSTALL
