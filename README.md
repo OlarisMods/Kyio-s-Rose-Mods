@@ -43,7 +43,9 @@ mix and match rather than having a colour forced on you.
 Just the floating combat numbers, for anyone who wants a clearer damage readout without
 changing their whole interface. 13 files.
 
-![Combat text, all four themes](images/combat_text_all_themes.png)
+![Combat text in a real fight](images/combat_text_ingame.png)
+
+![Combat text, every damage type](images/combat_text_all_themes.png)
 
 **Download:**
 [Void](../../releases/latest/download/ROSE_CombatText_Void.zip) ·
