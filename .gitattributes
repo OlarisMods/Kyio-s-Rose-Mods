@@ -1,0 +1,7 @@
+# Every shipped file is distributed byte-for-byte. Git must not "helpfully" rewrite
+# line endings on checkout -- that would change the bytes users receive and break the
+# published SHA-256 checksums. Mark everything as untouchable.
+*           -text
+*.md        text eol=lf
+.gitattributes text eol=lf
+.gitignore  text eol=lf

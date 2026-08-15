@@ -1,0 +1,411 @@
+@spritesheet theme
+{
+    src: /data/ui/themes/rose/imgs/glassui_0.dds;
+
+    /* Window SMALL */
+    window-sm-tl: 316px 1px 12px 21px;
+    window-sm-t:  346px 1px 1px 21px;
+    window-sm-tr: 363px 1px 12px 21px;
+
+    window-sm-l:  316px 28px 12px 1px;
+    window-sm-c:  346px 28px 1px 1px;
+    window-sm-r:  363px 28px 12px 1px;
+
+    window-sm-bl: 316px 34px 13px 15px;
+    window-sm-b:  346px 35px 1px 14px;
+    window-sm-br: 362px 34px 13px 15px;
+
+    window-sm-tless-tl: 316px 49px 13px -15px;
+    window-sm-tless-t:  346px 49px 1px -14px;
+    window-sm-tless-tr: 362px 49px 13px -15px;
+
+    /* Window inner */
+    window-in-tl: 7px  48px 3px 3px;
+    window-in-t:  25px 48px 1px 3px;
+    window-in-tr: 43px 48px 3px 3px;
+
+    window-in-l:  7px  55px 3px 1px;
+    window-in-c:  25px 55px 1px 1px;
+    window-in-r:  43px 55px 3px 1px;
+
+    window-in-bl: 7px  59px 3px 3px;
+    window-in-b:  25px 59px 1px 3px;
+    window-in-br: 43px 59px 3px 3px;
+
+    /* Normal Window */
+    window-tl: 2px 476px 14px 14px;
+    window-t:  17px 476px 2px 14px;
+    window-tr: 20px 476px 14px 14px;
+
+    window-l:  2px 491px 14px 2px;
+    window-c:  17px 491px 1px 1px;
+    window-r:  20px 491px 14px 2px;
+
+    window-bl: 2px 494px 14px 14px;
+    window-b:  17px 494px 2px 14px;
+    window-br: 20px 494px 14px 14px;
+
+    /* Text Box */
+    textbox-l: 168px 9px 6px 21px;
+    textbox-c: 181px 9px 1px 21px;
+    textbox-r: 188px 9px 6px 21px;
+
+    /* Tiled Text Box*/
+    textbox-tb-tl: 168px 9px 4px 4px;
+    textbox-tb-t:  181px 9px 1px 4px;
+    textbox-tb-tr: 191px 9px 4px 4px;
+
+    textbox-tb-l:  168px 19px 4px 1px;
+    textbox-tb-c:  181px 19px 1px 1px;
+    textbox-tb-r:  191px 19px 4px 1px;
+
+    textbox-tb-bl: 168px 26px 4px 4px;
+    textbox-tb-b:  181px 26px 1px 4px;
+    textbox-tb-br: 191px 26px 4px 4px;
+
+    box-tl: 9px 9px 3px 3px;
+    box-t:  25px 9px 1px 3px;
+    box-tr: 39px 9px 3px 3px;
+
+    box-l:  9px 25px 3px 1px;
+    box-c:  25px 25px 1px 1px;
+    box-r:  39px 25px 3px 1px;
+
+    box-bl: 9px 39px 3px 3px;
+    box-b:  25px 39px 1px 3px;
+    box-br: 39px 39px 3px 3px;
+
+    /**
+    * Buttons
+     */
+
+    /* Normal Button */
+    button-l:           5px 103px 6px 26px;
+    button-c:           12px 103px 1px 26px;
+    button-r:           14px 103px 6px 26px;
+
+    button-hover-l:     20px 103px 6px 26px;
+    button-hover-c:     27px 103px 1px 26px;
+    button-hover-r:     29px 103px 6px 26px;
+
+    button-active-l:    35px 103px 6px 26px;
+    button-active-c:    43px 103px 1px 26px;
+    button-active-r:    45px 103px 6px 26px;
+
+    button-disabled-l:  51px 103px 6px 26px;
+    button-disabled-c:  58px 103px 1px 26px;
+    button-disabled-r:  60px 103px 6px 26px;
+
+    /* Radio Button */
+    radiobutton: 7px 132px 20px 16px;
+    radiobutton-hover: 29px 132px 20px 16px;
+    radiobutton-active: 52px 132px 20px 16px;
+
+    /* Zulie Button */
+    button-zulie-n: 78px 131px 21px 21px;
+    button-zulie-h: 100px 131px 21px 21px;
+    button-zulie-a: 122px 131px 21px 21px;
+
+
+    /* Close Button */
+    close-button-n: 4px  168px 24px 26px;
+    close-button-h: 29px 168px 24px 26px;
+    close-button-a: 54px 168px 24px 26px;
+    close-button-d: 79px 168px 24px 26px;
+
+    plus-button-n: 4px 222px 24px 26px;
+    plus-button-h: 29px 222px 24px 26px;
+    plus-button-a: 54px 222px 24px 26px;
+    plus-button-d: 79px 222px 24px 26px;
+
+    minus-button-n: 4px  250px 24px 26px;
+    minus-button-h: 29px 250px 24px 26px;
+    minus-button-a: 54px 250px 24px 26px;
+    minus-button-d: 79px 250px 24px 26px;
+
+    button-left-sm-n: 4px  278px 24px 26px;
+    button-left-sm-h: 29px  278px 24px 26px;
+    button-left-sm-a: 54px  278px 24px 26px;
+    button-left-sm-d: 79px  278px 24px 26px;
+
+    button-right-sm-n: 4px   306px 24px 26px;
+    button-right-sm-h: 29px  306px 24px 26px;
+    button-right-sm-a: 54px  306px 24px 26px;
+    button-right-sm-d: 79px  306px 24px 26px;
+
+    button-trash-n: 4px   336px 24px 26px;
+    button-trash-h: 29px  336px 24px 26px;
+    button-trash-a: 54px  336px 24px 26px;
+    button-trash-d: 79px  336px 24px 26px;
+
+    button-move-n: 4px   366px 24px 26px;
+    button-move-h: 29px  366px 24px 26px;
+    button-move-a: 54px  366px 24px 26px;
+    button-move-d: 79px  366px 24px 26px;
+
+    button-resize-n: 4px   395px 24px 26px;
+    button-resize-h: 29px  395px 24px 26px;
+    button-resize-a: 54px  395px 24px 26px;
+    button-resize-d: 79px  395px 24px 26px;
+
+    button-scoreboard-n: 455px  1px   56px 56px;
+    button-scoreboard-b: 455px  58px  56px 56px;
+    button-scoreboard-h: 455px  115px 56px 56px;
+    button-scoreboard-a: 455px  172px 56px 56px;
+
+    button-settings_-n: 107px 395px 28px 26px;
+    button-settings_-h: 135px 395px 28px 26px;
+    button-settings_-a: 164px 395px 28px 26px;
+
+    button-settings-n: 1px 450px 26px 24px;
+    button-settings-h: 27px 450px 26px 24px;
+    button-settings-a: 53px 450px 26px 24px;
+
+    handle-resize-window-n: 213px 56px 14px 14px;
+    handle-resize-window-h: 229px 56px 14px 14px;
+
+    slot-icon: 56px 4px 40px 40px;
+    percent-icon: 101px 153px 21px 21px;
+
+    line-splitter-l:  1px 479px 7px 9px;
+    line-splitter-c:  8px 479px 1px 9px;
+    line-splitter-r: 37px 479px 7px 9px;
+
+    /* Dropdown Button */
+    dropdown-button-n: 4px  77px 24px 26px;
+    dropdown-button-h: 29px 77px 24px 26px;
+    dropdown-button-a: 54px 77px 24px 26px;
+    dropdown-button-d: 79px 77px 24px 26px;
+
+    /* Craft Ammount button */
+    craftammount-button-n: 2px  423px 28px 25px;
+    craftammount-button-h: 34px 423px 28px 25px;
+    craftammount-button-a: 65px 423px 28px 25px;
+    craftammount-button-d: 96px 423px 28px 25px;
+
+    /* Slide Bar */
+    slidebar-l: 174px 94px 6px  10px;
+    slidebar-c: 184px 94px 1px 10px;
+    slidebar-r: 189px 94px 6px  10px;
+
+    /*slidebar-button: 142px 106px 24px 24px;*/
+    slidebar-button: 139px 69px 30px 24px;
+
+    /* Scroll Bar */
+    scrollbar-l: 179px 107px 10px  5px;
+    scrollbar-c: 179px 116px 10px 1px;
+    scrollbar-b: 179px 122px 10px  6px;
+    scrollbar-button-t: 190px 104px 24px 11px;
+    scrollbar-button-c: 190px 115px 24px 1px;
+    scrollbar-button-b: 190px 117px 24px 11px;
+
+    range-track-inner: 178px 148px 38px 8px;
+    range-track: 178px 132px 38px 8px;
+
+    /* Labels */
+    label-l: 173px 53px 6px 19px;
+    label-c: 181px 53px 1px 19px;
+    label-r: 184px 53px 6px 19px;
+
+    /* Separator */
+    vertical-separator-t: 248px 56px 2px 2px;
+    vertical-separator-c: 248px 58px 2px 1px;
+    vertical-separator-b: 248px 59px 2px 1px;
+
+    up-arrow: 29px 153px 16px 12px;
+}
+
+@spritesheet theme {
+    src: /3ddata/control/res/glassui_00.dds;
+    minimap-quest-available: 1px 345px 20px 20px;
+    minimap-quest-in-progress: 24px 345px 20px 20px;
+    minimap-quest-complete: 45px 345px 20px 20px;
+    minimap-quest-daily-available: 68px 345px 20px 20px;
+    GEN_DECO09: 353px 257px 43px 43px;
+    GEN_DECO10: 397px 257px 43px 43px;
+    GEN_DECO39: 133px 389px 21px 21px;
+
+    /* Quickbar slot background */
+    qb-slot-bg: 441px 301px 43px 43px;
+
+    /* Quickbar separators */
+    qb-sep-v: 265px 345px 5px 43px;
+    qb-sep-h: 309px 345px 43px 5px;
+
+    /* Quickbar page button background */
+    qb-page-btn: 353px 345px 43px 43px;
+
+    /* Quickbar page numbers */
+    qb-page-1: 397px 345px 20px 20px;
+    qb-page-2: 420px 345px 20px 20px;
+    qb-page-3: 397px 368px 20px 20px;
+
+    /* Quickbar CTRL/ALT/SHIFT indicators (vertical text) */
+    qb-ctrl: 441px 345px 20px 43px;
+    qb-alt: 464px 345px 20px 43px;
+    qb-shift: 487px 345px 20px 43px;
+
+    /* Quickbar page nav arrows */
+    qb-arrow-up: 45px 389px 20px 20px;
+    qb-arrow-down: 68px 389px 20px 20px;
+    qb-arrow-up-hover: 45px 412px 20px 20px;
+    qb-arrow-down-hover: 68px 412px 20px 20px;
+
+    /* Quickbar small arrow indicators */
+    qb-arrow-ind-up: 45px 389px 20px 20px;
+    qb-arrow-ind-down: 45px 412px 20px 20px;
+
+    /* Quickbar hover frame (GEN_WND09 tiled box) */
+    qb-wnd-tl: 401px 1px 23px 23px;
+    qb-wnd-t:  425px 1px 1px 23px;
+    qb-wnd-tr: 427px 1px 23px 23px;
+    qb-wnd-l:  401px 25px 23px 1px;
+    qb-wnd-c:  425px 25px 1px 1px;
+    qb-wnd-r:  427px 25px 23px 1px;
+    qb-wnd-bl: 401px 27px 23px 23px;
+    qb-wnd-b:  425px 27px 1px 23px;
+    qb-wnd-br: 427px 27px 23px 23px;
+
+    /* Quickbar hover frame thin (GEN_WND05 tiled box) */
+    qb-wnd5-tl: 210px 10px 14px 14px;
+    qb-wnd5-t:  225px 10px 1px 14px;
+    qb-wnd5-tr: 227px 10px 14px 14px;
+    qb-wnd5-l:  210px 25px 14px 1px;
+    qb-wnd5-c:  225px 25px 1px 1px;
+    qb-wnd5-r:  227px 25px 14px 1px;
+    qb-wnd5-bl: 210px 27px 14px 14px;
+    qb-wnd5-b:  225px 27px 1px 14px;
+    qb-wnd5-br: 227px 27px 14px 14px;
+
+    /* GEN_WND07 tiled box (7x7 corners, dark semi-transparent fill) */
+    qb-wnd7-tl: 317px 17px 7px 7px;
+    qb-wnd7-t:  325px 17px 1px 7px;
+    qb-wnd7-tr: 327px 17px 7px 7px;
+    qb-wnd7-l:  317px 25px 7px 1px;
+    qb-wnd7-c:  325px 25px 1px 1px;
+    qb-wnd7-r:  327px 25px 7px 1px;
+    qb-wnd7-bl: 317px 27px 7px 7px;
+    qb-wnd7-b:  325px 27px 1px 7px;
+    qb-wnd7-br: 327px 27px 7px 7px;
+
+    /* GEN_WND08 tiled box */
+    qb-wnd8-tl: 360px 10px 14px 14px;
+    qb-wnd8-t:  375px 10px 1px 14px;
+    qb-wnd8-tr: 377px 10px 14px 14px;
+    qb-wnd8-l:  360px 25px 14px 1px;
+    qb-wnd8-c:  375px 25px 1px 1px;
+    qb-wnd8-r:  377px 25px 14px 1px;
+    qb-wnd8-bl: 360px 27px 14px 14px;
+    qb-wnd8-b:  375px 27px 1px 14px;
+    qb-wnd8-br: 377px 27px 14px 14px;
+
+    GEN_DECO55: 133px 433px 43px 43px;
+    GEN_DECO56: 177px 433px 43px 43px;
+    GEN_DECO57: 221px 433px 43px 43px;
+    GEN_DECO58: 265px 433px 43px 43px;
+    GEN_DECO59: 309px 433px 43px 43px;
+    GEN_DECO60: 353px 433px 43px 43px;
+    GEN_DECO61: 397px 433px 43px 43px;
+
+    GEN_DECO64: 45px 370px 30px 30px;
+}
+
+@spritesheet theme {
+    src: /3ddata/control/res/glassui_02.dds;
+    GEN_GAUGE01: 1px 1px 192px 23px;
+    GEN_GAUGE02: 1px 45px 192px 23px;
+    GEN_GAUGE03: 1px 89px 192px 23px;
+    GEN_GAUGE04: 1px 133px 180px 24px;
+    GEN_GAUGE05: 226px 1px 177px 11px;
+
+    /* Quickbar rotate button */
+    qb-rotate-n: 1px 309px 29px 25px;
+    qb-rotate-o: 45px 309px 29px 25px;
+    qb-rotate-d: 89px 309px 29px 25px;
+    GEN_GAUGE06: 226px 24px 177px 11px;
+    GEN_GAUGE07: 226px 45px 177px 24px;
+    GEN_GAUGE08: 226px 133px 177px 24px;
+    GEN_GAUGE09: 226px 89px 177px 24px;
+    GEN_MENUBTN04: 265px 265px 34px 30px;
+    GEN_MENUBTN05: 309px 265px 34px 30px;
+    GEN_MENUBTN06: 353px 265px 34px 30px;
+    GEN_MENUBTN07: 265px 309px 34px 30px;
+    GEN_MENUBTN08: 309px 309px 34px 30px;
+    GEN_MENUBTN09: 353px 309px 34px 30px;
+    GEN_MENUBTN10: 265px 353px 34px 30px;
+    GEN_MENUBTN11: 309px 353px 34px 30px;
+    GEN_MENUBTN12: 353px 353px 34px 30px;
+    GEN_MENUBTN13: 265px 397px 34px 30px;
+    GEN_MENUBTN14: 309px 397px 34px 30px;
+    GEN_MENUBTN15: 353px 397px 34px 30px;
+    GEN_MENUBTN16: 265px 441px 34px 30px;
+    GEN_MENUBTN17: 309px 441px 34px 30px;
+    GEN_MENUBTN18: 353px 441px 34px 30px;
+    GEN_MENUBTN19: 397px 221px 34px 30px;
+    GEN_MENUBTN20: 397px 265px 34px 30px;
+    GEN_MENUBTN21: 397px 309px 34px 30px;
+    GEN_MENUBTN22: 441px 221px 34px 30px;
+    GEN_MENUBTN23: 441px 265px 34px 30px;
+    GEN_MENUBTN24: 441px 309px 34px 30px;
+    GEN_MENUBTN25: 221px 485px 53px 25px;
+    GEN_MENUBTN26: 309px 485px 53px 25px;
+    GEN_MENUBTN27: 397px 485px 53px 25px;
+    GEN_MENUBTN28: 397px 353px 34px 30px;
+    GEN_MENUBTN29: 397px 397px 34px 30px;
+    GEN_MENUBTN30: 397px 441px 34px 30px;
+    GEN_MENUBTN31: 441px 353px 34px 30px;
+    GEN_MENUBTN32: 441px 397px 34px 30px;
+    GEN_MENUBTN33: 441px 441px 34px 30px;
+    GEN_MENUBTN34: 88px 478px 34px 30px;
+    GEN_MENUBTN35: 132px 478px 34px 30px;
+    GEN_MENUBTN36: 176px 478px 34px 30px;
+    GEN_MENUBTN37: 477px 221px 34px 30px;
+    GEN_MENUBTN38: 477px 265px 34px 30px;
+    GEN_MENUBTN39: 477px 309px 34px 30px;
+
+    
+    GEN_BTN04: 1px 221px 29px 25px;
+    GEN_BTN05: 45px 221px 29px 25px;
+    GEN_BTN06: 89px 221px 29px 25px;
+
+    GEN_BTN07: 1px 265px 29px 25px;
+    GEN_BTN08: 45px 265px 29px 25px;
+    GEN_BTN09: 89px 265px 29px 25px;
+}
+
+@spritesheet theme {
+    src: /3ddata/control/res/glassui_04.dds;
+    GEN_BTN82: 1px 200px 43px 43px;
+    GEN_BTN83: 45px 200px 43px 43px;
+    GEN_BTN84: 89px 200px 43px 43px;
+
+    GEN_BTN85: 133px 200px 20px 20px;
+    GEN_BTN86: 177px 200px 20px 20px;
+    GEN_BTN87: 221px 200px 20px 20px;
+
+    GEN_BTN88: 265px 200px 20px 20px;
+    GEN_BTN89: 309px 200px 20px 20px;
+    GEN_BTN90: 353px 200px 20px 20px;
+
+    GEN_BTN106: 309px 257px 43px 43px;
+    GEN_BTN107: 353px 257px 43px 43px;
+    GEN_BTN108: 397px 257px 43px 43px;
+    GEN_BTN109: 441px 257px 43px 43px;
+
+    GEN_DECO65: 309px 301px 182px 29px;
+}
+
+@spritesheet theme {
+    src: /3ddata/control/res/ui04_2.dds;
+    CLAN_ICON_BG: 2px 465px 42px 42px;
+}
+
+@spritesheet theme {
+    src: /3ddata/control/res/minimap_alphamask.dds;
+    GEN_MINIMAP10: 0px 0px 142px 142px;
+}
+
+@spritesheet theme {
+    src: /3ddata/control/res/glassui_03.dds;
+    GEN_MINIMAP09: 221px 221px 219px 219px;
+}

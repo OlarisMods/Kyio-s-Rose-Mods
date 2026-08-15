@@ -1,0 +1,3 @@
+# Release zips are attached to GitHub Releases, not committed.
+# (Keeps the repo small and gives clean download URLs.)
+/release/

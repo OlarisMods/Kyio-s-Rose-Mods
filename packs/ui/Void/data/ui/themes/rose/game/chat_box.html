@@ -1,0 +1,329 @@
+<rml>
+    <head>
+        <title>Chat Box</title>
+
+        <link type="text/template" href="../templates/window-box.html" />
+
+        <style>
+            body
+            {
+                width: 405dp;
+                height: 340dp;
+                min-width: 340dp;
+                min-height: 150dp;
+                margin-top: -3dp;
+                margin-left: 3dp;
+                padding-bottom: 64dp;
+            }
+
+            scrollbarvertical
+            {
+                margin-right: -20dp;
+            }
+
+            body scrollbarvertical {
+                display: none;
+            }
+
+            body:hover scrollbarvertical {
+                display: inline-block;
+            }
+
+            body #resizer {
+                display: none;
+            }
+
+            body:hover #resizer {
+                display: inline-block;
+            }
+
+            body #mover {
+                display: none;
+            }
+
+            body:hover #mover {
+                display: inline-block;
+            }
+
+            #resizer {
+                position: absolute;
+                top: 2dp;
+                right: 2dp;
+            }
+
+            #mover {
+                position: absolute;
+                top: 2dp;
+                right: 27dp;
+            }
+
+            handle {
+                cursor: drag;
+            }
+
+            percentage-handle {
+                position: relative;
+                left: 0dp;
+                top: -8dp;
+                width: 100%;
+                height: 10dp;
+                display: inline-block;
+                cursor: drag;
+            }
+
+            #percentage-handle-icon {
+                display: none;
+                position: absolute;
+                top: -8dp;
+                left: 50%;
+                width: 24dp;
+                height: 20dp;
+                decorator: tiled-vertical(scrollbar-button-t, scrollbar-button-c, scrollbar-button-b);
+            }
+
+            percentage-handle:hover >  #percentage-handle-icon {
+                display: inline-block;
+            }
+
+            #virtual-messages
+            {
+                display: block;
+                word-break: break-word;
+                font-effect: outline(1dp black);
+                overflow: hidden scroll;
+                decorator: horizontal-gradient(rgba(54, 34, 74, 175) rgba(30, 18, 46, 115));
+                padding-left: 15dp;
+                height: 65%;
+            }
+
+            #virtual-system
+            {
+                display: block;
+                word-break: break-word;
+                font-effect: outline(1dp black);
+                overflow: hidden scroll;
+                decorator: horizontal-gradient(rgba(54, 34, 74, 175) rgba(30, 18, 46, 115));
+                padding-left: 15dp;
+                height: 35%;
+            }
+
+            #chat-separator {
+                width: 100%;
+                height: 1dp;
+            }
+
+            select#category
+            {
+                width: 80dp;
+            }
+
+            select#category selectvalue
+            {
+                display: none;
+            }
+
+            select#category selectbox
+            {
+                width: 120dp;
+            }
+
+            span#category-text
+            {
+                position: absolute;
+                left: 10dp;
+                padding-top: 4dp;
+                pointer-events: none;
+            }
+
+            #input-container
+            {
+                decorator: horizontal-gradient(rgba(54, 34, 74, 175) rgba(30, 18, 46, 115));
+                height: 64dp;
+            }
+
+            #input-tab-container
+            {
+                font-effect: outline(1dp black);
+                height: 34dp;
+                overflow: hidden auto;
+            }
+
+            #input-tab-container > button
+            {
+                min-width: 5dp;
+            }
+
+            .window
+            {
+                width: 100%;
+                height: 100%;
+            }
+
+            tab.default
+            {
+                min-width: 5dp;
+            }
+
+            .chat-message
+            {
+                margin: 0dp 0dp;
+            }
+
+            .chat-message-from:hover
+            {
+                text-decoration: underline;
+            }
+
+            .chat-message-link:hover
+            {
+                text-decoration: underline;
+            }
+
+            .timestamp {
+                color: #9585a5;
+                font-effect: glow(1dp 2dp #9585a5), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-chat {
+                color: #f2ecff;
+                font-effect: glow(1dp 3dp #f2ecff), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-shout {
+                color: #ff6b9d;
+                font-effect: glow(1dp 2dp #ff6b9d), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-party {
+                color: #8be9fd;
+                font-effect: glow(1dp 2dp #8be9fd), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-clan {
+                color: #ff00ff;
+                font-effect: glow(1dp 2dp #ff00ff), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-clan-notification {
+                color: #ff00ff;
+                font-effect: glow(1dp 2dp #ff00ff), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-trade {
+                color: #33c4ad;
+                font-effect: glow(1dp 2dp #33c4ad), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-whisper {
+                color: #ff9bec;
+                font-effect: glow(1dp 2dp #ff9bec), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-social-notification {
+                color: #ff9bec;
+                font-effect: glow(1dp 2dp #ff9bec), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-notice {
+                color: #ffcbb0;
+                font-effect: glow(1dp 2dp #ffcbb0), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-system {
+                color: #e6d4ff;
+                font-effect: glow(1dp 2dp #e6d4ff), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-error {
+                color: #ff4d5e;
+                font-effect: glow(1dp 2dp #ff4d5e), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-quest {
+                color: #9be0f5;
+                font-effect: glow(1dp 2dp #9be0f5), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-quest-reward {
+                color: #d8a9f0;
+                font-effect: glow(1dp 2dp #d8a9f0), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-group {
+                color: #a9b6ff;
+                font-effect: glow(1dp 2dp #a9b6ff), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-message-group-leader {
+                color: #7c8fe8;
+                font-effect: glow(1dp 2dp #7c8fe8), outline(1dp rgba(15,8,24,220));
+            }
+
+            .chat-name-gm
+            {
+                color: rgb(172, 145, 255);
+            }
+
+            .chat-name-cm
+            {
+                color: rgb(255, 128, 85);
+            }
+
+            .chat-name-dev
+            {
+                color: rgb(145, 172, 255);
+            }
+
+            .chat-name-mod
+            {
+                color: rgb(255, 159, 65);
+            }
+
+            .chat-name-event
+            {
+                color: rgb(0, 153, 77);
+            }
+        </style>
+    </head>
+
+    <body id="game-chat-box">
+        <div style="height: 100%; width:100%;" data-model="chat-box">
+            <virtual-list-box id="virtual-system" data-if="show_system_tab"></virtual-list-box>
+
+            <div id="chat-separator" data-if="show_system_tab">
+                <percentage-handle property="height" primary_target="virtual-system" secondary_target="virtual-messages" min="10" max="90">
+                    <span id="percentage-handle-icon"></span>
+                </percentage-handle>
+            </div>
+
+            <virtual-list-box id="virtual-messages"></virtual-list-box>
+
+            <div id="input-container">
+                <div id="input-tab-container">
+                    <button class="default" data-for="tabs" data-class-selected="tab_index == it_index" data-event-click="tab_index = it_index; current_tab_changed()" onclick="tab_button_clicked">{{it.name}}</button>
+                </div>
+                <div style="height: 30dp; width: 100%; margin-left: 2dp;">
+                    <div style="display: flex; flex-direction: row; height: 28dp; width:100%; align-items: center;">
+                        <div style="flex: none; width: 100dp;">
+                            <span id="category-text">Chat</span>
+                            <select id="category" data-event-change="chat_input_category_changed()" data-value="chat_input_category" style="tab-index: none">
+                                <option value="0" selected  onclick="chat_input_category_clicked">Chat /s</option>
+                                <option value="1">Whisper /w</option>
+                                <option value="2">Shout /sh</option>
+                                <option value="3">Party /p</option>
+                                <option value="4">Clan /c</option>
+                                <option value="5">Group /g</option>
+                                <option value="6">Trade /t</option>
+                            </select>
+                        </div>
+                        <input id="whisper_name" type="text" maxlength="20" data-if="chat_input_category == 1" style="margin-right:3dp; tab-index: auto; width: 110dp;" />
+                        <input id="input_text" type="text" style="flex: 2; margin-right:3dp; tab-index: auto" data-attrif-disabled="chat_blocked" maxlength="250" retains-focus />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <handle id="mover" class="button-move" move_target="#document"></handle>
+        <handle id="resizer" class="button-resize" size_target="#document"></handle>
+    </body>
+</rml>

@@ -1,0 +1,39 @@
+/* listbox.css  --  Void recolor (loose override, physical-first)
+ *
+ * Full faithful reproduction of the vanilla listbox stylesheet, with the
+ * gold/yellow accents recolored to Void and a subtle tint on static text:
+ *     static item text     (inherited white)         ->  #f2dedc soft lavender-white
+ *     selected background   rgba(230, 160, 20, 80) gold  ->  rgba(212, 32, 32, 95) deep violet (#d42020)
+ *     selected text         yellow                    ->  #ffe3e0 lavender
+ *     hover text            yellow                    ->  #ffe3e0 lavender
+ * Neutral greys (unselected-hover bg, disabled text) left at default.
+ * Revert: delete this file from data\ui\themes\rose\styles\  (packed default returns).
+ */
+
+listbox {
+    display: block;
+}
+
+listbox-item {
+    display: block;
+    padding: 5dp;
+    cursor: hand;
+    color: #f2dedc;
+}
+
+listbox-item:not([disabled])[selected] {
+    background: rgba(212, 32, 32, 95);
+    color: #ffe3e0;
+}
+
+listbox-item:not([disabled]):not([selected]):hover {
+    background: rgba(100, 100, 100, 80);
+}
+
+listbox-item:not([disabled]):hover {
+    color: #ffe3e0;
+}
+
+listbox-item[disabled] {
+    color: #aaa;
+}

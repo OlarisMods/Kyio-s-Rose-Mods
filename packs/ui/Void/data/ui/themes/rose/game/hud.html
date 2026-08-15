@@ -1,0 +1,208 @@
+<rml>
+
+    <head>
+        <title></title>
+        <link type="text/template" href="../templates/window-box.html" />
+        <link type="text/template" href="../templates/elements/gauge.html" />
+
+        <style>
+            body {
+                margin: 5dp;
+            }
+
+            .window-title {
+                font-size: 12dp;
+                color: #F5D0FE;                        /* VOID: lavender name */
+                font-effect: glow(1dp 3dp #A855F7);    /* VOID: violet bloom */
+            }
+
+            #window-title-text {
+                padding-top: 2dp;
+            }
+
+            .window-fixed-size {
+                padding-top: 20dp;
+            }
+
+            #state-icon-container {
+                margin-top: 5dp;
+                visibility: hidden;
+            }
+
+            #window-content.content {
+                padding: 1dp 2dp 1dp 1dp;
+                display: flex;
+                flex-direction: column;
+            }
+
+            span.marker {
+                position: absolute;
+            }
+
+            div.footer {
+                flex: 2;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin: 2dp 2dp 0 2dp;
+                font-size: 12dp;
+            }
+
+            div.footer>span.left {
+                flex-grow: 1;
+                text-align: left;
+                font-weight: 800;
+            }
+
+            div.footer>span.right {
+                flex-grow: 1;
+                text-align: right;
+            }
+
+            /* ===== VOID TEXT PASS (was: b.weight, span.level { color: yellow; }) =====
+               This is the DIAGNOSTIC. If these recolor in-game, HUD text is ours.
+               If they stay yellow, they're engine-drawn like the char-sheet stats. */
+            span.level {
+                color: #F5D0FE;                        /* VOID: lavender level (was yellow) */
+                font-effect: glow(1dp 2dp #A855F7);
+            }
+
+            b.weight {
+                color: #8BE9FD;                        /* VOID: cyan weight readout (was yellow) */
+                font-effect: glow(1dp 2dp #A855F7);
+            }
+
+            /* EXP % and Fuel % labels */
+            #exp span,
+            #fuel span {
+                color: #F5D0FE;                        /* VOID: lavender percent labels */
+                font-effect: glow(1dp 2dp #A855F7);
+            }
+
+            /* ===== VOID LOW-HP PULSE (was: red -> white) ===== */
+            @keyframes low {
+                from {
+                    color: #FF3366;                    /* VOID: danger red-pink */
+                }
+
+                to {
+                    color: #F5D0FE;                    /* VOID: lavender */
+                }
+            }
+
+            gauge.low-value-animation {
+                animation: 1.5s cubic-in-out infinite alternate low;
+            }
+
+            /* ===== VOID BAR PROBE =====
+               The vanilla low-HP effect animates `color` on the <gauge>, which suggests
+               the fill sprite is tinted by the element's color. If so, these recolor the
+               WHOLE bar with no sprite work. Watch what changes:
+                 - if the BAR FILLS shift color -> fill is color-tinted (big win)
+                 - if only the NUMBERS/text shift -> color reaches text only; fills need a sprite repaint
+               Either way we learn the boundary this restart. */
+            gauge#health {
+                color: #FF3366;                        /* Void danger red-pink */
+            }
+
+            gauge#mana {
+                color: #A855F7;                        /* Void violet */
+            }
+
+            gauge#exp {
+                color: #E94DFF;                        /* Void magenta-violet (matches clan/chat) */
+            }
+
+            gauge#fuel {
+                color: #6EE7B7;                        /* Void mint (PAT energy) */
+            }
+
+            div.container {
+                flex: 2;
+                display: flex;
+            }
+
+            div.hud {
+                width: 195dp;
+            }
+
+            div.pat-fuel {
+                display: flex;
+                height: 100%;
+                flex-direction: column;
+                justify-content: flex-end;
+                margin-left: 5dp;
+            }
+
+            .fuel-container {
+                height: 100%;
+            }
+
+            .tooltip .tooltiptext {
+                background: rgba(0, 0, 0, 200);
+                min-width: 50dp;
+                width: 80dp;
+                left: 100%;
+                bottom: 50dp;
+            }
+        </style>
+    </head>
+
+    <body id="hud" onclick="self-target">
+        <handle data-model="character" class="window-title" style="cursor: default" id="window-title-text">{{name}}</handle>
+        <div class="container">
+            <div class="hud" data-model="character">
+                <div class="window-fixed-size">
+                    <div id="window-content" class="content">
+                        <!-- HP Gauge -->
+                        <gauge id="health" class="horizontal-lg-lg red"
+                            data-class-low-value-animation="health_percent <= 20" data-attr-gvalue="health"
+                            data-attr-gmax="max_health">
+                            <template src="gauge-info-vmp" />
+                        </gauge>
+
+                        <!-- MP Gauge -->
+                        <gauge id="mana" class="horizontal-lg-lg blue"
+                            data-class-low-value-animation="mana_percent <= 20" data-attr-gvalue="mana"
+                            data-attr-gmax="max_mana">
+                            <template src="gauge-info-vmp" />
+                        </gauge>
+
+                        <!-- Exp Gauge -->
+                        <gauge id="exp" class="horizontal-sm-lg yellow" data-attr-gvalue="experience"
+                            data-attr-gmax="max_experience">
+                            <span class="marker"><img sprite="gauge-bg-sm-lg-markers" /></span>
+                            <span><label id="percent" />%</span>
+                        </gauge>
+                    </div>
+
+                    <div class="footer">
+                        <span class="left">
+                            <span class="level">{{level}} </span>
+                            <span class="job">
+                                <str data-attr-job-name="job">Visitor</str>
+                            </span>
+                        </span>
+                        <span class="right">
+                            <str string-id="107">Weight</str>: <b class="weight">{{weight_percent}}%</b>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- PAT Fuel --->
+            <div onclick="ignore" data-model="pat">
+                <div class="pat-fuel">
+                    <gauge data-if="show" id="fuel" class="horizontal-sm-md green" data-attr-gvalue="fuel"
+                        data-attr-gmax="max_fuel">
+                        <span><label id="percent" />%</span>
+                    </gauge>
+                </div>
+            </div>
+        </div>
+
+        <!-- State Icons -->
+        <div id="state-icon-container" onclick="ignore">
+        </div>
+    </body>
+</rml>
