@@ -1,7 +1,8 @@
 # ROSE Online — Cosmetic Mods
 
-Client-side cosmetic mods for ROSE Online. Interface recolours, combat text, and potion
-colours. **Nothing here touches the server, your account, or any game logic.**
+Client-side cosmetic mods for ROSE Online. Interface recolours, combat text, loot beams, and
+an expanded Friends window. **Nothing here touches the server, your account, or any game
+logic.**
 
 ---
 
@@ -75,11 +76,14 @@ pick.
 
 ---
 
-## Potion & Loot Beam
+## Potion Beams
 
 Recolours of the potion flask and the light beam it casts. Two files each — the recoloured
 texture, and the beam mesh, which is my own work built from scratch. Works with any UI theme,
 or with none.
+
+This was the first one. The other drop groups are under [Loot Beams](#loot-beams) below, and
+they all share the same beam.
 
 ![Potion beams in game](images/potion_beams_ingame.png)
 
@@ -99,6 +103,129 @@ or with none.
 
 ---
 
+## Loot Beams
+
+A tall beam of light over the drops worth stopping for, plus a new model for the drop
+itself so you can tell at a glance *what* you're looking at, not just that something's there.
+
+Six drop groups, six colours each. Every category is independent — mix and match freely.
+Install one colour per category.
+
+![All six beam categories in game](images/beams_group.png)
+
+Two files per pack: the texture, and the mesh. The mesh is my own work, built from scratch,
+and the beam will not render without it — install both. The beam itself is pixel-identical
+across every category and colour, so the whole set reads as one thing.
+
+### Zodiac & Rune Stone
+
+A carved standing stone with a glowing rune on both faces.
+*Dirty Zodiac Stone · Dirty Rune Stone*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Rune |
+|---|---|---|---|---|---|
+| ![](images/di22_void.png) | ![](images/di22_crimson.png) | ![](images/di22_verdigris.png) | ![](images/di22_moldie.png) | ![](images/di22_lime.png) | ![](images/di22_rune.png) |
+
+[Void](../../releases/latest/download/ROSE_DI22_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_DI22_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_DI22_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_DI22_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_DI22_Lime.zip) ·
+[Rune](../../releases/latest/download/ROSE_DI22_Rune.zip)
+
+### Dirty Crystal
+
+A cluster of cut crystal shards, with the beam rising from the middle of them.
+*Dirty Crystal*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Quartz |
+|---|---|---|---|---|---|
+| ![](images/di23_void.png) | ![](images/di23_crimson.png) | ![](images/di23_verdigris.png) | ![](images/di23_moldie.png) | ![](images/di23_lime.png) | ![](images/di23_quartz.png) |
+
+[Void](../../releases/latest/download/ROSE_DI23_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_DI23_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_DI23_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_DI23_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_DI23_Lime.zip) ·
+[Quartz](../../releases/latest/download/ROSE_DI23_Quartz.zip)
+
+### Dirty Ore & Dirty Stone
+
+Broken rock veined with glowing ore.
+*Dirty Ore · Dirty Stone*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Copper |
+|---|---|---|---|---|---|
+| ![](images/di55_void.png) | ![](images/di55_crimson.png) | ![](images/di55_verdigris.png) | ![](images/di55_moldie.png) | ![](images/di55_lime.png) | ![](images/di55_copper.png) |
+
+[Void](../../releases/latest/download/ROSE_DI55_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_DI55_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_DI55_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_DI55_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_DI55_Lime.zip) ·
+[Copper](../../releases/latest/download/ROSE_DI55_Copper.zip)
+
+### Spiritual & Heart Stone
+
+A faceted gemstone heart on a small pedestal. The **Prism** version keeps the rainbow of
+the original artwork — every facet a different hue, and the beam sweeps through the
+spectrum as it rises.
+*Dirty Spiritual Stone · Dirty Heart Stone*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Prism |
+|---|---|---|---|---|---|
+| ![](images/di10_void.png) | ![](images/di10_crimson.png) | ![](images/di10_verdigris.png) | ![](images/di10_moldie.png) | ![](images/di10_lime.png) | ![](images/di10_prism.png) |
+
+[Void](../../releases/latest/download/ROSE_DI10_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_DI10_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_DI10_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_DI10_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_DI10_Lime.zip) ·
+[Prism](../../releases/latest/download/ROSE_DI10_Prism.zip)
+
+### Scrolls & Event Drops
+
+A bound roll of parchment. The paper takes the colour lightly, the cord takes it fully.
+*Scrolls, dances, and event items — including this event's School Spirit.*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Parchment |
+|---|---|---|---|---|---|
+| ![](images/di50_void.png) | ![](images/di50_crimson.png) | ![](images/di50_verdigris.png) | ![](images/di50_moldie.png) | ![](images/di50_lime.png) | ![](images/di50_parchment.png) |
+
+[Void](../../releases/latest/download/ROSE_DI50_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_DI50_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_DI50_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_DI50_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_DI50_Lime.zip) ·
+[Parchment](../../releases/latest/download/ROSE_DI50_Parchment.zip)
+
+---
+
+## Community Window
+
+Your Friends window with three extra tabs. The friend and ignore lists are the game's own,
+untouched — the rest is new.
+
+| Notes | Checklist | Symbols |
+|---|---|---|
+| ![](images/community_notes.png) | ![](images/community_checklist.png) | ![](images/community_symbols.png) |
+
+- **Notes** — a notepad. Also shows your zone, coordinates and server time.
+- **Checklist** — eight tick-boxes, each with a quantity and a label. Use it for whatever you
+  like: a farming run, a crafting list, a set you're collecting.
+- **Symbols** — emoji you can copy and paste into chat.
+
+Notes and Checklist keep what you type for as long as the client is running. Close the window,
+reopen it, and it's still there. **It is not saved to disk** — everything clears when you close
+the game.
+
+One plain text file. Open it in Notepad and read it if you like; there's nothing else in the pack.
+
+**Download:** [Community Window](../../releases/latest/download/ROSE_UI_CommunityWindow.zip)
+
+
+---
+
 ## Installing
 
 1. Close ROSE completely.
@@ -109,8 +236,11 @@ or with none.
 Windows will ask you to confirm replacing files — that's expected, and you may get an
 administrator prompt.
 
-Only one UI theme, and one potion colour, at a time. To switch, install another straight over
-the top. Every theme ships an identical file list, so nothing gets left behind.
+Only one UI theme at a time, and one colour per drop group at a time. To switch, install
+another straight over the top. Every pack in a family ships an identical file list, so nothing
+gets left behind.
+
+Drop groups are independent of each other and of the UI themes — there is no wrong combination.
 
 ## Uninstalling
 
