@@ -1,0 +1,4 @@
+This pack installs 2 files. To uninstall, delete these:
+
+3ddata\item\di10\di10.dds
+3ddata\item\di10\di10.zms

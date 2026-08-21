@@ -1,0 +1,235 @@
+<!-- Community window - ROSE Online UI mod by Olaris (clan Void)
+     github.com/OlarisMods/Kyio-s-Rose-Mods
+
+     Replaces the Friends window with a six-panel version: Friends, Ignore,
+     Notes, Checklist, Symbols. Friends and Ignore are the game's own panels,
+     unchanged. Nothing here executes and no game file is modified.
+
+     TO UNINSTALL: delete this file. The game returns to the original window.
+     Install path: data\ui\themes\rose\game\friend_list.html
+-->
+<rml>
+    <head>
+        <title>Community</title>
+
+        <link type="text/template" href="../templates/window-resizeable.html" />
+
+        <style>
+            #game-friend-list
+            {
+                width: 330dp;
+                height: 380dp;
+                min-width: 300dp;
+                min-height: 200dp;
+            }
+
+            listbox {
+                padding-right: 15dp;
+            }
+
+            listbox-item {
+                padding: 4dp;
+            }
+
+            button.default {
+                min-width: 110dp;
+            }
+
+            tabset {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            tab.default {
+                min-width: 50dp;
+            }
+
+            tabset > panels {
+                flex: 1;
+            }
+        </style>
+    </head>
+
+    <body id="game-friend-list" template="window-resizeable">
+        <tabset>
+            <tab class="default">Friends</tab>
+            <panel>
+                <div data-model="friend-list" style="width: 100%; height: 100%; display: flex; flex-direction: column;">
+                    <div style="flex: 1" class="content-box">
+                        <div style="width: 100%; height: 100%; overflow: hidden auto;">
+                            <listbox id="friend-list">
+                                <listbox-item
+                                    data-for="friend : friends"
+                                    data-attr-value="friend.name"
+                                    ondblclick="mail_or_message_friend"
+                                    style="display: flex; flex-direction: row; column-gap: 4dp; width: 100%; height: 20dp">
+                                    <img data-attr-sprite="(friend.status == 8 || friend.status == 10 || friend.status == 80 || friend.status == 81) ? 'clan-member-offline' : 'clan-member-online'" />
+                                    <span style="flex: 1">{{friend.name}}</span>
+                                    <span><str data-attr-friend-status="friend.status" /></span>
+                                </listbox-item>
+                            </listbox>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <div style="width: 110dp">
+                            <button class="default" onclick="add_friend">Add Friend</button>
+                            <button class="default" onclick="delete_friend">Delete Friend</button>
+                        </div>
+                        <div style="flex: 1"></div>
+                        <div style="width: 110dp">
+                            <button class="default" onclick="mail_or_message_friend">Message</button>
+                        </div>
+                    </div>
+            </div>
+            </panel>
+            <tab class="default">Ignore</tab>
+            <panel>
+                <div data-model="ignore-list" style="width: 100%; height: 100%; display: flex; flex-direction: column;">
+                    <div style="flex: 1" class="content-box">
+                        <div style="width: 100%; height: 100%; overflow: hidden auto;">
+                            <listbox id="ignore-list">
+                                <listbox-item
+                                    data-for="ignore : ignore_list"
+                                    data-attr-value="ignore.name"
+                                    style="display: flex; flex-direction: row; column-gap: 4dp; width: 100%; height: 20dp"
+                                >
+                                    <span>{{ignore.name}}</span>
+                                </listbox-item>
+                            </listbox>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column;">
+                        <button class="default" onclick="add_ignore">Add Ignore</button>
+                        <button class="default" onclick="delete_ignore">Delete Ignore</button>
+                    </div>
+                </div>
+            </panel>
+            <tab class="default">Notes</tab>
+            <panel>
+                <!-- ===== SCRATCHPAD =====
+                     A textarea holds its own contents. Documents load ONCE at startup, so
+                     whatever you type survives closing and reopening this window and lasts
+                     the whole session. No storage, no model, no bindings - nothing to break.
+                     It clears when you restart the client. -->
+                <div style="width: 100%; height: 100%; display: flex; flex-direction: column;">
+                    <!-- LIVE CONTEXT: the minimap model bound from a different document.
+                         Can't auto-stamp an entry (no scripting), but you can read it and
+                         type it - and it proves cross-document binding a second time. -->
+                    <div data-model="minimap" style="padding: 2dp 0dp 4dp 0dp;">
+                        <span style="font-size: 10dp; color: #9FC6C9;">{{zone_name}} &nbsp; {{player_coordinates}} &nbsp; {{server_time}}</span>
+                    </div>
+                    <div style="padding: 0dp 0dp 3dp 0dp;">
+                        <span style="font-size: 10dp; color: #E8A0A0;">Not saved. Everything here is lost when you close the game.</span>
+                    </div>
+                    <div style="flex: 1" class="content-box">
+                        <textarea id="scratchpad-text"
+                                  style="width: 100%; height: 100%; tab-index: auto;
+                                         font-family: rmlui-debugger-font; font-size: 11dp;"
+                                  maxlength="20000"
+                                  retains-focus></textarea>
+                    </div>
+                    <div style="padding: 3dp 0dp 0dp 0dp;">
+                        <span style="font-size: 10dp; color: #808080;">Ctrl+A / C / V work here. Widen the window for more room.</span>
+                    </div>
+                </div>
+            </panel>
+            <tab class="default">Checklist</tab>
+            <panel>
+                <!-- ===== CHECKLIST =====
+                     Same principle as the Notes tab: checkboxes and text inputs hold their own
+                     state, and documents load once at startup - so ticks and text survive
+                     closing and reopening the window, and last the whole session. -->
+                <div style="width: 100%; height: 100%; display: flex; flex-direction: column;">
+                    <div style="padding: 0dp 0dp 4dp 0dp;">
+                        <input type="text" id="recipe-title" maxlength="60" style="width: 100%; tab-index: auto" retains-focus />
+                    </div>
+                    <div style="flex: 1" class="content-box">
+                        <div style="width: 100%; height: 100%; overflow: hidden auto;">
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 24dp; align-items: center;">
+                                <input type="checkbox" id="chk1" />
+                                <input type="text" id="qty1" maxlength="6" style="width: 42dp; tab-index: auto" retains-focus />
+                                <input type="text" id="chktext1" maxlength="60" style="flex: 1; tab-index: auto" retains-focus />
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 24dp; align-items: center;">
+                                <input type="checkbox" id="chk2" />
+                                <input type="text" id="qty2" maxlength="6" style="width: 42dp; tab-index: auto" retains-focus />
+                                <input type="text" id="chktext2" maxlength="60" style="flex: 1; tab-index: auto" retains-focus />
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 24dp; align-items: center;">
+                                <input type="checkbox" id="chk3" />
+                                <input type="text" id="qty3" maxlength="6" style="width: 42dp; tab-index: auto" retains-focus />
+                                <input type="text" id="chktext3" maxlength="60" style="flex: 1; tab-index: auto" retains-focus />
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 24dp; align-items: center;">
+                                <input type="checkbox" id="chk4" />
+                                <input type="text" id="qty4" maxlength="6" style="width: 42dp; tab-index: auto" retains-focus />
+                                <input type="text" id="chktext4" maxlength="60" style="flex: 1; tab-index: auto" retains-focus />
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 24dp; align-items: center;">
+                                <input type="checkbox" id="chk5" />
+                                <input type="text" id="qty5" maxlength="6" style="width: 42dp; tab-index: auto" retains-focus />
+                                <input type="text" id="chktext5" maxlength="60" style="flex: 1; tab-index: auto" retains-focus />
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 24dp; align-items: center;">
+                                <input type="checkbox" id="chk6" />
+                                <input type="text" id="qty6" maxlength="6" style="width: 42dp; tab-index: auto" retains-focus />
+                                <input type="text" id="chktext6" maxlength="60" style="flex: 1; tab-index: auto" retains-focus />
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 24dp; align-items: center;">
+                                <input type="checkbox" id="chk7" />
+                                <input type="text" id="qty7" maxlength="6" style="width: 42dp; tab-index: auto" retains-focus />
+                                <input type="text" id="chktext7" maxlength="60" style="flex: 1; tab-index: auto" retains-focus />
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 24dp; align-items: center;">
+                                <input type="checkbox" id="chk8" />
+                                <input type="text" id="qty8" maxlength="6" style="width: 42dp; tab-index: auto" retains-focus />
+                                <input type="text" id="chktext8" maxlength="60" style="flex: 1; tab-index: auto" retains-focus />
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 3dp 0dp 0dp 0dp;">
+                        <span style="font-size: 10dp; color: #808080;">Ctrl+A then Delete clears a field. Not saved: everything is lost when you close the game.</span>
+                    </div>
+                </div>
+            </panel>
+            <tab class="default">Symbols</tab>
+            <panel>
+                <!-- ===== SYMBOL PALETTE =====
+                     No way to INSERT text into chat from markup, but these sit in
+                     textareas - highlight one, Ctrl+C, then Ctrl+V into any chat.
+                     A copy-paste palette rather than a picker. -->
+                <div style="width: 100%; height: 100%; display: flex; flex-direction: column;">
+                    <div style="flex: 1" class="content-box">
+                        <div style="width: 100%; height: 100%; overflow: hidden auto;">
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 26dp; align-items: center;">
+                                <span style="width: 62dp; font-size: 10dp; color: #808080;">reactions</span>
+                                <textarea style="flex: 1; height: 22dp; tab-index: auto; color: #E8E8E8;" retains-focus>😀 😂 😉 😍 😛 😠 😢 😮 😴 😎</textarea>
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 26dp; align-items: center;">
+                                <span style="width: 62dp; font-size: 10dp; color: #808080;">hands</span>
+                                <textarea style="flex: 1; height: 22dp; tab-index: auto; color: #F0D8A0;" retains-focus>👍 👎 👌 👋 🙏 💪 👏 ☞</textarea>
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 26dp; align-items: center;">
+                                <span style="width: 62dp; font-size: 10dp; color: #808080;">combat</span>
+                                <textarea style="flex: 1; height: 22dp; tab-index: auto; color: #F08080;" retains-focus>💀 🔥 ⚡ 💥 ✖ 🎯 ⭐ 💢</textarea>
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 26dp; align-items: center;">
+                                <span style="width: 62dp; font-size: 10dp; color: #808080;">loot</span>
+                                <textarea style="flex: 1; height: 22dp; tab-index: auto; color: #E8C060;" retains-focus>💰 💎 👑 🏆 🎁 🔑 💡 🐉</textarea>
+                            </div>
+                            <div style="display: flex; flex-direction: row; column-gap: 4dp; height: 26dp; align-items: center;">
+                                <span style="width: 62dp; font-size: 10dp; color: #808080;">hearts</span>
+                                <textarea style="flex: 1; height: 22dp; tab-index: auto; color: #F0A0C0;" retains-focus>♥ ♡ 💔 ★ ☆ ✓ ❤ ✨ 🎉 🍺</textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 3dp 0dp 0dp 0dp;">
+                        <span style="font-size: 10dp; color: #808080;">Highlight one, Ctrl+C, then Ctrl+V into chat.</span>
+                    </div>
+                </div>
+            </panel>
+        </tabset>
+    </body>
+</rml>

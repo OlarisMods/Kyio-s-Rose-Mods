@@ -57,12 +57,117 @@ POTION / LOOT BEAM
   ROSE_Potion_Void.zip
     d60fe79ad973b38b23e055a766fe2692534306b5903468ee81918c16c5a35400
 
+LOOT BEAM -- ZODIAC & RUNE STONE  (di22)
+----------------------------------------------------------------------
+  ROSE_DI22_Crimson.zip
+    26208defe42fa183e9f3789d9d83cda07744de022db9261fcc936e7421a5e83c
+
+  ROSE_DI22_Lime.zip
+    3751037bb30f0fbeaa2863ba29525dc910bc7bf12dd163b304119735d6e4e149
+
+  ROSE_DI22_Moldie.zip
+    133d51701ab3ccf31a08643557f6e4e588f91013fec20c3acb22b66c7595e1c9
+
+  ROSE_DI22_Rune.zip
+    1772edf4d99b964073b59623bdbfda0dabdc16ec0bec6300835016a7b5c7775f
+
+  ROSE_DI22_Verdigris.zip
+    d4b7f8586d1c9e9545a6d7788dd5485b57e687ccaa9ef93ee819165c4fc8cd13
+
+  ROSE_DI22_Void.zip
+    1fb4cea3ec1963c1291bf8227ee06469d0e3fc1c356199be4cbf75fd3e7b4efc
+
+LOOT BEAM -- DIRTY CRYSTAL  (di23)
+----------------------------------------------------------------------
+  ROSE_DI23_Crimson.zip
+    17061de9f1e290ef9ebfca36f2a38c054786ebf70e1d6deaa1aae1ec5866bf15
+
+  ROSE_DI23_Lime.zip
+    eed0eafe192b4452fb4174bc769e942a990acee15eb2fe0472a44a3bd9b01001
+
+  ROSE_DI23_Moldie.zip
+    3a4f42073e9885ee78214a54d1760bd80a92af6191f4bde409ee8643a1c29b33
+
+  ROSE_DI23_Quartz.zip
+    042a5990b3cf3b872cd612dab1edc83a5baf338aee16cedb4316d4f2f93374c6
+
+  ROSE_DI23_Verdigris.zip
+    a9fed28073085377fc2c842853aa043a9e38926af17543e42d8a74dbca0d5ed3
+
+  ROSE_DI23_Void.zip
+    4ce4139c95c7cc0ead0dd9ef138f414b83bafdc3fcc29feb1ba8923a809c788d
+
+LOOT BEAM -- DIRTY ORE & DIRTY STONE  (di55)
+----------------------------------------------------------------------
+  ROSE_DI55_Copper.zip
+    0f06424a95da30897dbccd9be924d3b2443fac213d33a70779d6f1a70643d642
+
+  ROSE_DI55_Crimson.zip
+    d8e7be53796a80f5bd89b4eaf54fc1a3a8d71880fc5635b0ca7a330eac62398a
+
+  ROSE_DI55_Lime.zip
+    406aa27ca5dd9b518cd2142036f8b9502811c8559d1922a9edab99f324ef4d4c
+
+  ROSE_DI55_Moldie.zip
+    f2d03d1230b46947711e3220168f4d0bd83f49ece56169c1dcea0760121ca3b2
+
+  ROSE_DI55_Verdigris.zip
+    35fc3fea022a17ad2a6f7fdc00172e9f771af61055b2339b7e8362733421bb33
+
+  ROSE_DI55_Void.zip
+    b1a1c812ec6d46e0086b5020c09b522d90f5d3b8d4261aa24ede13e8384451d3
+
+LOOT BEAM -- SPIRITUAL & HEART STONE  (di10)
+----------------------------------------------------------------------
+  ROSE_DI10_Crimson.zip
+    54d3b6bbf1d98dead1c46c95d274d5c6b312d39b3d93cf5884dbfee2d76c880f
+
+  ROSE_DI10_Lime.zip
+    ad2088af5e5bab56736a23b4c4222f9bde8b6a6b26cb9856e8ffa837882d6e7a
+
+  ROSE_DI10_Moldie.zip
+    60cb6ed0b432deb8786f3837e4403f16d657b0e8b0a86a0e9f55eeb081453dd8
+
+  ROSE_DI10_Prism.zip
+    b3b60b6242cec98875171370b5238f043e1a5ebfebce03c186e5e99c01250990
+
+  ROSE_DI10_Verdigris.zip
+    bcf6983a45f68b6b11a56f9037a5ad5851fc9ffa74f1126c3bf6bbee9f8ac64e
+
+  ROSE_DI10_Void.zip
+    a2b8c6d414ac0a9a3c18e6573f5b173488ed7aeea39d7659b6cb9de7ddf784e2
+
+LOOT BEAM -- EVENT SCROLL  (di50)
+----------------------------------------------------------------------
+  ROSE_DI50_Crimson.zip
+    b57fd36a8615cd5e7364fa3050f8e18da54237c83d1d38ba9457b5c22e4af2d4
+
+  ROSE_DI50_Lime.zip
+    1af6e2f843d5403d42f6bd3a6b78a0d2cee6abaa318cc90f6c79f87e590b8fb0
+
+  ROSE_DI50_Moldie.zip
+    40da10b2141113b392f90566bff42eb5a037aac9fb07b47010a5f504b38b07d1
+
+  ROSE_DI50_Parchment.zip
+    f149c7ed7b8d71dea42214486498a1c827a592b3df35fa29772cd491ce2785e5
+
+  ROSE_DI50_Verdigris.zip
+    3c7e96b36be868935d3d9e9999fa514280524c9d4f47e530aeef41fc2cf72d7a
+
+  ROSE_DI50_Void.zip
+    309017d5c0ed4aadd071ddd4aacc2c7259517e6de81455f6edbd358a07b35f80
+
+INTERFACE -- COMMUNITY WINDOW
+----------------------------------------------------------------------
+  ROSE_UI_CommunityWindow.zip
+    b3dd1a7c175b2020293740f9c93133ce94be3664cd26b2e99ba018ffbc113697
+
 ======================================================================
 WHAT IS INSIDE
 
 Every pack contains only these file types:
     .dds   texture images
-    .zms   mesh geometry (potion packs only - the beam shape)
+    .zms   mesh geometry (the beam and drop shapes)
     .cur   mouse cursors
     .css   stylesheets (plain text - open them and read them)
     .html  interface layout (plain text - same)

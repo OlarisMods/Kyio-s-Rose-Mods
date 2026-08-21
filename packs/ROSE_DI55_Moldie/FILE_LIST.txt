@@ -1,0 +1,4 @@
+This pack installs 2 files. To uninstall, delete these:
+
+3ddata\item\di55\rock.dds
+3ddata\item\di55\snow.zms

@@ -1,0 +1,3 @@
+This pack installs 1 file. To uninstall, delete it:
+
+data\ui\themes\rose\game\friend_list.html
