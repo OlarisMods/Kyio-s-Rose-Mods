@@ -117,6 +117,21 @@ Two files per pack: the texture, and the mesh. The mesh is my own work, built fr
 and the beam will not render without it — install both. The beam itself is pixel-identical
 across every category and colour, so the whole set reads as one thing.
 
+### Want everything one colour?
+
+One download instead of six. Each bundle is every drop group in that colour — the same files
+as the individual packs, just in one archive.
+
+[**Void**](../../releases/latest/download/ROSE_AllBeams_Void.zip) ·
+[**Crimson**](../../releases/latest/download/ROSE_AllBeams_Crimson.zip) ·
+[**Verdigris**](../../releases/latest/download/ROSE_AllBeams_Verdigris.zip) ·
+[**Moldie**](../../releases/latest/download/ROSE_AllBeams_Moldie.zip) ·
+[**Lime**](../../releases/latest/download/ROSE_AllBeams_Lime.zip)
+
+Prefer to mix — teal crystals but red ore? Use the individual packs below. Chem, Rune, Quartz,
+Copper, Prism and Parchment each echo one drop's own original artwork, so they're single packs
+only and aren't in any bundle.
+
 ### Zodiac & Rune Stone
 
 A carved standing stone with a glowing rune on both faces.
