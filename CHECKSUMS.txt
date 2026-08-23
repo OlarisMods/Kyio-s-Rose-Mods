@@ -162,6 +162,23 @@ INTERFACE -- COMMUNITY WINDOW
   ROSE_UI_CommunityWindow.zip
     b3dd1a7c175b2020293740f9c93133ce94be3664cd26b2e99ba018ffbc113697
 
+LOOT BEAM -- COMPLETE SETS (every drop group, one colour)
+----------------------------------------------------------------------
+ROSE_AllBeams_Void.zip
+    4590f1799cab7e3c30b6e123ee02e09681a24c38b611fc3079d02c7dd077a4b5
+
+  ROSE_AllBeams_Crimson.zip
+    0cdcbb35c4f96a9ba313e16245473da37a43e6e3890234d1aeb6173d0e905392
+
+  ROSE_AllBeams_Verdigris.zip
+    c16f991fb4bf6c954699f0c516d3ac055f013ab5e29bfcf718ba33f8171ba43c
+
+  ROSE_AllBeams_Moldie.zip
+    aa7400a736e64013386a3e3ed01593f22ecee99e1a6854ffa8f351f86f56c7ac
+
+  ROSE_AllBeams_Lime.zip
+    7cf7571dfd2a6b89c120b1da0687167a9ed8c254ca92e2775e87ba3d2f1ec72c
+
 ======================================================================
 WHAT IS INSIDE
 
