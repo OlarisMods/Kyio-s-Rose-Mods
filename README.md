@@ -1,6 +1,6 @@
 # ROSE Online — Cosmetic Mods
 
-Client-side cosmetic mods for ROSE Online. Interface recolours, combat text, loot beams, and
+Client-side cosmetic mods for ROSE Online. Interface recolors, combat text, loot beams, and
 an expanded Friends window. **Nothing here touches the server, your account, or any game
 logic.**
 
@@ -8,7 +8,7 @@ logic.**
 
 ## UI Themes
 
-Four complete interface recolours — window frames, buttons, tabs, chat box, minimap ring,
+Four complete interface recolors — window frames, buttons, tabs, chat box, minimap ring,
 cursors, gauges, and combat text.
 
 | Theme | Look |
@@ -34,8 +34,8 @@ cursors, gauges, and combat text.
 [Moldie](../../releases/latest/download/ROSE_UI_Moldie.zip) ·
 [Ancient](../../releases/latest/download/ROSE_UI_Ancient.zip)
 
-Potion colours are **not** included in the theme packs — they're separate below, so you can
-mix and match rather than having a colour forced on you.
+Potion colors are **not** included in the theme packs — they're separate below, so you can
+mix and match rather than having a color forced on you.
 
 ---
 
@@ -54,10 +54,10 @@ changing their whole interface. 13 files.
 [Moldie](../../releases/latest/download/ROSE_CombatText_Moldie.zip) ·
 [Ancient](../../releases/latest/download/ROSE_CombatText_Ancient.zip)
 
-Damage types are told apart by colour, so each one is assigned rather than everything being
+Damage types are told apart by color, so each one is assigned rather than everything being
 tinted the same way:
 
-- **damage you deal** — the theme's colour
+- **damage you deal** — the theme's color
 - **damage you take** — red
 - **healing** — green
 - **critical hits** — matches the theme's glow
@@ -78,7 +78,7 @@ pick.
 
 ## Potion Beams
 
-Recolours of the potion flask and the light beam it casts. Two files each — the recoloured
+Recolors of the potion flask and the light beam it casts. Two files each — the recolored
 texture, and the beam mesh, which is my own work built from scratch. Works with any UI theme,
 or with none.
 
@@ -108,19 +108,19 @@ they all share the same beam.
 A tall beam of light over the drops worth stopping for, plus a new model for the drop
 itself so you can tell at a glance *what* you're looking at, not just that something's there.
 
-Six drop groups, six colours each. Every category is independent — mix and match freely.
-Install one colour per category.
+Six drop groups, six colors each. Every category is independent — mix and match freely.
+Install one color per category.
 
 ![All six beam categories in game](images/beams_group.png)
 
 Two files per pack: the texture, and the mesh. The mesh is my own work, built from scratch,
 and the beam will not render without it — install both. The beam itself is pixel-identical
-across every category and colour, so the whole set reads as one thing.
+across every category and color, so the whole set reads as one thing.
 
-### Want everything one colour?
+### Want everything one color?
 
-One download instead of six. Each bundle is every drop group in that colour — the same files
-as the individual packs, just in one archive.
+One download instead of ten. Each bundle is every drop group in that color — the same files as
+the individual packs, just in one archive.
 
 [**Void**](../../releases/latest/download/ROSE_AllBeams_Void.zip) ·
 [**Crimson**](../../releases/latest/download/ROSE_AllBeams_Crimson.zip) ·
@@ -128,9 +128,15 @@ as the individual packs, just in one archive.
 [**Moldie**](../../releases/latest/download/ROSE_AllBeams_Moldie.zip) ·
 [**Lime**](../../releases/latest/download/ROSE_AllBeams_Lime.zip)
 
-Prefer to mix — teal crystals but red ore? Use the individual packs below. Chem, Rune, Quartz,
-Copper, Prism and Parchment each echo one drop's own original artwork, so they're single packs
-only and aren't in any bundle.
+[**Themed**](../../releases/latest/download/ROSE_AllBeams_Themed.zip) — every drop group in the
+color of its own original artwork. Chem, Rune, Quartz, Copper, Prism, Sunflower, Parchment,
+Kraft, Jade, Bronze and Silver together. For anyone who wants drops visible without changing how
+the game looks.
+
+Prefer to mix — teal crystals but red ore? Use the individual packs below.
+
+> **Finding drops hard to see?** Ask and I'll build any of these at double size. One person needed
+> it for a vision impairment and it made the game playable for her; it's no trouble to make more.
 
 ### Zodiac & Rune Stone
 
@@ -200,7 +206,7 @@ spectrum as it rises.
 
 ### Scrolls & Event Drops
 
-A bound roll of parchment. The paper takes the colour lightly, the cord takes it fully.
+A bound roll of parchment. The paper takes the color lightly, the cord takes it fully.
 *Scrolls, dances, and event items — including this event's School Spirit.*
 
 | Void | Crimson | Verdigris | Moldie | Lime | Parchment |
@@ -213,6 +219,86 @@ A bound roll of parchment. The paper takes the colour lightly, the cord takes it
 [Moldie](../../releases/latest/download/ROSE_DI50_Moldie.zip) ·
 [Lime](../../releases/latest/download/ROSE_DI50_Lime.zip) ·
 [Parchment](../../releases/latest/download/ROSE_DI50_Parchment.zip)
+
+### Clan Points
+
+A plasma wisp floating over a scorched patch of ground.
+*Clan point drops*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Sunflower |
+|---|---|---|---|---|---|
+| ![](images/di46_void.png) | ![](images/di46_crimson.png) | ![](images/di46_verdigris.png) | ![](images/di46_moldie.png) | ![](images/di46_lime.png) | ![](images/di46_sunflower.png) |
+
+[Void](../../releases/latest/download/ROSE_DI46_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_DI46_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_DI46_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_DI46_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_DI46_Lime.zip) ·
+[Sunflower](../../releases/latest/download/ROSE_DI46_Sunflower.zip)
+
+### Mounts
+
+A wrapped present with a ribbon and bow. Getting a mount should feel like something.
+*Mounts. A few other items share this drop group and will use it too.*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Kraft |
+|---|---|---|---|---|---|
+| ![](images/di52_void.png) | ![](images/di52_crimson.png) | ![](images/di52_verdigris.png) | ![](images/di52_moldie.png) | ![](images/di52_lime.png) | ![](images/di52_kraft.png) |
+
+[Void](../../releases/latest/download/ROSE_DI52_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_DI52_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_DI52_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_DI52_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_DI52_Lime.zip) ·
+[Kraft](../../releases/latest/download/ROSE_DI52_Kraft.zip)
+
+### Boss Gems
+
+A large cut stone held in a claw setting. Covers all four gem types.
+*King Gem and the other boss gems*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Jade |
+|---|---|---|---|---|---|
+| ![](images/di64_void.png) | ![](images/di64_crimson.png) | ![](images/di64_verdigris.png) | ![](images/di64_moldie.png) | ![](images/di64_lime.png) | ![](images/di64_jade.png) |
+
+[Void](../../releases/latest/download/ROSE_GEM_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_GEM_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_GEM_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_GEM_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_GEM_Lime.zip) ·
+[Jade](../../releases/latest/download/ROSE_GEM_Jade.zip)
+
+### Effigies
+
+A carved idol on a plinth, bound with a ritual cord, with an offering bowl on top. Four different faces up the stack.
+*Boss summon effigies*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Bronze |
+|---|---|---|---|---|---|
+| ![](images/totem_void.png) | ![](images/totem_crimson.png) | ![](images/totem_verdigris.png) | ![](images/totem_moldie.png) | ![](images/totem_lime.png) | ![](images/totem_bronze.png) |
+
+[Void](../../releases/latest/download/ROSE_TOTEM_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_TOTEM_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_TOTEM_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_TOTEM_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_TOTEM_Lime.zip) ·
+[Bronze](../../releases/latest/download/ROSE_TOTEM_Bronze.zip)
+
+### Rings, Necklaces & Earrings
+
+A band standing on edge with a set stone at the top. All three accessory types share one model in the game, so they share this one.
+*Rings, necklaces, earrings*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Silver |
+|---|---|---|---|---|---|
+| ![](images/jewel_void.png) | ![](images/jewel_crimson.png) | ![](images/jewel_verdigris.png) | ![](images/jewel_moldie.png) | ![](images/jewel_lime.png) | ![](images/jewel_silver.png) |
+
+[Void](../../releases/latest/download/ROSE_JEWEL_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_JEWEL_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_JEWEL_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_JEWEL_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_JEWEL_Lime.zip) ·
+[Silver](../../releases/latest/download/ROSE_JEWEL_Silver.zip)
 
 ---
 
@@ -251,7 +337,7 @@ One plain text file. Open it in Notepad and read it if you like; there's nothing
 Windows will ask you to confirm replacing files — that's expected, and you may get an
 administrator prompt.
 
-Only one UI theme at a time, and one colour per drop group at a time. To switch, install
+Only one UI theme at a time, and one color per drop group at a time. To switch, install
 another straight over the top. Every pack in a family ships an identical file list, so nothing
 gets left behind.
 
@@ -292,7 +378,7 @@ Fair question to ask of any mod. Here's what's checkable rather than just claime
 Free to use. Please don't sell it or repackage it as your own. Credit is appreciated but not
 required.
 
-These are recolours of ROSE Online's own artwork, plus original work by me. All rights in the
+These are recolors of ROSE Online's own artwork, plus original work by me. All rights in the
 underlying game assets belong to their owners; this is a fan modification, offered in the hope
 it's useful and with no claim over anything that isn't mine.
 
