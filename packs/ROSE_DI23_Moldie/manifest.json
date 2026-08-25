@@ -1,0 +1,15 @@
+{
+  "name": "Moldie Beams - Dirty Crystal",
+  "version": "1.4.0",
+  "upload_date": "2026-08-25",
+  "description": "Loot beam and drop model for Dirty Crystal. blue.",
+  "author": "Kyio",
+  "category": "di23",
+  "color": "Moldie",
+  "url": "https://forum.roseonlinegame.com/topic/7751-kyios-loot-beam-collections-chems-dirties-magical-box-school-spirit/",
+  "repository": "https://github.com/OlarisMods/Kyio-s-Rose-Mods",
+  "files": [
+    "3ddata/item/di23/di23.dds",
+    "3ddata/item/di23/di23.zms"
+  ]
+}

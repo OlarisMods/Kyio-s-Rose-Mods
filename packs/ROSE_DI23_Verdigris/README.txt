@@ -12,7 +12,7 @@ from scratch, and the beam will not render without it -- so install
 both.
 
 The beam itself is pixel-identical to my potion beams of the same
-colour, so the whole collection reads as one set.
+color, so the whole collection reads as one set.
 
 Client-side, cosmetic, fully reversible. Works with any UI theme, or
 with none.
@@ -27,7 +27,7 @@ HOW TO INSTALL
       Typical location: C:\Program Files\ROSE Online
 4. Start the game.
 
-Only one colour at a time per category. To switch, install another
+Only one color at a time per category. To switch, install another
 straight over the top. Different categories are independent -- mix and
 match freely.
 

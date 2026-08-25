@@ -1,0 +1,15 @@
+{
+  "name": "Verdigris Beams - Dirty Ore & Dirty Stone",
+  "version": "1.4.0",
+  "upload_date": "2026-08-25",
+  "description": "Loot beam and drop model for Dirty Ore & Dirty Stone. teal.",
+  "author": "Kyio",
+  "category": "di55",
+  "color": "Verdigris",
+  "url": "https://forum.roseonlinegame.com/topic/7751-kyios-loot-beam-collections-chems-dirties-magical-box-school-spirit/",
+  "repository": "https://github.com/OlarisMods/Kyio-s-Rose-Mods",
+  "files": [
+    "3ddata/item/di55/rock.dds",
+    "3ddata/item/di55/snow.zms"
+  ]
+}

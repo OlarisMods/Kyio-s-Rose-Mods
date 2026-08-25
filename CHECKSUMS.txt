@@ -60,124 +60,222 @@ POTION / LOOT BEAM
 LOOT BEAM -- ZODIAC & RUNE STONE  (di22)
 ----------------------------------------------------------------------
   ROSE_DI22_Crimson.zip
-    26208defe42fa183e9f3789d9d83cda07744de022db9261fcc936e7421a5e83c
+    d1a49cf38f4ebb95ee49d55b4c3779806ecd538c29aa7363c80a9118b5d1c74f
 
   ROSE_DI22_Lime.zip
-    3751037bb30f0fbeaa2863ba29525dc910bc7bf12dd163b304119735d6e4e149
+    6759586db7f68843e96bde32bd580f60cb6eb745a0fb587ed2603f5af5dd8629
 
   ROSE_DI22_Moldie.zip
-    133d51701ab3ccf31a08643557f6e4e588f91013fec20c3acb22b66c7595e1c9
+    48910fb2e512b1f7d46c06e04c0f1e0525a582a8ff5837bfa5e583fda842cda7
 
   ROSE_DI22_Rune.zip
-    1772edf4d99b964073b59623bdbfda0dabdc16ec0bec6300835016a7b5c7775f
+    6e516b589648194c688a976cc3a1e52c4884dffad16a3e69146a570eaf6ee60b
 
   ROSE_DI22_Verdigris.zip
-    d4b7f8586d1c9e9545a6d7788dd5485b57e687ccaa9ef93ee819165c4fc8cd13
+    f21b6b3d9c2824641c70b7684cf30ba6a89bea4111212f4ee212241b28ecdc48
 
   ROSE_DI22_Void.zip
-    1fb4cea3ec1963c1291bf8227ee06469d0e3fc1c356199be4cbf75fd3e7b4efc
+    e4cb247b047a849dc580030d9069e7d33b4222d9bad80c6572d353668ff5ce10
 
 LOOT BEAM -- DIRTY CRYSTAL  (di23)
 ----------------------------------------------------------------------
   ROSE_DI23_Crimson.zip
-    17061de9f1e290ef9ebfca36f2a38c054786ebf70e1d6deaa1aae1ec5866bf15
+    f6607ceb9e8eb3e926ab9606969c24d38e3417374ed92e2496b01fdcde999b3f
 
   ROSE_DI23_Lime.zip
-    eed0eafe192b4452fb4174bc769e942a990acee15eb2fe0472a44a3bd9b01001
+    e9f82910fa0cde2d0054002d3ff6d9aa9d6e43870ba242cb2ec2fd164a133ca8
 
   ROSE_DI23_Moldie.zip
-    3a4f42073e9885ee78214a54d1760bd80a92af6191f4bde409ee8643a1c29b33
+    dbfd9e73792732615fededaa204c7474af370291a1ee42d84703c64ee0439a88
 
   ROSE_DI23_Quartz.zip
-    042a5990b3cf3b872cd612dab1edc83a5baf338aee16cedb4316d4f2f93374c6
+    0613ded6fc4a119cb7d2b08e65858512faa7364b986c3deec6b9c68cff8135aa
 
   ROSE_DI23_Verdigris.zip
-    a9fed28073085377fc2c842853aa043a9e38926af17543e42d8a74dbca0d5ed3
+    d149d623124f1982b7b11de546225bc59a06645ba2005db3c9e9ab411767717e
 
   ROSE_DI23_Void.zip
-    4ce4139c95c7cc0ead0dd9ef138f414b83bafdc3fcc29feb1ba8923a809c788d
+    a3faeae4172a26657036701cbb6d03590968d851213e765b91067389269b2a61
 
 LOOT BEAM -- DIRTY ORE & DIRTY STONE  (di55)
 ----------------------------------------------------------------------
   ROSE_DI55_Copper.zip
-    0f06424a95da30897dbccd9be924d3b2443fac213d33a70779d6f1a70643d642
+    e9f5a0c3ddfbd3753e063914ba66813d0ea298a4df56b69474652844e945b85e
 
   ROSE_DI55_Crimson.zip
-    d8e7be53796a80f5bd89b4eaf54fc1a3a8d71880fc5635b0ca7a330eac62398a
+    a2331c61b959856241d7eca88c69737d9afeeb7925044b5e87547e54933e81be
 
   ROSE_DI55_Lime.zip
-    406aa27ca5dd9b518cd2142036f8b9502811c8559d1922a9edab99f324ef4d4c
+    0761b9a2b647e01318792a80e1e62d5b62c15f0cb8cf8e84fc5859086bf62f24
 
   ROSE_DI55_Moldie.zip
-    f2d03d1230b46947711e3220168f4d0bd83f49ece56169c1dcea0760121ca3b2
+    64d2e5530060f4da1e5c230e22edcb698374f063ced3850dcd919dfa0ffe7e74
 
   ROSE_DI55_Verdigris.zip
-    35fc3fea022a17ad2a6f7fdc00172e9f771af61055b2339b7e8362733421bb33
+    c15e34b7db5f1b38e058f318b2c53139466cce5b8dd6a1f5362c622c545f9e79
 
   ROSE_DI55_Void.zip
-    b1a1c812ec6d46e0086b5020c09b522d90f5d3b8d4261aa24ede13e8384451d3
+    0d79de05e37723e9c4ff495e920284c539993149d1cf684d0df40414547d1661
 
 LOOT BEAM -- SPIRITUAL & HEART STONE  (di10)
 ----------------------------------------------------------------------
   ROSE_DI10_Crimson.zip
-    54d3b6bbf1d98dead1c46c95d274d5c6b312d39b3d93cf5884dbfee2d76c880f
+    cdec19c3dba20597da5fe83203b447d64188939a8510b55887195082489f15a2
 
   ROSE_DI10_Lime.zip
-    ad2088af5e5bab56736a23b4c4222f9bde8b6a6b26cb9856e8ffa837882d6e7a
+    4d6541e2c71467f2ba1a5a47fddb32beb154d62eb729d4eddd15c767f521ac0c
 
   ROSE_DI10_Moldie.zip
-    60cb6ed0b432deb8786f3837e4403f16d657b0e8b0a86a0e9f55eeb081453dd8
+    e85a3b096ab8b9309fe667d6700220724c9bc03b6377c7a1841d721cdd4524c2
 
   ROSE_DI10_Prism.zip
-    b3b60b6242cec98875171370b5238f043e1a5ebfebce03c186e5e99c01250990
+    744a4437b7c037cd5f2128631d4d3bd4f56f313400d7ed7d45a3942afe589a86
 
   ROSE_DI10_Verdigris.zip
-    bcf6983a45f68b6b11a56f9037a5ad5851fc9ffa74f1126c3bf6bbee9f8ac64e
+    7201e9b3401f83c95a556a45b37222c06a500e5db0eaf4367da0f494aa1debfb
 
   ROSE_DI10_Void.zip
-    a2b8c6d414ac0a9a3c18e6573f5b173488ed7aeea39d7659b6cb9de7ddf784e2
+    2bfc33acbfa410283ed1087844852af80eafe311f9655355b1c9b23b20db9da1
 
-LOOT BEAM -- EVENT SCROLL  (di50)
+LOOT BEAM -- CLAN POINTS  (di46)
+----------------------------------------------------------------------
+  ROSE_DI46_Crimson.zip
+    90c344671dbfc2ebccdf536729b59b41c799bf66c55f240ab1f78e2b70f9ea2f
+
+  ROSE_DI46_Lime.zip
+    d8f1137a7c0219d4fde0d5e06428100818de17c29a5f63470926d9a9d0c57a1f
+
+  ROSE_DI46_Moldie.zip
+    a7ae26b4bf5fc764a57fb578d8b5aa9c1465819c8b2b1b45058b3ebdbc55d6d0
+
+  ROSE_DI46_Sunflower.zip
+    61f5e35de5b73f9d3687ce740e30d75b0e0c68936c19cefab929cd203b1ad218
+
+  ROSE_DI46_Verdigris.zip
+    bb403b8231678b7cf272fa94b610d903f86178ced23c81bf746c9d79a6eb56e8
+
+  ROSE_DI46_Void.zip
+    9ce9d1ddf6e4658d891e69085cba8909a9c6f9a7a8423c3bee0388c4e7fe52c6
+
+LOOT BEAM -- SCROLLS & EVENT DROPS  (di50)
 ----------------------------------------------------------------------
   ROSE_DI50_Crimson.zip
-    b57fd36a8615cd5e7364fa3050f8e18da54237c83d1d38ba9457b5c22e4af2d4
+    c0a8bc27d06a29b18138fdfb61e278fc7cf79eebcec5d5b1315a5d865dbf6ade
 
   ROSE_DI50_Lime.zip
-    1af6e2f843d5403d42f6bd3a6b78a0d2cee6abaa318cc90f6c79f87e590b8fb0
+    afba77475935f04b60c3a00d6590d2c3b1c6834cc68ef5bc4c45b8a95aa46427
 
   ROSE_DI50_Moldie.zip
-    40da10b2141113b392f90566bff42eb5a037aac9fb07b47010a5f504b38b07d1
+    eba4cc9f62e43c1eb00ca52571500bb4fc946838459e67a3ed0fc5c3ff4c2a5b
 
   ROSE_DI50_Parchment.zip
-    f149c7ed7b8d71dea42214486498a1c827a592b3df35fa29772cd491ce2785e5
+    2eb7356f4058813b710862f5bdeb3e1e2146e7b5c30e8d0d165ee6ec6e5c2657
 
   ROSE_DI50_Verdigris.zip
-    3c7e96b36be868935d3d9e9999fa514280524c9d4f47e530aeef41fc2cf72d7a
+    5b76327d637dc5371f4391e39f9e666222d3836727c10d8d28497af280b44195
 
   ROSE_DI50_Void.zip
-    309017d5c0ed4aadd071ddd4aacc2c7259517e6de81455f6edbd358a07b35f80
+    e405fc27a42f4892adb61ce00a238982957c61519f7fde8e8ad75e001f4c5376
 
-INTERFACE -- COMMUNITY WINDOW
+LOOT BEAM -- MOUNTS  (di52)
 ----------------------------------------------------------------------
-  ROSE_UI_CommunityWindow.zip
-    b3dd1a7c175b2020293740f9c93133ce94be3664cd26b2e99ba018ffbc113697
+  ROSE_DI52_Crimson.zip
+    b4bda65e134b357a0feafc486f7de2836f80e559c62f795bda5c16dce78de63f
 
-LOOT BEAM -- COMPLETE SETS (every drop group, one colour)
+  ROSE_DI52_Kraft.zip
+    715bbc05f7adf9064cf33b7356fdd01fe076a62687b1ce7cddba60eb2a76f0c2
+
+  ROSE_DI52_Lime.zip
+    6a89e725edad0d4145a8fa36b4a361e385d46db55b89cdc7e5fe3540345fb4e4
+
+  ROSE_DI52_Moldie.zip
+    ca002b6cf059b8fc169a5c02ddae5a15ce60129f5fd9673b243cc5ca9e029226
+
+  ROSE_DI52_Verdigris.zip
+    11378b8ef74147065b665def54852cc01470e6b45608ac5d8b4c442ea8afefc4
+
+  ROSE_DI52_Void.zip
+    d22565495d101a306dd4ea54db5b4a68abff9027088b7531b65e37621212600d
+
+LOOT BEAM -- BOSS GEMS  (di64)
 ----------------------------------------------------------------------
-ROSE_AllBeams_Void.zip
-    4590f1799cab7e3c30b6e123ee02e09681a24c38b611fc3079d02c7dd077a4b5
+  ROSE_GEM_Crimson.zip
+    9a3961cbaf9a84bc64ac6bbe229b01b007a00a7656639195f06593567dd2c37b
 
+  ROSE_GEM_Jade.zip
+    9f9423fe9afdfce4e0fd3c7d33accdcf24675b04b3dd3c281b450f467351540d
+
+  ROSE_GEM_Lime.zip
+    3b705e483c9e7d5d1972b062cdb47ea5ce53c832e5864be3774cfb840d1bea04
+
+  ROSE_GEM_Moldie.zip
+    86db68788c9b38085d28cbd078219e74e335971e0a1ebb405714cad800960903
+
+  ROSE_GEM_Verdigris.zip
+    1e613c504a8a22325b4872b97f7f53f17f45a23cd5607b37fd4cb85c277f47c4
+
+  ROSE_GEM_Void.zip
+    3ecaab7e6119ddf425c8885f208769d816740f17a5fcbe7ec784f36e459bdeaf
+
+LOOT BEAM -- EFFIGIES  (common)
+----------------------------------------------------------------------
+  ROSE_TOTEM_Bronze.zip
+    1a5d2879a3a7b42923c6c819a4c664bd7850a3aea342eb4286d419287fca2588
+
+  ROSE_TOTEM_Crimson.zip
+    0f63609e28dafdbe02c33ef464f1d011e6a34663bd03b9bae97583f0d3c19f6f
+
+  ROSE_TOTEM_Lime.zip
+    6f4d5b9cf0361ad9ca3a36183c2399b850e7c0022d20f604e3254ad8bc0f0e11
+
+  ROSE_TOTEM_Moldie.zip
+    28d55c063164d4492888eb0a0f14737d18de51aefccdef7085a127425be2105a
+
+  ROSE_TOTEM_Verdigris.zip
+    938e868402312e15926d0176079cb058a398fa86f9e35407bdec3f71138acb4d
+
+  ROSE_TOTEM_Void.zip
+    421aaabdfb034cd43430f6e338a22f5c7db0cbfbf36f26224e2f2fd7585f4293
+
+LOOT BEAM -- RINGS, NECKLACES & EARRINGS  (common)
+----------------------------------------------------------------------
+  ROSE_JEWEL_Crimson.zip
+    9ba9a23acde9a519c8537b35c32a2c08c7a494ea31218f69e23f4c8cf4f88def
+
+  ROSE_JEWEL_Lime.zip
+    7c1bd96b05809513922215a54d892b04c0b38259bc38cdcd3a3530a0d75a79ce
+
+  ROSE_JEWEL_Moldie.zip
+    0c051d81178d180756d6add20ed61006b68d6763ee5f43efe46db12520a5c4aa
+
+  ROSE_JEWEL_Silver.zip
+    f523b3e7f8e1433352ce448c37b35891fbe2c67d48587a61922d69a6499c56ee
+
+  ROSE_JEWEL_Verdigris.zip
+    49d2293e6d419087db3876ae8955b10a56406c4923bec415792fd8f80ce69ad2
+
+  ROSE_JEWEL_Void.zip
+    c734fcb389df52ccd6754845c2b9f7d8a7bff3f641a1cc9e648108c3e09d2c57
+
+LOOT BEAM -- COMPLETE SETS (every drop group, one color)
+----------------------------------------------------------------------
   ROSE_AllBeams_Crimson.zip
-    0cdcbb35c4f96a9ba313e16245473da37a43e6e3890234d1aeb6173d0e905392
-
-  ROSE_AllBeams_Verdigris.zip
-    c16f991fb4bf6c954699f0c516d3ac055f013ab5e29bfcf718ba33f8171ba43c
-
-  ROSE_AllBeams_Moldie.zip
-    aa7400a736e64013386a3e3ed01593f22ecee99e1a6854ffa8f351f86f56c7ac
+    a1ed1fbb5e375f7cdc90789448a5eea5ec71d2210b6fc973692bc972949d03be
 
   ROSE_AllBeams_Lime.zip
-    7cf7571dfd2a6b89c120b1da0687167a9ed8c254ca92e2775e87ba3d2f1ec72c
+    e35bac6b7692f96d37c6baccac31d313da8c80188f08140031bd5c93580c7707
+
+  ROSE_AllBeams_Moldie.zip
+    f6ad86111b71b11462205ee2530f67140968fb4eb584502f8358eaa9242bca4b
+
+  ROSE_AllBeams_Themed.zip
+    303c22142f10c5fbf2d0db9f7f8e0470f9ba14a24a0f8806acb47b8ebec81007
+
+  ROSE_AllBeams_Verdigris.zip
+    e060e76f5030cd690cdb77fe8bc5a5b5ab8492e769573f538dc57e5acb560bec
+
+  ROSE_AllBeams_Void.zip
+    6d49dfbb358666eeecde0463f58ee537d0cb59cb0f2fad8f731b116d6dec80fa
 
 ======================================================================
 WHAT IS INSIDE
@@ -188,6 +286,7 @@ Every pack contains only these file types:
     .cur   mouse cursors
     .css   stylesheets (plain text - open them and read them)
     .html  interface layout (plain text - same)
+    .json  a manifest describing the pack (plain text - same)
     .txt   readme and file list
 
 There is no installer, no .exe, no .dll, no script of any kind. Nothing in

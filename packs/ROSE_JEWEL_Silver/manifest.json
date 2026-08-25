@@ -1,0 +1,16 @@
+{
+  "name": "Silver Beams - Accessories",
+  "version": "1.4.0",
+  "upload_date": "2026-08-25",
+  "description": "Loot beam and drop model for rings, necklaces and earrings. silver with a light purple stone.",
+  "author": "Kyio",
+  "category": "common",
+  "color": "Silver",
+  "url": "https://forum.roseonlinegame.com/topic/7751-kyios-loot-beam-collections-chems-dirties-magical-box-school-spirit/",
+  "repository": "https://github.com/OlarisMods/Kyio-s-Rose-Mods",
+  "files": [
+    "3ddata/item/common/ring01.zms",
+    "3ddata/item/common/necklace01.zms",
+    "3ddata/item/common/necklace01.dds"
+  ]
+}

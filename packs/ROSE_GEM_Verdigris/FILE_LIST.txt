@@ -1,0 +1,7 @@
+This pack installs 5 files. To uninstall, delete these:
+
+3ddata\item\di64\di64.zms
+3ddata\item\di64\di64.dds
+3ddata\item\di65\di65.dds
+3ddata\item\di66\di66.dds
+3ddata\item\di67\di67.dds

@@ -1,0 +1,15 @@
+{
+  "name": "Void Beams - Mounts",
+  "version": "1.4.0",
+  "upload_date": "2026-08-25",
+  "description": "Loot beam and drop model for mounts. violet.",
+  "author": "Kyio",
+  "category": "di52",
+  "color": "Void",
+  "url": "https://forum.roseonlinegame.com/topic/7751-kyios-loot-beam-collections-chems-dirties-magical-box-school-spirit/",
+  "repository": "https://github.com/OlarisMods/Kyio-s-Rose-Mods",
+  "files": [
+    "3ddata/item/di52/di52.zms",
+    "3ddata/item/di52/di52.dds"
+  ]
+}

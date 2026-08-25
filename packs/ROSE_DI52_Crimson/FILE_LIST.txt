@@ -1,0 +1,4 @@
+This pack installs 2 files. To uninstall, delete these:
+
+3ddata\item\di52\di52.zms
+3ddata\item\di52\di52.dds

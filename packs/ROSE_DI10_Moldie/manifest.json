@@ -1,0 +1,15 @@
+{
+  "name": "Moldie Beams - Spiritual & Heart Stone",
+  "version": "1.4.0",
+  "upload_date": "2026-08-25",
+  "description": "Loot beam and drop model for Spiritual & Heart Stone. blue.",
+  "author": "Kyio",
+  "category": "di10",
+  "color": "Moldie",
+  "url": "https://forum.roseonlinegame.com/topic/7751-kyios-loot-beam-collections-chems-dirties-magical-box-school-spirit/",
+  "repository": "https://github.com/OlarisMods/Kyio-s-Rose-Mods",
+  "files": [
+    "3ddata/item/di10/di10.dds",
+    "3ddata/item/di10/di10.zms"
+  ]
+}
