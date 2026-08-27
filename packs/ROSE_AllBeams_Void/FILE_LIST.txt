@@ -1,4 +1,4 @@
-This pack installs 26 files. To uninstall, delete these:
+This pack installs 28 files. To uninstall, delete these:
 
 3ddata\item\common\necklace01.dds
 3ddata\item\common\necklace01.zms
@@ -26,3 +26,5 @@ This pack installs 26 files. To uninstall, delete these:
 3ddata\item\di65\di65.dds
 3ddata\item\di66\di66.dds
 3ddata\item\di67\di67.dds
+3ddata\item\di68\di68.dds
+3ddata\item\di68\di68.zms

@@ -1,0 +1,26 @@
+{
+  "name": "Void Combat Text - Large",
+  "version": "1.4.0",
+  "upload_date": "2026-08-25",
+  "description": "Combat numbers drawn to fill their sprite cells, about 36% taller. violet.",
+  "author": "Kyio",
+  "category": "combattext",
+  "color": "Void",
+  "url": "https://forum.roseonlinegame.com/topic/7751-kyios-loot-beam-collections-chems-dirties-magical-box-school-spirit/",
+  "repository": "https://github.com/OlarisMods/Kyio-s-Rose-Mods",
+  "files": [
+    "3ddata/EFFECT/Particles/Texture/Critical.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBER01.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBER02.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBER03.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBER04.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBER05.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBER06.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBERABSORB01.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBERBLOCK01.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBERBLOCK02.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBEREVADE01.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBERIMMUNE01.DDS",
+    "3ddata/EFFECT/Special/DIGITNUMBERMISS.DDS"
+  ]
+}

@@ -17,6 +17,7 @@ Every drop group I have made, in one download.
   Boss gems                      Verdigris
   Effigies                       Verdigris
   Rings, necklaces & earrings    Verdigris
+  Talismans, lisents, scarabs & powders Verdigris
 
 Each drop gets a new model and a tall beam of light above it, so you can
 see what is worth walking over to without squinting at the ground.

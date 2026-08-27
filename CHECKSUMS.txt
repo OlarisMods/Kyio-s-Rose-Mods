@@ -57,6 +57,20 @@ POTION / LOOT BEAM
   ROSE_Potion_Void.zip
     d60fe79ad973b38b23e055a766fe2692534306b5903468ee81918c16c5a35400
 
+COMBAT TEXT -- LARGE
+----------------------------------------------------------------------
+  ROSE_CombatText_Ancient_Large.zip
+    13ccd6c4e5f8aa1d47ab657037bd992035609affe19c8304a09054fa67260292
+
+  ROSE_CombatText_Crimson_Large.zip
+    3d4c3c621879d173dbe3709fc793f7cbe9e4b138666ad92678ec49fb2e7a340e
+
+  ROSE_CombatText_Moldie_Large.zip
+    9e259311efbfec280ed4d2ae86dfda41de738da1d5d9c17193364d277750c627
+
+  ROSE_CombatText_Void_Large.zip
+    4b8f07a7eb172e5b2a6fa99f4d82754ba5355231416dc22132a91d8bbefdea2a
+
 LOOT BEAM -- ZODIAC & RUNE STONE  (di22)
 ----------------------------------------------------------------------
   ROSE_DI22_Crimson.zip
@@ -257,25 +271,65 @@ LOOT BEAM -- RINGS, NECKLACES & EARRINGS  (common)
   ROSE_JEWEL_Void.zip
     c734fcb389df52ccd6754845c2b9f7d8a7bff3f641a1cc9e648108c3e09d2c57
 
+LOOT BEAM -- TALISMANS & POWDERS  (di68)
+----------------------------------------------------------------------
+  ROSE_DI68_Crimson.zip
+    b665017ad0658a59826d9d32da03cc06de4ad09741b9847afa828f706f6f3aad
+
+  ROSE_DI68_Lime.zip
+    8c14e4b1f1e1ac818c47cabffdc18d6270eff690041ef78726ca8c1d09a66ac6
+
+  ROSE_DI68_Linen.zip
+    3dee15315120e35bbc5cd635fa2335e899763b0b0c2fd1ce3ee94820a9f16d43
+
+  ROSE_DI68_Moldie.zip
+    22494d2b7c290df47dd88f16c024267a1288f98d575c454a9a9c6e2d454d16b6
+
+  ROSE_DI68_Verdigris.zip
+    b782cf3aaab77f40932985301f12a0efb7fc9f23268bc24acfcc7b0db0cd90f1
+
+  ROSE_DI68_Void.zip
+    b5a8aeee9276d900697bbee710477c0c6f02212bbfd57cfcda7ad180a28c5a4d
+
 LOOT BEAM -- COMPLETE SETS (every drop group, one color)
 ----------------------------------------------------------------------
   ROSE_AllBeams_Crimson.zip
-    a1ed1fbb5e375f7cdc90789448a5eea5ec71d2210b6fc973692bc972949d03be
+    9a7dc6937ca883dd2fffaeb5ecdabe83c6f21edc90ff5dc0ed0ce5f612e33485
 
   ROSE_AllBeams_Lime.zip
-    e35bac6b7692f96d37c6baccac31d313da8c80188f08140031bd5c93580c7707
+    0f712eca8e1e5ce4abc4ccb7ea882d713738f067a5d2366ad90ecc4e79c40f45
 
   ROSE_AllBeams_Moldie.zip
-    f6ad86111b71b11462205ee2530f67140968fb4eb584502f8358eaa9242bca4b
+    cc9fd4e0c601f518ccab30b808927fe6b39258ce2355c9a9934a2443a423d71b
 
   ROSE_AllBeams_Themed.zip
-    303c22142f10c5fbf2d0db9f7f8e0470f9ba14a24a0f8806acb47b8ebec81007
+    66562f043f03e09fb2d119095f61e282ad0a2eefac3d56636d21f53c15a6189f
 
   ROSE_AllBeams_Verdigris.zip
-    e060e76f5030cd690cdb77fe8bc5a5b5ab8492e769573f538dc57e5acb560bec
+    801f7f67426766b8679337e5fc75643e9b32d1dc0578dfc4b785beb5f8e35f10
 
   ROSE_AllBeams_Void.zip
-    6d49dfbb358666eeecde0463f58ee537d0cb59cb0f2fad8f731b116d6dec80fa
+    3d9eabbc8c625cbed6566b068c03dd25342e5e0524951a13295d0b331c717699
+
+LOOT BEAM -- COMPLETE SETS, DOUBLE SIZE
+----------------------------------------------------------------------
+  ROSE_AllBeams_Crimson_x2.zip
+    b6103a0f131543a9d7313ba88d215cd654c4e99881515cc9bc2e7966e0e1618d
+
+  ROSE_AllBeams_Lime_x2.zip
+    75afd127321c40a5b7941c90265d1e9c18adc8169ef3b18edc4587916561ab88
+
+  ROSE_AllBeams_Moldie_x2.zip
+    c448cd6e9ab3003cdacdb8bfbef2235f23d2d74310dccf0b2b466300729a1ecc
+
+  ROSE_AllBeams_Themed_x2.zip
+    7c3820007d1d6ecd29e4c64f5b8b09b0f3bd679c3a565c76df554426d0b2dab1
+
+  ROSE_AllBeams_Verdigris_x2.zip
+    4b69a0ab72040d46c6c72df3ed13a695bf8af33c70dad3974714e1716571f172
+
+  ROSE_AllBeams_Void_x2.zip
+    de7b2b03543972d390549c932fd85a8d4e1a73364e5a789b6f8686f60288308f
 
 ======================================================================
 WHAT IS INSIDE
