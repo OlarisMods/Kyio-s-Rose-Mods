@@ -54,6 +54,23 @@ changing their whole interface. 13 files.
 [Moldie](../../releases/latest/download/ROSE_CombatText_Moldie.zip) ·
 [Ancient](../../releases/latest/download/ROSE_CombatText_Ancient.zip)
 
+### Large
+
+The same four themes with the numbers drawn as large as the game allows — about **36% taller**.
+
+The original artwork leaves roughly a third of each number's space empty, so at any distance
+you're reading smaller digits than you need to be. This fills that space. Same colors, same
+behaviour, same everything else.
+
+[Void](../../releases/latest/download/ROSE_CombatText_Void_Large.zip) ·
+[Crimson](../../releases/latest/download/ROSE_CombatText_Crimson_Large.zip) ·
+[Moldie](../../releases/latest/download/ROSE_CombatText_Moldie_Large.zip) ·
+[Ancient](../../releases/latest/download/ROSE_CombatText_Ancient_Large.zip)
+
+The size the game draws these at lives in the effect definition, which a mod can't reach — so
+36% is the whole of what the artwork can give. The digits now stop one pixel short of their
+neighbours; any larger and they'd run together.
+
 Damage types are told apart by color, so each one is assigned rather than everything being
 tinted the same way:
 
@@ -119,8 +136,8 @@ across every category and color, so the whole set reads as one thing.
 
 ### Want everything one color?
 
-One download instead of ten. Each bundle is every drop group in that color — the same files as
-the individual packs, just in one archive.
+One download instead of eleven. Each bundle is every drop group in that color — the same files
+as the individual packs, just in one archive.
 
 [**Void**](../../releases/latest/download/ROSE_AllBeams_Void.zip) ·
 [**Crimson**](../../releases/latest/download/ROSE_AllBeams_Crimson.zip) ·
@@ -130,13 +147,25 @@ the individual packs, just in one archive.
 
 [**Themed**](../../releases/latest/download/ROSE_AllBeams_Themed.zip) — every drop group in the
 color of its own original artwork. Chem, Rune, Quartz, Copper, Prism, Sunflower, Parchment,
-Kraft, Jade, Bronze and Silver together. For anyone who wants drops visible without changing how
-the game looks.
+Kraft, Jade, Bronze, Silver and Linen together. For anyone who wants drops visible without
+changing how the game looks.
 
 Prefer to mix — teal crystals but red ore? Use the individual packs below.
 
-> **Finding drops hard to see?** Ask and I'll build any of these at double size. One person needed
-> it for a vision impairment and it made the game playable for her; it's no trouble to make more.
+### Hard to see? Double size
+
+Every complete set again with all the models at **200%**. Made for anyone who finds the normal
+size difficult to pick out; it's the same artwork, just larger.
+
+[Void](../../releases/latest/download/ROSE_AllBeams_Void_x2.zip) ·
+[Crimson](../../releases/latest/download/ROSE_AllBeams_Crimson_x2.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_AllBeams_Verdigris_x2.zip) ·
+[Moldie](../../releases/latest/download/ROSE_AllBeams_Moldie_x2.zip) ·
+[Lime](../../releases/latest/download/ROSE_AllBeams_Lime_x2.zip) ·
+[Themed](../../releases/latest/download/ROSE_AllBeams_Themed_x2.zip)
+
+Same filenames as the normal sets, so installing one over the other swaps them cleanly. If you
+need something these don't cover, ask — it's no trouble.
 
 ### Zodiac & Rune Stone
 
@@ -299,6 +328,22 @@ A band standing on edge with a set stone at the top. All three accessory types s
 [Moldie](../../releases/latest/download/ROSE_JEWEL_Moldie.zip) ·
 [Lime](../../releases/latest/download/ROSE_JEWEL_Lime.zip) ·
 [Silver](../../releases/latest/download/ROSE_JEWEL_Silver.zip)
+
+### Talismans & Powders
+
+A drawstring charm pouch, gathered at the neck and embroidered all the way round. A bag of runestones makes more sense of the contents than one carved slab.
+*Talismans, Lisents, Scarabs, powders — and refine materials, so expect plenty of these*
+
+| Void | Crimson | Verdigris | Moldie | Lime | Linen |
+|---|---|---|---|---|---|
+| ![](images/di68_void.png) | ![](images/di68_crimson.png) | ![](images/di68_verdigris.png) | ![](images/di68_moldie.png) | ![](images/di68_lime.png) | ![](images/di68_linen.png) |
+
+[Void](../../releases/latest/download/ROSE_DI68_Void.zip) ·
+[Crimson](../../releases/latest/download/ROSE_DI68_Crimson.zip) ·
+[Verdigris](../../releases/latest/download/ROSE_DI68_Verdigris.zip) ·
+[Moldie](../../releases/latest/download/ROSE_DI68_Moldie.zip) ·
+[Lime](../../releases/latest/download/ROSE_DI68_Lime.zip) ·
+[Linen](../../releases/latest/download/ROSE_DI68_Linen.zip)
 
 ---
 
