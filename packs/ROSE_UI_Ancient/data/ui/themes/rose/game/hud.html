@@ -1,0 +1,228 @@
+<rml>
+
+    <head>
+        <title></title>
+        <link type="text/template" href="../templates/window-box.html" />
+        <link type="text/template" href="../templates/elements/gauge.html" />
+
+        <style>
+            body {
+                margin: 5dp;
+            }
+
+            .window-title {
+                font-size: 12dp;
+                color: #DAEDEB;                        /* SLATE: cool bone name */
+                font-effect: glow(1dp 3dp #92D1C9);    /* SLATE: verdigris bloom */
+            }
+
+            #window-title-text {
+                padding-top: 2dp;
+            }
+
+            .window-fixed-size {
+                padding-top: 20dp;
+            }
+
+            #state-icon-container {
+                margin-top: 5dp;
+                visibility: hidden;
+            }
+
+            #window-content.content {
+                padding: 1dp 2dp 1dp 1dp;
+                display: flex;
+                flex-direction: column;
+            }
+
+            span.marker {
+                position: absolute;
+            }
+
+            div.footer {
+                flex: 2;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin: 2dp 2dp 0 2dp;
+                font-size: 12dp;
+            }
+
+            div.footer>span.left {
+                flex-grow: 1;
+                text-align: left;
+                font-weight: 800;
+            }
+
+            div.footer>span.right {
+                flex-grow: 1;
+                text-align: right;
+            }
+
+            /* ===== HUD TEXT PASS (was: b.weight, span.level { color: yellow; }) =====
+               ANSWERED: these DO recolour, so HUD text is ours. (The char-sheet stat
+               numbers remain engine-drawn and are still a wall.) */
+            span.level {
+                color: #DAEDEB;                        /* SLATE: cool bone level (was yellow) */
+                font-effect: glow(1dp 2dp #92D1C9);
+            }
+
+            b.weight {
+                color: #8BE9FD;                        /* SLATE: cyan weight readout (pinned info-2) */
+                font-effect: glow(1dp 2dp #92D1C9);
+            }
+
+            /* EXP % and Fuel % labels */
+            /* ===== GAUGE LABELS MUST BE LIGHT =====
+               The engine draws a DARK outline on gauge text. A light glyph is separated by that
+               outline and reads cleanly at any size (HP bone-on-clay measured 8.0:1). A DARK
+               glyph merges with its own outline and smears into an unreadable blob -- that is
+               exactly what happened to the MP readout on the light steel fill.
+               For labels sitting on a BRIGHT fill (brass EXP), keep the glyph light and add a
+               DARK halo via font-effect; the halo does the separating, not the glyph colour. */
+            #exp span,
+            #fuel span {
+                color: #FBF3E4;                        /* warm bone percent labels */
+                font-effect: glow(1dp 2dp #241A08);    /* DARK halo -- survives a bright fill */
+            }
+
+
+            /* ===== LOW-HP ALARM =====
+               Slate's HP bar is CALM CLAY at rest, so the alarm is carried here instead of by a
+               permanently red bar. Fires at HP <= 20% (data-class-low-value-animation below) and
+               flashes the theme's ALERT colour against bone.
+               HONEST LIMIT: `color` reaches the LABEL, not the fill sprite -- so this flashes the
+               NUMBER, not the bar. Vanilla did the same; the fill is a static sprite and the
+               engine offers no hook for it. A real signal, but don't expect the bar to strobe. */
+            @keyframes low {
+                from {
+                    color: #F24E53;                    /* SLATE alert -- the pinned alarm (R2) */
+                }
+
+                to {
+                    color: #F5E6DC;                    /* warm bone */
+                }
+            }
+
+            gauge.low-value-animation {
+                animation: 1.5s cubic-in-out infinite alternate low;
+            }
+
+            /* ===== GAUGE FILL: QUESTION ANSWERED (Slate, in-game) =====
+               The old Void probe asked whether `color` on a <gauge> tints the FILL or only
+               the text. Answer: the FILL COMES FROM A SPRITE, not from this colour.
+                 - the fill sprite is picked by the gauge's CLASS -- `red` / `blue` / `yellow`
+                   / `green` below -- and is painted in imgs\gauge.dds
+                 - `color` here reaches the LABEL only
+               So a gauge recolour needs BOTH: repaint gauge.dds (the bar) AND set the colour
+               here (the number). If they disagree you get a terracotta bar with a verdigris
+               readout. Verified: HUD HP rendered at hue 11.8 deg after the gauge.dds repaint.
+
+               NOTE: this file does NOT reach the character sheet. That is a legacy dialog
+               (dlgavata.xml) drawing GEN_GAUGE01/02/03 out of glassui_02 -- see
+               gauge_retheme_slate.py for the rect repair. */
+            gauge#health {
+                color: #F5E6DC;                        /* SLATE: warm bone, legible on clay */
+            }
+
+            gauge#mana {
+                color: #F2F7F8;                        /* SLATE: cool bone. MUST be light -- see note */
+            }
+
+            gauge#exp {
+                color: #FBF3E4;                        /* SLATE: warm bone. MUST be light -- see note */
+            }
+
+            gauge#fuel {
+                color: #6EE7B7;                        /* mint PAT energy -- pinned, identical in every theme (R3) */
+            }
+
+            div.container {
+                flex: 2;
+                display: flex;
+            }
+
+            div.hud {
+                width: 195dp;
+            }
+
+            div.pat-fuel {
+                display: flex;
+                height: 100%;
+                flex-direction: column;
+                justify-content: flex-end;
+                margin-left: 5dp;
+            }
+
+            .fuel-container {
+                height: 100%;
+            }
+
+            .tooltip .tooltiptext {
+                background: rgba(0, 0, 0, 200);
+                min-width: 50dp;
+                width: 80dp;
+                left: 100%;
+                bottom: 50dp;
+            }
+        </style>
+    </head>
+
+    <body id="hud" onclick="self-target">
+        <handle data-model="character" class="window-title" style="cursor: default" id="window-title-text">{{name}}</handle>
+        <div class="container">
+            <div class="hud" data-model="character">
+                <div class="window-fixed-size">
+                    <div id="window-content" class="content">
+                        <!-- HP Gauge -->
+                        <gauge id="health" class="horizontal-lg-lg red"
+                            data-class-low-value-animation="health_percent <= 20" data-attr-gvalue="health"
+                            data-attr-gmax="max_health">
+                            <template src="gauge-info-vmp" />
+                        </gauge>
+
+                        <!-- MP Gauge -->
+                        <gauge id="mana" class="horizontal-lg-lg blue"
+                            data-class-low-value-animation="mana_percent <= 20" data-attr-gvalue="mana"
+                            data-attr-gmax="max_mana">
+                            <template src="gauge-info-vmp" />
+                        </gauge>
+
+                        <!-- Exp Gauge -->
+                        <gauge id="exp" class="horizontal-sm-lg yellow" data-attr-gvalue="experience"
+                            data-attr-gmax="max_experience">
+                            <span class="marker"><img sprite="gauge-bg-sm-lg-markers" /></span>
+                            <span><label id="percent" />%</span>
+                        </gauge>
+                    </div>
+
+                    <div class="footer">
+                        <span class="left">
+                            <span class="level">{{level}} </span>
+                            <span class="job">
+                                <str data-attr-job-name="job">Visitor</str>
+                            </span>
+                        </span>
+                        <span class="right">
+                            <str string-id="107">Weight</str>: <b class="weight">{{weight_percent}}%</b>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- PAT Fuel --->
+            <div onclick="ignore" data-model="pat">
+                <div class="pat-fuel">
+                    <gauge data-if="show" id="fuel" class="horizontal-sm-md green" data-attr-gvalue="fuel"
+                        data-attr-gmax="max_fuel">
+                        <span><label id="percent" />%</span>
+                    </gauge>
+                </div>
+            </div>
+        </div>
+
+        <!-- State Icons -->
+        <div id="state-icon-container" onclick="ignore">
+        </div>
+    </body>
+</rml>

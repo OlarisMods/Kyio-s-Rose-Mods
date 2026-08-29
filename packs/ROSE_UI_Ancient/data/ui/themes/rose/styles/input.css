@@ -1,0 +1,172 @@
+/* input.css -- ROSE 'Void' override (reproduced from client theme)
+   Only change vs stock: dropdown/select highlight #f39c12 -> #92D1C9.
+   Loose file; delete data/ui/themes/rose/styles/input.css to revert. */
+
+input[type="text"], input[type="password"], input[type="email"], label.textarea
+{
+    box-sizing: border-box;
+    height: 28dp;
+    padding: 4dp 6dp;
+    font-size: 14dp;
+    decorator: tiled-box(
+        textbox-tb-tl, textbox-tb-t, textbox-tb-tr,
+        textbox-tb-l,  textbox-tb-c, textbox-tb-r,
+        textbox-tb-bl, textbox-tb-b, textbox-tb-br
+    );
+    font-effect: none;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus
+{
+    cursor: text;
+}
+input[type="text"]:disabled
+{
+    color: #aaa;
+}
+/*
+ * Text box
+ */
+textarea
+{
+    box-sizing: border-box;
+    height: 28dp;
+    padding: 4dp 6dp;
+    font-size: 14dp;
+    decorator: tiled-box(
+        textbox-tb-tl, textbox-tb-t, textbox-tb-tr,
+        textbox-tb-l,  textbox-tb-c, textbox-tb-r,
+        textbox-tb-bl, textbox-tb-b, textbox-tb-br
+    );
+    font-effect: none;
+}
+textarea:focus
+{
+    cursor: text;
+}
+textarea:disabled
+{
+    color: #aaa;
+}
+/*
+ * Radio button and checkbox
+ */
+input[type="radio"], input[type="checkbox"]
+{
+    decorator: image(radiobutton);
+    vertical-align: middle;
+    margin-right: 5dp;
+    cursor: hand;
+}
+input[type="radio"]:hover, input[type="checkbox"]:hover
+{
+    decorator: image(radiobutton-hover);
+}
+input[type="radio"]:active, input[type="checkbox"]:active, input[type="checkbox"]:checked, input[type="radio"]:checked
+{
+    decorator: image(radiobutton-active);
+}
+/*
+ *   Slide Bar
+ */
+input.range sliderbar
+{
+    image-color: #ccc;
+    margin-top: -3dp;
+    margin-left: -5dp;
+    width: 30dp;
+    height: 24dp;
+    decorator: image( slidebar-button );
+    cursor: drag;
+}
+input.range sliderbar:hover, input.range slidertrack:hover + sliderbar
+{
+    image-color: #fff;
+}
+input.range slidertrack
+{
+    margin-top: 3dp;
+    padding-left: 5dp;
+    height: 10dp;
+    image-color: #ccc;
+    decorator: tiled-horizontal( slidebar-l, slidebar-c, slidebar-r );
+}
+/*
+ * Drop down select box
+ */
+select
+{
+    decorator: tiled-box(
+        textbox-tb-tl, textbox-tb-t, textbox-tb-tr,
+        textbox-tb-l,  textbox-tb-c, textbox-tb-r,
+        textbox-tb-bl, textbox-tb-b, textbox-tb-br
+    );
+    font-size: 14dp;
+    color: #fff;
+    text-align: left;
+    padding: 0dp 8dp;
+    vertical-align: middle;
+    min-width: 60dp;
+    height: 26dp;
+    line-height: 26dp;
+    cursor: hand;
+}
+select option
+{
+    vertical-align: middle;
+    font-size: 14dp;
+    line-height: 26dp;
+    border-top: 1dp #777;
+    padding-left: 4dp;
+}
+select option:hover
+{
+    background: rgba(0, 0, 0, 200);
+    color: #92D1C9;
+}
+select selectarrow
+{
+    width: 24dp;
+    height: 22dp;
+    margin-right: -5dp;
+    decorator: image( dropdown-button-n );
+    cursor: hand;
+}
+select selectarrow:hover
+{
+    decorator: image( dropdown-button-h );
+}
+select selectarrow:active,
+select selectarrow:checked
+{
+    decorator: image( dropdown-button-a );
+}
+select:disabled selectarrow
+{
+    decorator: image( dropdown-button-d );
+    cursor: normal;
+}
+select selectvalue:hover
+{
+    color: #92D1C9;
+}
+select selectbox option[selected]
+{
+    color: #92D1C9;
+}
+select selectbox
+{
+    margin-left: 1dp;
+    margin-top: 1dp;
+    background: rgba(0,0,0, 220);
+    padding-bottom: 1dp;
+    border-bottom: 1dp #777;
+    border-left: 1dp #777;
+    border-right: 1dp #777;
+}
+select selectbox option[disabled],
+select selectbox option[disabled]:hover
+{
+    cursor: normal;
+    color: gray;
+    background: #75757573;
+}

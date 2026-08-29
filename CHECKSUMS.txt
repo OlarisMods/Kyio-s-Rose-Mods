@@ -12,16 +12,16 @@ what I published. If it does not, do not install it - tell me.
 UI THEME PACKS
 ----------------------------------------------------------------------
   ROSE_UI_Ancient.zip
-    5a0cccc52d6a0e7c887584a88577ddaeee9d0864317f1204039a7d568453bad6
+    fffaba818698977212c1e92ae74556111980259a7009955d0b146ba5a1d5b07e
 
   ROSE_UI_Crimson.zip
-    6217705147913a35974a430453b68a10a6d77abfb8b7da939e1129231d1d811f
+    70613231c881993cf90f031e6d020eb7f64131074929fd113dcda0010c3b24d2
 
   ROSE_UI_Moldie.zip
-    0c6c5c12e7f8c934eeac1b29645a8f6a1ef67ff3276f6ee2813181b999d7d9ae
+    6af786819337d314511e18588fe11cbaed1376237675cb164cdd25270e5be74b
 
   ROSE_UI_Void.zip
-    60d8aab5fef9f3f30049df85924283ff79103f6adbe3ad79641250b450ed024d
+    4e88a558cfdf7674f818f49372bbf574a33af4fe9b8d17bdbb04d69fa2d69e99
 
 COMBAT TEXT ONLY
 ----------------------------------------------------------------------

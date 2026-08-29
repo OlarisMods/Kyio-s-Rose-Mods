@@ -1,0 +1,58 @@
+/* scrollbar.css  --  Void recolor (loose override, physical-first)
+ *
+ * Full reproduction of the vanilla scrollbar stylesheet. Only the horizontal
+ * sliderbar's amber background is recolored to Void violet:
+ *     sliderbar        #b02c00  ->  rgb(230, 185, 58)  royal violet
+ *     sliderbar:active #ca3a0a  ->  rgb(255, 210, 77)  brighter (dragging)
+ *     sliderbar:hover  #992b06  ->  rgb(201, 154, 40)  darker (hover)
+ * The vertical scrollbar is sprite-decorated (glassui atlas), so its color is
+ * atlas work, not CSS -- left untouched here. Neutral track colors preserved.
+ * Revert: delete this file from data\ui\themes\rose\styles\
+ */
+
+scrollbarvertical {
+    width: 18dp;
+}
+
+scrollbarvertical slidertrack {
+    margin-left: 5dp;
+    decorator: tiled-vertical( scrollbar-l, scrollbar-c, scrollbar-b );
+    image-color: #aaa;
+    width: 10dp;
+}
+
+scrollbarvertical sliderbar {
+    margin-left: -2dp;
+    width: 24dp;
+    min-height: 28dp;
+    decorator: tiled-vertical( scrollbar-button-t, scrollbar-button-c, scrollbar-button-b );
+}
+
+scrollbarvertical slidertrack:active {
+    image-color: #fff;
+}
+
+scrollbarhorizontal {
+    height: 8dp;
+    margin-bottom: -5dp;
+}
+
+scrollbarhorizontal slidertrack {
+    background-color: #0a0a0a;
+    height: 8dp;
+}
+
+scrollbarhorizontal sliderbar {
+    height: 8dp;
+    min-width: 28dp;
+    background-color: rgb(230, 185, 58);
+    border-radius: 4dp;
+}
+
+scrollbarhorizontal sliderbar:active {
+    background-color: rgb(255, 210, 77);
+}
+
+scrollbarhorizontal sliderbar:hover {
+    background-color: rgb(201, 154, 40);
+}

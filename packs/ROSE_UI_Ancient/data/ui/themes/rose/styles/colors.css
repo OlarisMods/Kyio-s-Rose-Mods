@@ -1,0 +1,141 @@
+/* colors.css  --  Void recolor (loose override, physical-first)
+ *
+ * Full faithful reproduction of the vanilla named-color library, harmonized
+ * into the Void palette. Families kept distinct so meaning survives:
+ *     reds   -> magenta family   (alert stays "hot")
+ *     greens -> mint family      (positive stays "good")
+ *     blues  -> periwinkle/indigo (cool / info)
+ *     cyan   -> cyan
+ *     gold / yellow / orange -> violet (highlight)
+ *     gray   -> unchanged (neutral)
+ * Revert: delete this file from data\ui\themes\rose\styles\  (packed default returns).
+ */
+
+/*
+ * Font colors
+ */
+fc_blue       { color: rgb(96, 148, 220); }   /* was 72,130,255  */
+fc_crimson    { color: rgb(179, 50, 54); }    /* was 220,20,60   */
+fc_darkred    { color: rgb(128, 36, 39); }    /* was 185,0,0     */
+fc_red        { color: rgb(242, 78, 83); }     /* was 255,0,0     */
+fc_orange     { color: rgb(146, 209, 201); }    /* was 255,115,0   */
+fc_lightred   { color: rgb(218, 237, 235); }   /* was 255,187,187 */
+fc_cyan       { color: rgb(139, 233, 253); }   /* was 0,255,255   */
+fc_gold       { color: rgb(146, 209, 201); }    /* was 255,217,0   */
+fc_yellow     { color: rgb(197, 230, 225); }   /* was 255,255,0   */
+fc_gray       { color: rgb(179, 179, 179); }   /* unchanged       */
+fc_chartreuse { color: rgb(167, 243, 208); }   /* was 128,255,0   */
+fc_green      { color: rgb(110, 231, 183); }   /* was 0,255,0     */
+
+/*
+ * Image Colors
+ */
+.imgc-blue       { image-color: rgb(56, 108, 199); }   /* was 0,0,255     */
+.imgc-crimson    { image-color: rgb(179, 50, 54); }   /* was 220,20,60   */
+.imgc-red        { image-color: rgb(242, 78, 83); }    /* was 255,0,0     */
+.imgc-lightred   { image-color: rgb(218, 237, 235); }  /* was 255,187,187 */
+.imgc-cyan       { image-color: rgb(139, 233, 253); }  /* was 0,255,255   */
+.imgc-yellow     { image-color: rgb(197, 230, 225); }  /* was 255,255,0   */
+.imgc-gold       { image-color: rgb(146, 209, 201); }   /* was 255,217,0   */
+.imgc-dark-gold  { image-color: rgb(84, 145, 137); }   /* was 209,178,0   */
+.imgc-gray       { image-color: rgb(179, 179, 179); }  /* unchanged       */
+.imgc-green      { image-color: rgb(110, 231, 183); }  /* was 0,255,0     */
+.imgc-dark-green { image-color: rgb(52, 200, 138); }   /* was 0,170,0     */
+.imgc-chartreuse { image-color: rgb(167, 243, 208); }  /* was 128,255,0   */
+
+/*
+ * Panel inline-amber overrides  (cascade test)
+ * Out-specify the amber baked into panel .rml <style> blocks by repeating the
+ * class (raises specificity above the inline rule) so a linked sheet can recolor
+ * them without reproducing the whole panel. If this holds, it's the Phase-2 template.
+ */
+.settings-group.settings-group > h3 {
+    color: rgb(146, 209, 201);
+}
+
+.options-panel.options-panel details > summary > summary-text {
+    color: rgb(146, 209, 201);
+}
+
+/* ============================================================
+ * Phase 2 -- panel inline-amber sweep (batch 1)
+ * Higher-specificity overrides for colors baked into panel .rml <style>
+ * blocks. Gold/yellow highlights -> accent violet; semantic sets kept
+ * distinct (harmonized). IDs beaten with an ancestor-ID; classes with a
+ * repeated class; original alpha values preserved.
+ * ============================================================ */
+
+/* --- Game Arena scoreboard --- */
+#scoreboard #headers { color: rgb(146, 209, 201); }                 /* was #D69A2E gold */
+.data-row-selected.data-row-selected { background-color: rgba(146, 209, 201, 70); }  /* gold wash */
+.header-val.header-val:hover { color: rgb(197, 230, 225); }        /* was #EBAA6A gold hover */
+.team-btn-selected.team-btn-selected {
+    border-top: 2dp rgb(146, 209, 201);
+    border-left: 2dp rgb(146, 209, 201);
+    border-right: 2dp rgb(146, 209, 201);
+}                                                                  /* was #9E612C */
+
+/* --- Minimap tooltip --- */
+.time-tooltip-label.time-tooltip-label { color: rgb(139, 233, 253); }   /* #90c8ff info -> cyan */
+
+/* --- Monster inspector --- */
+#game-monster-inspector .header { color: rgb(146, 209, 201); }      /* was #EBAA6A */
+.monster-name.monster-name { color: rgb(146, 209, 201); }           /* was #EBAA6A */
+
+/* --- Party finder --- */
+.party-owner-name.party-owner-name { color: rgb(146, 209, 201); }   /* was yellow */
+.party-level-range.party-level-range { color: rgb(110, 231, 183); }     /* valid -> mint */
+.invalid-level.invalid-level { color: rgb(255, 138, 115); }        /* invalid -> orchid (wins tie, ordered after valid) */
+tbody.my-party.my-party { background: rgba(146, 209, 201, 80); }    /* gold my-party wash */
+
+/* --- Quest tracker --- */
+#quest-area #tracker-title { color: rgb(146, 209, 201); }           /* was yellow */
+.quest-name.quest-name { color: rgb(146, 209, 201); }               /* was #E8A93F gold (base; type overrides below) */
+.quest-type-hero.quest-type-hero,
+.quest-type-event.quest-type-event { color: rgb(255, 138, 115); }       /* hero/event -> orchid */
+.quest-type-daily.quest-type-daily,
+.quest-type-gamearena.quest-type-gamearena { color: rgb(110, 231, 183); }   /* daily/arena -> mint */
+.quest-type-repeatable.quest-type-repeatable { color: rgb(96, 148, 220); } /* repeatable -> periwinkle */
+.quest-timer.quest-timer { color: rgb(139, 233, 253); }            /* timer -> cyan */
+.quest-timer-expired.quest-timer-expired { color: rgb(242, 78, 83); }   /* expired -> magenta */
+.quest-item-completed.quest-item-completed { color: rgb(110, 231, 183); }   /* completed -> mint */
+
+/* --- Phase 2 batch 2: character name + stray dialog yellows --- */
+.avatar-name.avatar-name { color: rgb(146, 209, 201); }          /* char name (HUD + char-select) was yellow */
+#game-choice-box #choice-message { color: rgb(146, 209, 201); }  /* NPC choice box, was yellow */
+#game-choice-box #confirm { color: rgb(146, 209, 201); }         /* confirm dialog, was yellow */
+label.rules.rules { color: rgb(146, 209, 201); }                 /* arena rules label, was #ff0 */
+span.sub-title.sub-title { color: rgb(218, 237, 235); }         /* pale-yellow subtitle -> lavender */
+
+/* --- Phase 2: element-type icons (harmonized, all nine kept distinct) --- */
+.elementicon-l-1.elementicon-l-1 { color: rgb(139, 233, 253); }  /* Sorcery -> cyan */
+.elementicon-l-2.elementicon-l-2 { color: rgb(242, 78, 83); }    /* Fire -> magenta */
+.elementicon-l-3.elementicon-l-3 { color: rgb(96, 148, 220); }  /* Water -> periwinkle */
+.elementicon-l-4.elementicon-l-4 { color: rgb(110, 231, 183); }  /* Earth -> mint */
+.elementicon-l-5.elementicon-l-5 { color: rgb(218, 237, 235); }  /* Wind -> lavender */
+.elementicon-l-6.elementicon-l-6 { color: rgb(146, 209, 201); }   /* Holy -> violet */
+.elementicon-l-7.elementicon-l-7 { color: rgb(255, 138, 115); }  /* Poison -> orchid */
+/* None (l-0 white) and Ghost (l-8 grey) left unchanged */
+
+/* --- Quickbar (skill-bar) slots: translucent violet wash --- */
+.slot-cell.slot-cell { background-color: rgba(146, 209, 201, 70); }
+
+/* --- Quickbar / skill-bar slots: translucent violet glass wash --- */
+body#quickbar cslot.quickbar-slot,
+body#quickbar cslot.quickbar-slot.default {
+    background-color: rgba(146, 209, 201, 70);
+}
+
+/* --- Remaining yellow text: HUD weight/level + selected-tab highlight --- */
+b.weight.weight,
+span.level.level {
+    color: rgb(218, 237, 235);
+}
+tab.default.default:selected {
+    color: rgb(218, 237, 235);
+}
+
+/* --- Pale-yellow headers (rgb 255,255,102) -> lavender (blind attempt at char-sheet stat labels) --- */
+.header.header {
+    color: rgb(218, 237, 235);
+}
