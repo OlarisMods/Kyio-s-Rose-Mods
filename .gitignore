@@ -1,3 +1,7 @@
 # Release zips are attached to GitHub Releases, not committed.
 # (Keeps the repo small and gives clean download URLs.)
 /release/
+
+# Delivery bundles and build output. Same reason as above.
+/*.zip
+/zips/
