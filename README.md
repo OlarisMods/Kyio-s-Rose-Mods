@@ -406,11 +406,13 @@ deleting the files is a complete return to stock.
 
 Fair question to ask of any mod. Here's what's checkable rather than just claimed:
 
-- **There is no installer and no executable.** Every pack contains only `.dds` textures,
-  `.zms` mesh geometry, `.cur` cursors, `.css` and `.html` (plain text you can open and read),
-  and `.txt` readmes. No `.exe`, no `.dll`, no scripts. Nothing in these archives can run.
-- **Everything is browsable right here.** The `packs/` folder in this repository is the exact
-  contents of every download, unpacked. You can look before you download.
+-  **There is no installer and no executable.** Every pack contains only `.dds`
+  textures, `.zms` mesh geometry, `.cur` cursors, `.css` and `.html` (plain text
+  you can open and read), a `manifest.json`, and `.txt` readmes. No `.exe`, no
+  `.dll`, no scripts. Nothing in these archives can run.
+-  **Everything is browsable right here.** [packs/CONTENTS.md](packs/CONTENTS.md)
+  lists every file in all 97 packs, generated straight from the archives
+  themselves. You can look before you download.
 - **SHA-256 checksums** for every zip are in [CHECKSUMS.txt](CHECKSUMS.txt), with instructions
   for verifying them.
 - **Uninstall is deleting files.** No uninstaller to trust, no registry, no leftovers.
