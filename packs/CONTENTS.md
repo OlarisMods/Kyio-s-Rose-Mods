@@ -8,7 +8,7 @@ re-run the script instead.
 
 ---
 
-File types present: `.dds` (450), `.zms` (234), `.txt` (194), `.json` (82), `.cur` (76), `.css` (20), `.html` (13)
+File types present: `.dds` (502), `.zms` (234), `.txt` (216), `.json` (82), `.cur` (76), `.css` (20), `.ptl` (14), `.html` (13), `.zmo` (4)
 
 ---
 
@@ -464,6 +464,175 @@ README.txt
 3ddata/item/di68/di68.zms
 FILE_LIST.txt
 manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_Accuracy.zip</b> &mdash; 5 files, largest 256 KB</summary>
+
+```
+3ddata/EFFECT/Motion/rotateup_01.ZMO
+3ddata/EFFECT/Particles/hitup_01.ptl
+3ddata/EFFECT/Particles/Texture/scope2.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_All.zip</b> &mdash; 36 files, largest 576 KB</summary>
+
+```
+3ddata/Effect/EffectMesh/defend_01/greenglow1.dds
+3ddata/Effect/EffectMesh/defend_01/redglow1.dds
+3ddata/Effect/Motion/rotate_01.ZMO
+3ddata/EFFECT/Motion/rotateup_01.ZMO
+3ddata/EFFECT/Particles/_horsepower_02.ptl
+3ddata/EFFECT/Particles/attackup_01.ptl
+3ddata/EFFECT/Particles/criticalup_01.ptl
+3ddata/EFFECT/Particles/damage_up01.ptl
+3ddata/EFFECT/Particles/defendup_01.ptl
+3ddata/EFFECT/Particles/hitup_01.ptl
+3ddata/EFFECT/Particles/smoke_07.ptl
+3ddata/EFFECT/Particles/Texture/arcs9.dds
+3ddata/EFFECT/Particles/Texture/body9_deep.dds
+3ddata/EFFECT/Particles/Texture/body9_royal.dds
+3ddata/EFFECT/Particles/Texture/cveil_amber.dds
+3ddata/EFFECT/Particles/Texture/cveil_violet.dds
+3ddata/EFFECT/Particles/Texture/edge9.dds
+3ddata/EFFECT/Particles/Texture/orb9_amber.dds
+3ddata/EFFECT/Particles/Texture/orb9_violet.dds
+3ddata/EFFECT/Particles/Texture/parry9.dds
+3ddata/EFFECT/Particles/Texture/rad9_amber.dds
+3ddata/EFFECT/Particles/Texture/rad9_violet.dds
+3ddata/EFFECT/Particles/Texture/rune0.dds
+3ddata/EFFECT/Particles/Texture/rune1.dds
+3ddata/EFFECT/Particles/Texture/rune2.dds
+3ddata/EFFECT/Particles/Texture/rune3.dds
+3ddata/EFFECT/Particles/Texture/rune4.dds
+3ddata/EFFECT/Particles/Texture/scope2.dds
+3ddata/EFFECT/Particles/Texture/smk_trail.dds
+3ddata/EFFECT/Particles/Texture/spark_gold.dds
+3ddata/EFFECT/Particles/Texture/spark_lilac.dds
+3ddata/EFFECT/Particles/Texture/Star_01.dds
+3ddata/EFFECT/Particles/Texture/star_01.dds
+3ddata/EFFECT/Particles/Texture/wisp_amber.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_Attack.zip</b> &mdash; 4 files, largest 576 KB</summary>
+
+```
+3ddata/EFFECT/Particles/attackup_01.ptl
+3ddata/EFFECT/Particles/Texture/parry9.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_AttackSpeed.zip</b> &mdash; 6 files, largest 576 KB</summary>
+
+```
+3ddata/Effect/Motion/rotate_01.ZMO
+3ddata/EFFECT/Particles/defendup_01.ptl
+3ddata/EFFECT/Particles/Texture/orb9_amber.dds
+3ddata/EFFECT/Particles/Texture/orb9_violet.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_Critical.zip</b> &mdash; 6 files, largest 576 KB</summary>
+
+```
+3ddata/EFFECT/Particles/criticalup_01.ptl
+3ddata/EFFECT/Particles/Texture/rad9_amber.dds
+3ddata/EFFECT/Particles/Texture/rad9_violet.dds
+3ddata/EFFECT/Particles/Texture/spark_gold.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_Damage.zip</b> &mdash; 7 files, largest 256 KB</summary>
+
+```
+3ddata/EFFECT/Particles/damage_up01.ptl
+3ddata/EFFECT/Particles/Texture/cveil_amber.dds
+3ddata/EFFECT/Particles/Texture/cveil_violet.dds
+3ddata/EFFECT/Particles/Texture/spark_gold.dds
+3ddata/EFFECT/Particles/Texture/spark_lilac.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_Defense.zip</b> &mdash; 4 files, largest 256 KB</summary>
+
+```
+3ddata/Effect/EffectMesh/defend_01/greenglow1.dds
+3ddata/Effect/EffectMesh/defend_01/redglow1.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_Dodge.zip</b> &mdash; 4 files, largest 256 KB</summary>
+
+```
+3ddata/EFFECT/Particles/Texture/star_01.dds
+3ddata/EFFECT/Particles/Texture/Star_01.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_Icons.zip</b> &mdash; 3 files, largest 291 KB</summary>
+
+```
+3ddata/control/Res/stateicon.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_MagicDefense.zip</b> &mdash; 8 files, largest 64 KB</summary>
+
+```
+3ddata/EFFECT/Particles/_horsepower_02.ptl
+3ddata/EFFECT/Particles/Texture/rune0.dds
+3ddata/EFFECT/Particles/Texture/rune1.dds
+3ddata/EFFECT/Particles/Texture/rune2.dds
+3ddata/EFFECT/Particles/Texture/rune3.dds
+3ddata/EFFECT/Particles/Texture/rune4.dds
+FILE_LIST.txt
+README.txt
+```
+</details>
+
+<details>
+<summary><b>ROSE_Buff_MoveSpeed.zip</b> &mdash; 9 files, largest 576 KB</summary>
+
+```
+3ddata/EFFECT/Particles/smoke_07.ptl
+3ddata/EFFECT/Particles/Texture/arcs9.dds
+3ddata/EFFECT/Particles/Texture/body9_deep.dds
+3ddata/EFFECT/Particles/Texture/body9_royal.dds
+3ddata/EFFECT/Particles/Texture/edge9.dds
+3ddata/EFFECT/Particles/Texture/smk_trail.dds
+3ddata/EFFECT/Particles/Texture/wisp_amber.dds
+FILE_LIST.txt
 README.txt
 ```
 </details>
@@ -1762,14 +1931,16 @@ res/wheel.cur
 
 ---
 
-97 packs, 1069 files in total.
+108 packs, 1161 files in total.
 
 Every file type present, counted:
 
-- `.dds` &mdash; 450
+- `.dds` &mdash; 502
 - `.zms` &mdash; 234
-- `.txt` &mdash; 194
+- `.txt` &mdash; 216
 - `.json` &mdash; 82
 - `.cur` &mdash; 76
 - `.css` &mdash; 20
+- `.ptl` &mdash; 14
 - `.html` &mdash; 13
+- `.zmo` &mdash; 4

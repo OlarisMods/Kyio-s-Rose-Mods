@@ -372,6 +372,122 @@ One plain text file. Open it in Notepad and read it if you like; there's nothing
 
 ---
 
+## Buff effects
+
+Nine buff auras, redrawn. Each has a distinct **silhouette** rather than just a
+distinct colour — several soft glows in one palette merge into a haze and none
+of them can be read, which defeats the point of an aura you use to time
+rebuffs.
+
+![Every buff at once](images/all-buffs.gif)
+
+**Download:** [all nine in one pack](../../releases/latest/download/ROSE_Buff_All.zip)
+· [icons only](../../releases/latest/download/ROSE_Buff_Icons.zip)
+
+Each is also available on its own, listed below.
+
+---
+
+### Power Overflow — attack power up
+*Soldier.* Two cutlasses crossed above you, flaring where they meet.
+
+![Power Overflow](images/power-overflow.gif)
+
+[Download](../../releases/latest/download/ROSE_Buff_Attack.zip)
+
+### Haste — attack speed up
+*Hawker, Battle Support.* Two plasma orbs circling the waist, spinning.
+
+![Haste](images/haste.gif)
+
+[Download](../../releases/latest/download/ROSE_Buff_AttackSpeed.zip)
+
+### Critical Chant — critical rate up
+*Dealer.* Auroras turning behind the blades.
+
+![Critical Chant](images/critical-chant.gif)
+
+[Download](../../releases/latest/download/ROSE_Buff_Critical.zip)
+
+### Dealer's Influence — accuracy up
+*Dealer.* A scope orbiting above the head, scanning.
+
+![Dealer's Influence](images/dealers-influence.gif)
+
+[Download](../../releases/latest/download/ROSE_Buff_Accuracy.zip)
+
+### Enhanced Reflexes — dodge up
+*Hawker.* The game's own flares, retinted amber and violet.
+
+![Enhanced Reflexes](images/enhanced-reflexes.gif)
+
+[Download](../../releases/latest/download/ROSE_Buff_Dodge.zip)
+
+### Valkyrie Charm — damage up
+*Muse.* A veil of light at body height, with slow sparks.
+
+![Valkyrie Charm](images/valkyrie-charm.gif)
+
+[Download](../../releases/latest/download/ROSE_Buff_Damage.zip)
+
+### Rapid Twitch — move speed up
+*Hawker.* Violet smoke at the feet, amber arcs, and a trail.
+
+![Rapid Twitch](images/rapid-twitch.gif)
+
+[Download](../../releases/latest/download/ROSE_Buff_MoveSpeed.zip)
+
+### Resistance Chant — magic defence up
+*Muse.* Five rune spirals climbing around the body.
+
+![Resistance Chant](images/resistance-chant.gif)
+
+[Download](../../releases/latest/download/ROSE_Buff_MagicDefense.zip)
+
+### Durability Assist — defence up
+*Soldier.* A ward circle of runes — love, light, luck, protection and growth.
+
+![Durability Assist](images/durability-assist.gif)
+
+[Download](../../releases/latest/download/ROSE_Buff_Defense.zip)
+
+---
+
+### If you are modding buffs yourself
+
+**The filenames do not match the buffs.** They went from Korean into English
+through a dictionary, and a fair few landed on the wrong word:
+
+| Buff | The file that draws it |
+|---|---|
+| Attack power up | `attackup_01.ptl` |
+| **Attack speed up** | **`defendup_01.ptl`** |
+| Critical rate up | `criticalup_01.ptl` |
+| Accuracy up | `hitup_01.ptl` |
+| Dodge up | `shirkup_01.ptl` |
+| Damage up | `damage_up01.ptl` |
+| Move speed up | `smoke_07.ptl` |
+| **Magic defence up** | **`_horsepower_02.ptl`** |
+| Defence up | an effect *mesh*, not a particle file — `EffectMesh\defend_01\` |
+
+Attack speed lives in a file called *defendup*. Magic defence lives in one
+called *horsepower* — 마력 means both *magical power* and *horsepower*, and the
+dictionary picked the wrong one.
+
+So searching for the stat name will not find these. Search for what an effect
+**draws** instead of what it is called.
+
+And one of them is not a particle file at all: defence up is drawn by an effect
+mesh with its own textures, which is why replacing a `.ptl` for it does nothing.
+
+### About the icons
+
+The sixteen buff icons are a separate download because they are all one shared
+atlas — `3ddata\control\Res\stateicon.dds` — rather than separate images. That
+same sheet also carries quest log icons and minimap markers, so **two icon packs
+can never be merged**: whichever is installed last wins the whole sheet.
+
+
 ## Installing
 
 1. Close ROSE completely.
@@ -406,10 +522,11 @@ deleting the files is a complete return to stock.
 
 Fair question to ask of any mod. Here's what's checkable rather than just claimed:
 
--  **There is no installer and no executable.** Every pack contains only `.dds`
-  textures, `.zms` mesh geometry, `.cur` cursors, `.css` and `.html` (plain text
-  you can open and read), a `manifest.json`, and `.txt` readmes. No `.exe`, no
-  `.dll`, no scripts. Nothing in these archives can run.
+-  - **There is no installer and no executable.** Every pack contains only `.dds`
+  textures, `.zms` mesh geometry, `.zmo` motion data, `.ptl` particle
+  definitions, `.cur` cursors, `.css` and `.html` (plain text you can open and
+  read), a `manifest.json`, and `.txt` readmes. No `.exe`, no `.dll`, no
+  scripts. Nothing in these archives can run.
 -  **Everything is browsable right here.** [packs/CONTENTS.md](packs/CONTENTS.md)
   lists every file in all 97 packs, generated straight from the archives
   themselves. You can look before you download.
@@ -438,3 +555,5 @@ engine-side and can't be changed by a mod. They stay stock in every theme.
 
 Some windows cache their artwork. If part of the interface still looks unchanged after
 installing, close and reopen that window, or restart the client.
+
+
