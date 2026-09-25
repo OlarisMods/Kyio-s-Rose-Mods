@@ -6,36 +6,89 @@ Install the whole thing, or only the parts you want.
 **[The forum thread](https://forum.roseonlinegame.com/topic/7798-spooky-ui-combat-text-and-other-halloween-themed-fun/)** ·
 **[everything in one download](../../releases/latest/download/Halloween_COMPLETE.zip)**
 
-## The packs
+![The spooky interface](../images/halloween/ui/spooky_ui.png)
 
-| Pack | What it does | |
+## The interface
+
+| | |
+|---|---|
+| ![The tombstone minimap](../images/halloween/07_minimap/tombstone_minimap.png) | **Spooky UI** — a ghostly theme with Halloween accents, its own cursors, and the haunted tombstone around the minimap. Something lives on the stone.<br><br>[Spooky UI](../../releases/latest/download/Halloween_SpookyUI.zip) · [just the minimap](../../releases/latest/download/Halloween_SpookyMinimap.zip) |
+
+### The summon gauge
+
+Free slots at a glance, health for each summon, a warning when one is nearly dead,
+and an out-of-range state.
+
+| Resting | Full | Low health | Out of range |
+|---|---|---|---|
+| ![](../images/halloween/06_summon_gauge/resting.png) | ![](../images/halloween/06_summon_gauge/full_no_slots.png) | ![](../images/halloween/06_summon_gauge/low_hp_warning.png) | ![](../images/halloween/06_summon_gauge/out_of_range.png) |
+
+[Download the summon gauge](../../releases/latest/download/Halloween_SpookySummonGauge.zip)
+
+### Buff icons
+
+One colour for every class, with a few seasonal treats to find.
+
+| On your bar | In a party |
+|---|---|
+| ![](../images/halloween/05_state_icons/buff_Icons.png) | ![](../images/halloween/05_state_icons/PartyBar.png) |
+
+[Download the buff icons](../../releases/latest/download/Halloween_SpookyBuffIcons.zip)
+
+## Combat text
+
+Damage numbers in six colours, the words, status pop-ups — and a flock of bats on
+every critical hit.
+
+![Bats on a crit](../images/halloween/02_combat_text/crit_bats.png)
+
+![The damage numbers](../images/halloween/02_combat_text/damage_numbers.png)
+
+![The words](../images/halloween/02_combat_text/words.png)
+
+[Download the combat text](../../releases/latest/download/Halloween_SpookyCombatText.zip)
+
+## Witches cauldrons
+
+Loot beams as bubbling cauldrons, six colours across every drop group.
+
+| | | |
 |---|---|---|
-| **Spooky UI** | a ghostly interface theme with Halloween accents, its own cursors, and the haunted tombstone minimap | [download](../../releases/latest/download/Halloween_SpookyUI.zip) |
-| **Spooky Minimap** | just the tombstone around the map, if you like your own theme | [download](../../releases/latest/download/Halloween_SpookyMinimap.zip) |
-| **Spooky Summon Gauge** | free slots at a glance, per-summon health, a low-health warning, an out-of-range state | [download](../../releases/latest/download/Halloween_SpookySummonGauge.zip) |
-| **Spooky Buff Icons** | buff icons in Halloween colours, one for every class | [download](../../releases/latest/download/Halloween_SpookyBuffIcons.zip) |
-| **Spooky Combat Text** | damage numbers in six colours, the words, status pop-ups, and a flock of bats on every crit | [download](../../releases/latest/download/Halloween_SpookyCombatText.zip) |
-| **Spooky Summon Auras** | a haunting aurora with wisps swirling inside, around every summon | [download](../../releases/latest/download/Halloween_SpookySummonAuras.zip) |
-| **Spooky Witches Cauldrons** | loot beams as bubbling cauldrons, six colours across every drop group | [download](../../releases/latest/download/Halloween_SpookyWitchesCauldrons.zip) |
-| **Spooky Buffs** | all nine buff effects together | [download](../../releases/latest/download/Halloween_SpookyBuffs_All.zip) |
+| ![](../images/halloween/03_cauldrons/greencauld.png) | ![](../images/halloween/03_cauldrons/Purplecauld.png) | ![](../images/halloween/03_cauldrons/orangecauld.png) |
+| ![](../images/halloween/03_cauldrons/redcauld.png) | ![](../images/halloween/03_cauldrons/spirit_teal.png) | ![](../images/halloween/03_cauldrons/glow.png) |
 
-## The buffs, one at a time
+[Download the cauldrons](../../releases/latest/download/Halloween_SpookyWitchesCauldrons.zip)
 
-| Buff | What appears | |
+## Summon auras
+
+A haunting aurora with wisps swirling inside, around every summon — anchored at the
+ground, so it suits a bonfire and a dragon alike.
+
+![Haunted summons](../images/halloween/04_summons/haunted_summons.png)
+
+[Download the summon auras](../../releases/latest/download/Halloween_SpookySummonAuras.zip)
+
+## The buffs
+
+Nine effects, each with its own silhouette so you can read them at a glance.
+
+![Every buff at once](../images/halloween/01_buffs/allbuffs.png)
+
+**[All nine in one pack](../../releases/latest/download/Halloween_SpookyBuffs_All.zip)**, or one at a time:
+
+| | Buff | |
 |---|---|---|
-| Move speed up | **Summon Familiar** — a protective feline at your side, watching your back | [download](../../releases/latest/download/Halloween_SpookyBuff_MoveSpeed.zip) |
-| Attack power up | **Spooky Skull** — oddly emboldening | [download](../../releases/latest/download/Halloween_SpookyBuff_Attack.zip) |
-| Critical up | **Halloween Aura** — purple radiance with orange wisps rising within | [download](../../releases/latest/download/Halloween_SpookyBuff_Critical.zip) |
-| Defence up | **Magic Sigil** — an esoteric circle to dampen oncoming blows | [download](../../releases/latest/download/Halloween_SpookyBuff_Defense.zip) |
-| Accuracy up | **Bat Familiar** — echo-locating your enemies for you | [download](../../releases/latest/download/Halloween_SpookyBuff_Accuracy.zip) |
-| Attack speed up | **Will-o-Wisps** — haunting wisps, strangely energizing | [download](../../releases/latest/download/Halloween_SpookyBuff_AttackSpeed.zip) |
-| Dodge up | **Ghostly After-Images** — curious beings haunting your wake | [download](../../releases/latest/download/Halloween_SpookyBuff_Dodge.zip) |
-| Magic defence up | **Soul Lantern** — your soul's flame, warding away unwanted magics | [download](../../releases/latest/download/Halloween_SpookyBuff_MagicDefense.zip) |
-| Damage up | **Well of Souls** — souls rising, lending you their strength | [download](../../releases/latest/download/Halloween_SpookyBuff_Damage.zip) |
+| ![](../images/halloween/01_buffs/Move-Familar.png) | **Move speed — Summon Familiar**<br><sub>A protective feline at your side, watching your back.</sub> | [download](../../releases/latest/download/Halloween_SpookyBuff_MoveSpeed.zip) |
+| ![](../images/halloween/01_buffs/Att-Skull.png) | **Attack power — Spooky Skull**<br><sub>A skull appears, oddly emboldening.</sub> | [download](../../releases/latest/download/Halloween_SpookyBuff_Attack.zip) |
+| ![](../images/halloween/01_buffs/Crit-HalloweenAura.png) | **Critical — Halloween Aura**<br><sub>Purple radiance with orange wisps rising within.</sub> | [download](../../releases/latest/download/Halloween_SpookyBuff_Critical.zip) |
+| ![](../images/halloween/01_buffs/Def-MagicCircle.png) | **Defence — Magic Sigil**<br><sub>An esoteric circle to dampen oncoming blows.</sub> | [download](../../releases/latest/download/Halloween_SpookyBuff_Defense.zip) |
+| ![](../images/halloween/01_buffs/Acc-Bat.png) | **Accuracy — Bat Familiar**<br><sub>Echo-locating your enemies for you.</sub> | [download](../../releases/latest/download/Halloween_SpookyBuff_Accuracy.zip) |
+| ![](../images/halloween/01_buffs/Aspd-Willowisp.png) | **Attack speed — Will-o-Wisps**<br><sub>Haunting wisps, strangely energizing.</sub> | [download](../../releases/latest/download/Halloween_SpookyBuff_AttackSpeed.zip) |
+| ![](../images/halloween/01_buffs/Dodge-AfterImage.png) | **Dodge — Ghostly After-Images**<br><sub>Curious beings haunting your wake.</sub> | [download](../../releases/latest/download/Halloween_SpookyBuff_Dodge.zip) |
+| ![](../images/halloween/01_buffs/mAgicres-Soul_Lantern.png) | **Magic defence — Soul Lantern**<br><sub>Your soul's flame, warding away unwanted magics.</sub> | [download](../../releases/latest/download/Halloween_SpookyBuff_MagicDefense.zip) |
+| ![](../images/halloween/01_buffs/Valk-Well_Of_Souls.png) | **Damage — Well of Souls**<br><sub>Souls rising, lending you their strength.</sub> | [download](../../releases/latest/download/Halloween_SpookyBuff_Damage.zip) |
 
 ## Installing
 
 Exactly as everything else here — see [Installing](installing.md). Only one UI theme at a
 time, and one colour per drop group; install another straight over the top to switch.
-
-*The pictures for this page go in `images/halloween/`.*
