@@ -1,4 +1,4 @@
-This pack installs 46 files. To uninstall, delete these:
+This pack installs 47 files. To uninstall, delete these:
 
 3ddata\EFFECT\Particles\Texture\Critical.DDS
 3ddata\EFFECT\Special\DIGITNUMBER01.DDS
@@ -22,11 +22,12 @@ data\ui\themes\rose\game\hud.html
 data\ui\themes\rose\game\minimap.html
 data\ui\themes\rose\imgs\gauge.dds
 data\ui\themes\rose\imgs\glassui_0.dds
+data\ui\themes\rose\imgs\group_manager.dds
+data\ui\themes\rose\imgs\party_controls.dds
 data\ui\themes\rose\styles\colors.css
 data\ui\themes\rose\styles\input.css
 data\ui\themes\rose\styles\listbox.css
 data\ui\themes\rose\styles\scrollbar.css
-data\ui\themes\rose\styles\spritesheet_glassui.css
 res\appraisalstatextract.cur
 res\appraisalstattransfer.cur
 res\attack.cur

@@ -1,38 +1,42 @@
-## A new drop group
+## Updated for the 16 October 2026 patch
 
-**Talismans & Powders** — a drawstring charm pouch, gathered at the neck and embroidered all the
-way round. A bag of runestones makes more sense of the contents than one carved slab does.
+The patch rebuilt a large part of the interface. Every UI pack here has been carried onto it —
+**Void, Crimson, Moldie, Ancient and Spooky** — keeping each one's own art and colors rather
+than regenerating them.
 
-Covers Talismans, Lisents, Scarabs and powders — **and refine materials**, so expect noticeably
-more of these on the ground than the other groups.
+- **The minimap.** The patch redrew the minimap frame as a ring with sockets for its buttons.
+  The four themes now wear the new frame in their own colors, so the buttons sit where they
+  belong. Spooky keeps its tombstone, its residents, and its buttons around the stone.
+- **The new buttons are themed** — the chat settings button, the party controls, and the group
+  manager button, which now matches the rest of the sidebar.
+- **Bars.** Spooky's health bar is pumpkin orange and its mana violet, including the bars over
+  everyone's heads, which the patch made colorable for the first time.
+- **Every color tweak kept** — quest tracker, party finder, monster inspector, and the rest.
 
-That makes **eleven drop groups**, six colors each.
+## Upgrading from an older version: delete one file
 
-## Combat text, large
+If it is in your ROSE folder, delete:
 
-The same four themes with the numbers drawn as large as the game allows — about **36% taller**.
+    data\ui\themes\rose\styles\spritesheet_glassui.css
 
-The original artwork leaves roughly a third of each number's space empty, so at any distance
-you're reading smaller digits than you need to be. This fills that space. Same colors, same
-behaviour. Available alongside the normal packs, not instead of them.
+Every UI pack made before the patch shipped a copy. After the patch, an old copy hides the
+game's new buttons — the group manager button becomes a white square. No current pack ships it.
 
-## Double-size sets
+## New: ROSE UI Editor
 
-Every complete set again with all the models at **200%**, including Themed. Made for anyone who
-finds the normal size difficult to pick out.
-
-This exists because someone asked. If these still don't work for you, say so and I'll build
-something that does — different size, different shape, whatever helps.
+Make your own theme from any two colors, or press *Surprise me* for a matched pair — every
+surprise has a seed word you can share. Undo and Remove are built in.
+**[ROSE UI Editor](https://github.com/OlarisMods/ROSE_UI_Editor)**
 
 ## Also
 
-The complete-set bundles now include the new drop group, so they cover all eleven.
+- The Halloween packs are now in this repository too, so [packs/CONTENTS.md](packs/CONTENTS.md)
+  lists every file in all 126 packs and [CHECKSUMS.txt](CHECKSUMS.txt) covers every one.
+  The checksums for the four combat text packs and the buff packs were out of date or missing;
+  they are now correct.
 
 ---
 
-Two files per pack — a texture and a mesh. No installer, no executable, nothing that can run.
-Uninstalling is deleting the files listed in each pack's `FILE_LIST.txt`.
-
-SHA-256 for every pack is in [CHECKSUMS.txt](CHECKSUMS.txt).
-
-*Previously released packs are attached here unchanged, so existing download links keep working.*
+Updated in this release: the four UI themes, Spooky UI, Spooky Minimap, Spooky Summon Gauge and
+Halloween Complete. Everything else is attached unchanged, so existing download links keep
+working.

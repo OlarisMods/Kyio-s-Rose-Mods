@@ -4,6 +4,7 @@
         <title></title>
         <link type="text/template" href="../templates/window-box.html" />
         <link type="text/template" href="../templates/elements/gauge.html" />
+        <link type="text/rcss" href="../styles/spritesheet_itemicon.css" />
 
         <style>
             body {
@@ -12,8 +13,6 @@
 
             .window-title {
                 font-size: 12dp;
-                color: #DAEDEB;                        /* SLATE: cool bone name */
-                font-effect: glow(1dp 3dp #92D1C9);    /* SLATE: verdigris bloom */
             }
 
             #window-title-text {
@@ -24,10 +23,13 @@
                 padding-top: 20dp;
             }
 
-            #state-icon-container {
-                margin-top: 5dp;
-                visibility: hidden;
-            }
+            #state-icon-container { margin-top: 5dp; width: 195dp; }
+            .hud-status-row { display: flex; flex-wrap: wrap; }
+            .hud-status-icon { display: inline-block; width: 20dp; height: 20dp; margin: 0 1dp 1dp 0; flex-shrink: 0; }
+            .hud-status-icon img { width: 20dp; height: 20dp; pointer-events: none; }
+            .hud-status-icon.blink { opacity: 0.25; }
+            .hud-status-icon.inactive img { image-color: rgb(255, 0, 0); }
+            .hud-status-icon.warning img { image-color: rgb(255, 180, 180); }
 
             #window-content.content {
                 padding: 1dp 2dp 1dp 1dp;
@@ -60,82 +62,23 @@
                 text-align: right;
             }
 
-            /* ===== HUD TEXT PASS (was: b.weight, span.level { color: yellow; }) =====
-               ANSWERED: these DO recolour, so HUD text is ours. (The char-sheet stat
-               numbers remain engine-drawn and are still a wall.) */
+            b.weight,
             span.level {
-                color: #DAEDEB;                        /* SLATE: cool bone level (was yellow) */
-                font-effect: glow(1dp 2dp #92D1C9);
+                color: yellow;
             }
 
-            b.weight {
-                color: #8BE9FD;                        /* SLATE: cyan weight readout (pinned info-2) */
-                font-effect: glow(1dp 2dp #92D1C9);
-            }
-
-            /* EXP % and Fuel % labels */
-            /* ===== GAUGE LABELS MUST BE LIGHT =====
-               The engine draws a DARK outline on gauge text. A light glyph is separated by that
-               outline and reads cleanly at any size (HP bone-on-clay measured 8.0:1). A DARK
-               glyph merges with its own outline and smears into an unreadable blob -- that is
-               exactly what happened to the MP readout on the light steel fill.
-               For labels sitting on a BRIGHT fill (brass EXP), keep the glyph light and add a
-               DARK halo via font-effect; the halo does the separating, not the glyph colour. */
-            #exp span,
-            #fuel span {
-                color: #FBF3E4;                        /* warm bone percent labels */
-                font-effect: glow(1dp 2dp #241A08);    /* DARK halo -- survives a bright fill */
-            }
-
-
-            /* ===== LOW-HP ALARM =====
-               Slate's HP bar is CALM CLAY at rest, so the alarm is carried here instead of by a
-               permanently red bar. Fires at HP <= 20% (data-class-low-value-animation below) and
-               flashes the theme's ALERT colour against bone.
-               HONEST LIMIT: `color` reaches the LABEL, not the fill sprite -- so this flashes the
-               NUMBER, not the bar. Vanilla did the same; the fill is a static sprite and the
-               engine offers no hook for it. A real signal, but don't expect the bar to strobe. */
             @keyframes low {
                 from {
-                    color: #F24E53;                    /* SLATE alert -- the pinned alarm (R2) */
+                    color: #f24e53;
                 }
 
                 to {
-                    color: #F5E6DC;                    /* warm bone */
+                    color: #f5e6dc;
                 }
             }
 
             gauge.low-value-animation {
                 animation: 1.5s cubic-in-out infinite alternate low;
-            }
-
-            /* ===== GAUGE FILL: QUESTION ANSWERED (Slate, in-game) =====
-               The old Void probe asked whether `color` on a <gauge> tints the FILL or only
-               the text. Answer: the FILL COMES FROM A SPRITE, not from this colour.
-                 - the fill sprite is picked by the gauge's CLASS -- `red` / `blue` / `yellow`
-                   / `green` below -- and is painted in imgs\gauge.dds
-                 - `color` here reaches the LABEL only
-               So a gauge recolour needs BOTH: repaint gauge.dds (the bar) AND set the colour
-               here (the number). If they disagree you get a terracotta bar with a verdigris
-               readout. Verified: HUD HP rendered at hue 11.8 deg after the gauge.dds repaint.
-
-               NOTE: this file does NOT reach the character sheet. That is a legacy dialog
-               (dlgavata.xml) drawing GEN_GAUGE01/02/03 out of glassui_02 -- see
-               gauge_retheme_slate.py for the rect repair. */
-            gauge#health {
-                color: #F5E6DC;                        /* SLATE: warm bone, legible on clay */
-            }
-
-            gauge#mana {
-                color: #F2F7F8;                        /* SLATE: cool bone. MUST be light -- see note */
-            }
-
-            gauge#exp {
-                color: #FBF3E4;                        /* SLATE: warm bone. MUST be light -- see note */
-            }
-
-            gauge#fuel {
-                color: #6EE7B7;                        /* mint PAT energy -- pinned, identical in every theme (R3) */
             }
 
             div.container {
@@ -166,7 +109,51 @@
                 left: 100%;
                 bottom: 50dp;
             }
-        </style>
+
+/* ---- kept from the pack: rules it added that the patched file does not have ---- */
+/* EXP % and Fuel % labels */
+            /* ===== GAUGE LABELS MUST BE LIGHT =====
+               The engine draws a DARK outline on gauge text. A light glyph is separated by that
+               outline and reads cleanly at any size (HP bone-on-clay measured 8.0:1). A DARK
+               glyph merges with its own outline and smears into an unreadable blob -- that is
+               exactly what happened to the MP readout on the light steel fill.
+               For labels sitting on a BRIGHT fill (brass EXP), keep the glyph light and add a
+               DARK halo via font-effect; the halo does the separating, not the glyph colour. */
+            #exp span,
+            #fuel span {
+                color: #FBF3E4;                        /* warm bone percent labels */
+                font-effect: glow(1dp 2dp #241A08);    /* DARK halo -- survives a bright fill */
+            }
+
+/* ===== GAUGE FILL: QUESTION ANSWERED (Slate, in-game) =====
+               The old Void probe asked whether `color` on a <gauge> tints the FILL or only
+               the text. Answer: the FILL COMES FROM A SPRITE, not from this colour.
+                 - the fill sprite is picked by the gauge's CLASS -- `red` / `blue` / `yellow`
+                   / `green` below -- and is painted in imgs\gauge.dds
+                 - `color` here reaches the LABEL only
+               So a gauge recolour needs BOTH: repaint gauge.dds (the bar) AND set the colour
+               here (the number). If they disagree you get a terracotta bar with a verdigris
+               readout. Verified: HUD HP rendered at hue 11.8 deg after the gauge.dds repaint.
+
+               NOTE: this file does NOT reach the character sheet. That is a legacy dialog
+               (dlgavata.xml) drawing GEN_GAUGE01/02/03 out of glassui_02 -- see
+               gauge_retheme_slate.py for the rect repair. */
+            gauge#health {
+                color: #F5E6DC;                        /* SLATE: warm bone, legible on clay */
+            }
+
+gauge#mana {
+                color: #F2F7F8;                        /* SLATE: cool bone. MUST be light -- see note */
+            }
+
+gauge#exp {
+                color: #FBF3E4;                        /* SLATE: warm bone. MUST be light -- see note */
+            }
+
+gauge#fuel {
+                color: #6EE7B7;                        /* mint PAT energy -- pinned, identical in every theme (R3) */
+            }
+</style>
     </head>
 
     <body id="hud" onclick="self-target">
@@ -222,7 +209,10 @@
         </div>
 
         <!-- State Icons -->
-        <div id="state-icon-container" onclick="ignore">
+        <div id="state-icon-container" onclick="ignore" data-model="hud-statuses">
+            <div class="hud-status-row" data-for="group : groups" data-if="group.statuses.size > 0">
+                <span class="hud-status-icon" data-for="status : group.statuses" data-class-blink="status.blink" data-class-inactive="!status.active" data-class-warning="status.is_warning" data-attr-hud-status="status.index"><img data-attr-sprite="status.sprite"/></span>
+            </div>
         </div>
     </body>
 </rml>

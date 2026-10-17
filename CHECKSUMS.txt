@@ -12,30 +12,30 @@ what I published. If it does not, do not install it - tell me.
 UI THEME PACKS
 ----------------------------------------------------------------------
   ROSE_UI_Ancient.zip
-    fffaba818698977212c1e92ae74556111980259a7009955d0b146ba5a1d5b07e
+    6231ccd1d66e4e5850ad02389b77eefaaa1fb6c902914c6a6b3d8a394fce8636
 
   ROSE_UI_Crimson.zip
-    70613231c881993cf90f031e6d020eb7f64131074929fd113dcda0010c3b24d2
+    4d432050ef80b8853124145c1504a0db5bd13ffd7f311d25491e762f3e6499e5
 
   ROSE_UI_Moldie.zip
-    6af786819337d314511e18588fe11cbaed1376237675cb164cdd25270e5be74b
+    085e60c5fe8bf056bce7d41d0e05a702a3b9ab105a6d94952d4d0993513870fa
 
   ROSE_UI_Void.zip
-    4e88a558cfdf7674f818f49372bbf574a33af4fe9b8d17bdbb04d69fa2d69e99
+    ee1a4a1d24d2d03c1245826bbad3dc51d568977ff929cc4aa91294419c6c93aa
 
 COMBAT TEXT ONLY
 ----------------------------------------------------------------------
   ROSE_CombatText_Ancient.zip
-    ce1e7fd2507e14d57ca362b2c69aa89e6479caa12bbc4be0d35a2e05711b069b
+    b1af2aeb7ef8a2dcfff915e429c9740d0c796750a2255753f35cb31dc96491f6
 
   ROSE_CombatText_Crimson.zip
-    3cd09e033f12aa32eee4a8a74dbaae18879b138d7cf8d963e593ccf4de93dfd1
+    703f4f082b5a96a457143a9212c47c7489a2e0b59408e83c9284b1e647f3f3bb
 
   ROSE_CombatText_Moldie.zip
-    4fb5d22ce3a677719bdb50fe26610c2c218d15521f7f1ee53c5d8fcfe5e80100
+    83996c7e0eb0e8c3797ff82fa813a899ae9a4c3fd17ae25e4f767f57014f3640
 
   ROSE_CombatText_Void.zip
-    3497ed084e196a8ef3e6f57002575c7b021976553cb466609723eca465936904
+    1ed39728f0645affc13bd9428360ce730875fc06e51ec22ec9b2a3f399cb754a
 
 POTION / LOOT BEAM
 ----------------------------------------------------------------------
@@ -331,16 +331,117 @@ LOOT BEAM -- COMPLETE SETS, DOUBLE SIZE
   ROSE_AllBeams_Void_x2.zip
     de7b2b03543972d390549c932fd85a8d4e1a73364e5a789b6f8686f60288308f
 
+BUFF EFFECTS AND BUFF ICONS
+----------------------------------------------------------------------
+  ROSE_Buff_Accuracy.zip
+    2b9abd5f799647889bd2bcfd4b3bc00d7dbbb351650e7ede3539707ed1fe13f3
+
+  ROSE_Buff_All.zip
+    81e9ab07a181daaed9a2bc799b23142a6f672b6b8657c85902ac82870035bee0
+
+  ROSE_Buff_Attack.zip
+    568ccf0208fb1b367af6e354f0ffbe2cd2cb836949e2509f3a9041bdaed49d66
+
+  ROSE_Buff_AttackSpeed.zip
+    23e665c9ee64fbac5a5518536b4921b32d112d2e139358b3cd520eccbe9ae59d
+
+  ROSE_Buff_Critical.zip
+    e22f1d1b47f049d5ace10b8c0999a9e6ea2acd347006233c29860a5e1bc0b8c1
+
+  ROSE_Buff_Damage.zip
+    55cd4978c3d3d2c21d6b80a782755096fcf9dfc1b30bad982402a5044a14c1ab
+
+  ROSE_Buff_Defense.zip
+    f3b6d518c33199b5037fc0baa42e645ac8135ae1e2b7d3836311b124593f34f3
+
+  ROSE_Buff_Dodge.zip
+    1e5499c1e39e6df165b465b3b74638699e8575f2d74ee99d759fcaabb53b3a4b
+
+  ROSE_Buff_Icons.zip
+    b2d812768ba3d548a6ec9f8cd150b0f80f19185cd362d374374eec34dc925b87
+
+  ROSE_Buff_MagicDefense.zip
+    b28f5c9d50b7446cb143b1800bbb45efd03b0811dab3f61ff2462dc968b19336
+
+  ROSE_Buff_MoveSpeed.zip
+    13150e1379358d3d9f0c626f5053e11e4f71d44fdd2c9e5d06515c7399efd3e5
+
+COMMUNITY WINDOW
+----------------------------------------------------------------------
+  ROSE_UI_CommunityWindow.zip
+    b3dd1a7c175b2020293740f9c93133ce94be3664cd26b2e99ba018ffbc113697
+
+HALLOWEEN
+----------------------------------------------------------------------
+  Halloween_COMPLETE.zip
+    d1e96e72aa7e640f1dedba8f03a9c4fdb3fcdc7c25c9e03919ac631fb75b1de0
+
+  Halloween_SpookyBuffIcons.zip
+    b362753915f576f5e028f9fbeb30947d9e361a2b3ede9dda6fa73def2dd45d61
+
+  Halloween_SpookyBuff_Accuracy.zip
+    dacfab151236eaaf937f84825236cd8602365ff7583e3286dcbaf931a77b892f
+
+  Halloween_SpookyBuff_Attack.zip
+    0fad2c8d3e913b3eca50250314451020a7869dd22be366667865597e44910a7b
+
+  Halloween_SpookyBuff_AttackSpeed.zip
+    f20b00f86032e156d9af0ed4f54f4795092a7f00d962a79f89eb71d066f1f274
+
+  Halloween_SpookyBuff_Critical.zip
+    b5fbf8da35d51c3e7713807807479ea2d3f5428c7dc7e2440a516b4a7c655f19
+
+  Halloween_SpookyBuff_Damage.zip
+    cce3e317b4719598ddc6a76bf8d6426a000d6a56a34cb20ddb97e2d64b0e3670
+
+  Halloween_SpookyBuff_Defense.zip
+    1bdf376bc6640f162002f93abdf1b2ab93b72a081ea912c921e7c81160c67f2c
+
+  Halloween_SpookyBuff_Dodge.zip
+    c8e8b38333c8fe0727d409e9e25e10d335471e6e722c49b89faf93cd435d6b30
+
+  Halloween_SpookyBuff_MagicDefense.zip
+    a40331fe5fde3562681cd7ca6a5789a4048ce7b4e198e9cfc33ceaa2eebdfaff
+
+  Halloween_SpookyBuff_MoveSpeed.zip
+    a844f22763cf638e65149ae679a377a98312cc16caa0bfdf3d8d14a149c42a96
+
+  Halloween_SpookyBuffs_All.zip
+    ec911c883b91887765fb74f3edb49bfc4e5f6078a0d99bd8c1c4f50cdc037854
+
+  Halloween_SpookyCombatText.zip
+    1b0649dc9a22e0df4420590c6a26c8a9451a41adb0cd4359c4c40ae265f23ca0
+
+  Halloween_SpookyMinimap.zip
+    19222a4806a4dcfc15473caec025b1f3ba9b4ea96c4dfd1c8f695ea849467efb
+
+  Halloween_SpookySummonAuras.zip
+    87621e3dff03d4cd6d36aaa3e5fa03067a06eeba15714349fbfa9fafcae74016
+
+  Halloween_SpookySummonGauge.zip
+    0ada841f3b6eebaf78dadd98c7e19437f593806b18de74bbbea87e135201ca62
+
+  Halloween_SpookyUI.zip
+    5ff5780d9460fb6289690b74bdac6500c042d2b8d51b382dcbd1dc704cc6ec3f
+
+  Halloween_SpookyWitchesCauldrons.zip
+    005d51f0f3b436e513d689ab27516bbce0040855e5b460483ec0d60f8f4c14c4
+
 ======================================================================
 WHAT IS INSIDE
 
 Every pack contains only these file types:
     .dds   texture images
     .zms   mesh geometry (the beam and drop shapes)
+    .zmo   motion data (how an effect's pieces move)
+    .ptl   particle effects (plain data, read by the game)
     .cur   mouse cursors
     .css   stylesheets (plain text - open them and read them)
     .html  interface layout (plain text - same)
     .json  a manifest describing the pack (plain text - same)
+    .eft   effect definitions (plain data, read by the game)
+    .pal   a colour palette (plain text)
+    .ico   the game window's icon (an image)
     .txt   readme and file list
 
 There is no installer, no .exe, no .dll, no script of any kind. Nothing in

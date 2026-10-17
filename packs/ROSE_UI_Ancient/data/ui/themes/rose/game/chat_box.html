@@ -1,4 +1,3 @@
-<!-- THEME: Slate (built via retheme_slate.py from Void) -->
 <rml>
     <head>
         <title>Chat Box</title>
@@ -38,10 +37,12 @@
                 display: inline-block;
             }
 
+            body #chat-settings,
             body #mover {
                 display: none;
             }
 
+            body:hover #chat-settings,
             body:hover #mover {
                 display: inline-block;
             }
@@ -56,6 +57,12 @@
                 position: absolute;
                 top: 2dp;
                 right: 27dp;
+            }
+
+            #chat-settings {
+                position: absolute;
+                top: 2dp;
+                right: 52dp;
             }
 
             handle {
@@ -90,9 +97,9 @@
             {
                 display: block;
                 word-break: break-word;
-                font-effect: outline(1dp black);
+                font-effect: outline(1dp #000000);
                 overflow: hidden scroll;
-                decorator: horizontal-gradient(rgba(25, 29, 29, 175) rgba(19, 23, 23, 115));
+                decorator: horizontal-gradient(rgba(25, 29, 29, 140) rgba(19, 23, 23, 40));
                 padding-left: 15dp;
                 height: 65%;
             }
@@ -101,9 +108,9 @@
             {
                 display: block;
                 word-break: break-word;
-                font-effect: outline(1dp black);
+                font-effect: outline(1dp #000000);
                 overflow: hidden scroll;
-                decorator: horizontal-gradient(rgba(25, 29, 29, 175) rgba(19, 23, 23, 115));
+                decorator: horizontal-gradient(rgba(25, 29, 29, 140) rgba(19, 23, 23, 40));
                 padding-left: 15dp;
                 height: 35%;
             }
@@ -138,13 +145,13 @@
 
             #input-container
             {
-                decorator: horizontal-gradient(rgba(25, 29, 29, 175) rgba(19, 23, 23, 115));
+                decorator: horizontal-gradient(rgba(25, 29, 29, 140) rgba(19, 23, 23, 40));
                 height: 64dp;
             }
 
             #input-tab-container
             {
-                font-effect: outline(1dp black);
+                font-effect: outline(1dp #000000);
                 height: 34dp;
                 overflow: hidden auto;
             }
@@ -180,84 +187,84 @@
                 text-decoration: underline;
             }
 
-            .timestamp {
-                color: #8CA19E;
-                font-effect: glow(1dp 2dp #8CA19E), outline(1dp rgba(12, 15, 15, 220));
+            .timestamp
+            {
+                color: #8ca19e;
             }
 
-            .chat-message-chat {
-                color: #E4F2F0;
-                font-effect: glow(1dp 2dp #E4F2F0), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-chat
+            {
+                color: #e4f2f0;
             }
 
-            .chat-message-shout {
-                color: #FF8A73;
-                font-effect: glow(1dp 2dp #FF8A73), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-shout
+            {
+                color: #ff8a73;
             }
 
-            .chat-message-party {
+            .chat-message-party
+            {
                 color: #8be9fd;
-                font-effect: glow(1dp 2dp #8be9fd), outline(1dp rgba(12, 15, 15, 220));
             }
 
-            .chat-message-clan {
-                color: #92D1C9;
-                font-effect: glow(1dp 2dp #92D1C9), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-clan
+            {
+                color: #92d1c9;
             }
 
-            .chat-message-clan-notification {
-                color: #92D1C9;
-                font-effect: glow(1dp 2dp #92D1C9), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-clan-notification
+            {
+                color: #92d1c9;
             }
 
-            .chat-message-trade {
+            .chat-message-trade
+            {
                 color: #33c4ad;
-                font-effect: glow(1dp 2dp #33c4ad), outline(1dp rgba(12, 15, 15, 220));
             }
 
-            .chat-message-whisper {
-                color: #FF8A73;
-                font-effect: glow(1dp 2dp #FF8A73), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-whisper
+            {
+                color: #ff8a73;
             }
 
-            .chat-message-social-notification {
-                color: #FF8A73;
-                font-effect: glow(1dp 2dp #FF8A73), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-social-notification
+            {
+                color: #ff8a73;
             }
 
-            .chat-message-notice {
-                color: #EBAA6A;
-                font-effect: glow(1dp 2dp #EBAA6A), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-notice
+            {
+                color: #ebaa6a;
             }
 
-            .chat-message-system {
-                color: #DAEDEB;
-                font-effect: glow(1dp 2dp #DAEDEB), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-system
+            {
+                color: #daedeb;
             }
 
-            .chat-message-error {
-                color: #F24E53;
-                font-effect: glow(1dp 2dp #F24E53), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-error
+            {
+                color: #f24e53;
             }
 
-            .chat-message-quest {
+            .chat-message-quest
+            {
                 color: #9be0f5;
-                font-effect: glow(1dp 2dp #9be0f5), outline(1dp rgba(12, 15, 15, 220));
             }
 
-            .chat-message-quest-reward {
-                color: #C5E6E1;
-                font-effect: glow(1dp 2dp #C5E6E1), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-quest-reward
+            {
+                color: #c5e6e1;
             }
 
-            .chat-message-group {
-                color: #96BEE8;
-                font-effect: glow(1dp 2dp #96BEE8), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-group
+            {
+                color: #96bee8;
             }
 
-            .chat-message-group-leader {
-                color: #5A84C4;
-                font-effect: glow(1dp 2dp #5A84C4), outline(1dp rgba(12, 15, 15, 220));
+            .chat-message-group-leader
+            {
+                color: #5a84c4;
             }
 
             .chat-name-gm
@@ -324,6 +331,7 @@
             </div>
         </div>
 
+        <button id="chat-settings" class="settings" onclick="chat_settings" tooltip="Chat settings"></button>
         <handle id="mover" class="button-move" move_target="#document"></handle>
         <handle id="resizer" class="button-resize" size_target="#document"></handle>
     </body>

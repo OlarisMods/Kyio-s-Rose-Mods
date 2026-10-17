@@ -56,8 +56,14 @@ PAGE = os.path.join(PACKS, 'CONTENTS.md')
 # The point of the list is that anything NOT on it gets a human look. Do not
 # widen it just to make the report go quiet -- that turns the check into
 # decoration.
+# Added with the Spooky UI, after checking each file by hand:
+#   .pal  res/pal_01.pal -- a JASC-PAL colour palette, plain text you can
+#         open in Notepad (starts 'JASC-PAL')
+#   .ico  res/user.ico   -- the game window's icon, one 48x48 image
+#         (starts 00 00 01 00, the Windows icon signature)
 ALLOWED = {'.dds', '.zms', '.zmo', '.eft', '.ptl', '.cur',
-           '.css', '.html', '.txt', '.md', '.json', '.png'}
+           '.css', '.html', '.txt', '.md', '.json', '.png',
+           '.pal', '.ico'}
 
 # Things that must never be in a mod pack, called out by name so the report
 # says WHY rather than just "unexpected".

@@ -8,6 +8,11 @@ Install the whole thing, or only the parts you want.
 
 ![The spooky interface](../images/halloween/ui/spooky_ui.png)
 
+**Updated for the 16 October 2026 patch** (version 1.1). The tombstone keeps its buttons and its
+residents, the health bar is pumpkin orange and mana violet — including the bars over everyone's
+heads — and the patch's new buttons wear the theme. Upgrading from 1.0? Delete one leftover file
+first — [see installing](installing.md#updating-a-ui-theme-from-before-16-october-2026).
+
 ## The interface
 
 | | |

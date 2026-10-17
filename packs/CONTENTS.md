@@ -8,9 +8,559 @@ re-run the script instead.
 
 ---
 
-File types present: `.dds` (502), `.zms` (234), `.txt` (216), `.json` (82), `.cur` (76), `.css` (20), `.ptl` (14), `.html` (13), `.zmo` (4)
+File types present: `.dds` (652), `.zms` (306), `.txt` (252), `.cur` (120), `.json` (100), `.ptl` (45), `.zmo` (41), `.css` (27), `.html` (22), `.eft` (20), `.pal` (2), `.ico` (2)
 
 ---
+
+<details>
+<summary><b>Halloween_COMPLETE.zip</b> &mdash; 161 files, largest 1.0 MB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/control/Res/glassui_00.dds
+3ddata/control/Res/glassui_02.dds
+3ddata/control/Res/glassui_03.dds
+3ddata/control/Res/glassui_04.dds
+3ddata/control/Res/stateicon.dds
+3ddata/control/Res/ui06_2.dds
+3ddata/EFFECT/_FAINTING_01.EFT
+3ddata/EFFECT/_MUTE_01.EFT
+3ddata/EFFECT/_SLEEP_01.EFT
+3ddata/EFFECT/attackup_01.eft
+3ddata/EFFECT/damage_up01.eft
+3ddata/EFFECT/EFFECTMESH/_void_bat_body.zms
+3ddata/EFFECT/EFFECTMESH/_void_bat_eyes.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_body.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_eyes.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_head.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_shadow.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_tail.zms
+3ddata/EFFECT/EFFECTMESH/_void_haunt_aurora_a.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_aurora_a.zms
+3ddata/EFFECT/EFFECTMESH/_void_haunt_aurora_b.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_aurora_b.zms
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_1.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_1.zms
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_2.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_2.zms
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_3.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_3.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull_eyes.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull_jaw.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull_sockets.zms
+3ddata/EFFECT/EFFECTMESH/_void_well_01.zms
+3ddata/EFFECT/EFFECTMESH/defend_01/redglow1.dds
+3ddata/EFFECT/hitup_01.eft
+3ddata/EFFECT/mon_summons_01.eft
+3ddata/EFFECT/MOTION/_void_bat_orbit.zmo
+3ddata/EFFECT/MOTION/_void_cat_look.zmo
+3ddata/EFFECT/MOTION/_void_cat_shadow.zmo
+3ddata/EFFECT/MOTION/_void_cat_swish.zmo
+3ddata/EFFECT/MOTION/_void_skull_jaw.zmo
+3ddata/EFFECT/MOTION/_void_skull_spin.zmo
+3ddata/EFFECT/MOTION/_void_spin_z.zmo
+3ddata/EFFECT/MOTION/shirk_01.ZMO
+3ddata/EFFECT/MOTION/shirk_02.ZMO
+3ddata/EFFECT/Particles/_CRITICAL_01.PTL
+3ddata/EFFECT/Particles/_horsepower_01.ptl
+3ddata/EFFECT/Particles/_horsepower_02.ptl
+3ddata/EFFECT/Particles/_void_cat_veil.ptl
+3ddata/EFFECT/Particles/_void_mute_01.ptl
+3ddata/EFFECT/Particles/_void_sleep_01.ptl
+3ddata/EFFECT/Particles/_void_stun_01.ptl
+3ddata/EFFECT/Particles/c_hit_01.ptl
+3ddata/EFFECT/Particles/criticalup_01.ptl
+3ddata/EFFECT/Particles/damage_up01.ptl
+3ddata/EFFECT/Particles/defendup_01.ptl
+3ddata/EFFECT/Particles/shirkup_01.ptl
+3ddata/EFFECT/Particles/Texture/_void_bat.dds
+3ddata/EFFECT/Particles/Texture/_void_bat_flock.dds
+3ddata/EFFECT/Particles/Texture/_void_bone.dds
+3ddata/EFFECT/Particles/Texture/_void_cat.dds
+3ddata/EFFECT/Particles/Texture/_void_corona.dds
+3ddata/EFFECT/Particles/Texture/_void_eye.dds
+3ddata/EFFECT/Particles/Texture/_void_haunt_aurora.dds
+3ddata/EFFECT/Particles/Texture/_void_haunt_wisp.dds
+3ddata/EFFECT/Particles/Texture/_void_lantern.dds
+3ddata/EFFECT/Particles/Texture/_void_lantern_glow.dds
+3ddata/EFFECT/Particles/Texture/_void_mute_01.dds
+3ddata/EFFECT/Particles/Texture/_void_shadow.dds
+3ddata/EFFECT/Particles/Texture/_void_sleep_01.dds
+3ddata/EFFECT/Particles/Texture/_void_smear.dds
+3ddata/EFFECT/Particles/Texture/_void_socket.dds
+3ddata/EFFECT/Particles/Texture/_void_soul_01.dds
+3ddata/EFFECT/Particles/Texture/_void_spark.dds
+3ddata/EFFECT/Particles/Texture/_void_stun_01.dds
+3ddata/EFFECT/Particles/Texture/_void_veil.dds
+3ddata/EFFECT/Particles/Texture/_void_well_01.dds
+3ddata/EFFECT/Particles/Texture/_void_wisp.dds
+3ddata/EFFECT/Particles/Texture/Critical.DDS
+3ddata/EFFECT/smoke_07.eft
+3ddata/EFFECT/Special/DIGITNUMBER01.DDS
+3ddata/EFFECT/Special/DIGITNUMBER02.DDS
+3ddata/EFFECT/Special/DIGITNUMBER03.DDS
+3ddata/EFFECT/Special/DIGITNUMBER04.DDS
+3ddata/EFFECT/Special/DIGITNUMBER05.DDS
+3ddata/EFFECT/Special/DIGITNUMBER06.DDS
+3ddata/EFFECT/Special/DIGITNUMBERABSORB01.DDS
+3ddata/EFFECT/Special/DIGITNUMBERBLOCK01.DDS
+3ddata/EFFECT/Special/DIGITNUMBERBLOCK02.DDS
+3ddata/EFFECT/Special/DIGITNUMBEREVADE01.DDS
+3ddata/EFFECT/Special/DIGITNUMBERIMMUNE01.DDS
+3ddata/EFFECT/Special/DIGITNUMBERMISS.DDS
+3ddata/item/common/necklace01.dds
+3ddata/item/common/necklace01.zms
+3ddata/item/common/ring01.zms
+3ddata/item/common/totem.dds
+3ddata/item/common/totem.zms
+3ddata/item/di10/di10.dds
+3ddata/item/di10/di10.zms
+3ddata/item/di17/di17.dds
+3ddata/item/di17/di17.zms
+3ddata/item/di22/d22.zms
+3ddata/item/di22/di22.dds
+3ddata/item/di23/di23.dds
+3ddata/item/di23/di23.zms
+3ddata/item/di46/di46.dds
+3ddata/item/di46/di46.zms
+3ddata/item/di50/di50.dds
+3ddata/item/di50/di50.zms
+3ddata/item/di52/di52.dds
+3ddata/item/di52/di52.zms
+3ddata/item/di55/rock.dds
+3ddata/item/di55/snow.zms
+3ddata/item/di64/di64.dds
+3ddata/item/di64/di64.zms
+3ddata/item/di65/di65.dds
+3ddata/item/di66/di66.dds
+3ddata/item/di67/di67.dds
+3ddata/item/di68/di68.dds
+3ddata/item/di68/di68.zms
+data/ui/themes/rose/game/chat_box.html
+data/ui/themes/rose/game/hud.html
+data/ui/themes/rose/game/minimap.html
+data/ui/themes/rose/game/summon_gauge.html
+data/ui/themes/rose/imgs/gauge.dds
+data/ui/themes/rose/imgs/glassui_0.dds
+data/ui/themes/rose/imgs/group_manager.dds
+data/ui/themes/rose/imgs/party_controls.dds
+data/ui/themes/rose/styles/colors.css
+data/ui/themes/rose/styles/input.css
+data/ui/themes/rose/styles/listbox.css
+data/ui/themes/rose/styles/scrollbar.css
+data/ui/themes/rose/styles/spritesheet_spooky.css
+manifest.json
+README.txt
+res/appraisalstatextract.cur
+res/appraisalstattransfer.cur
+res/attack.cur
+res/colorpicker.cur
+res/cursor1.cur
+res/cursor2.cur
+res/default.cur
+res/identify.cur
+res/item_invem.cur
+res/item_inven.cur
+res/item_pick.cur
+res/left.cur
+res/noui01.cur
+res/npc.cur
+res/pal_01.pal
+res/quicksell.cur
+res/refinereset.cur
+res/repair.cur
+res/right.cur
+res/socket_drill.cur
+res/stateicon.dds
+res/tradeunlock.cur
+res/user.cur
+res/user.ico
+res/wheel.cur
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuffIcons.zip</b> &mdash; 5 files, largest 291 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/control/Res/stateicon.dds
+manifest.json
+README.txt
+res/stateicon.dds
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuff_Accuracy.zip</b> &mdash; 9 files, largest 5 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/EFFECTMESH/_void_bat_body.zms
+3ddata/EFFECT/EFFECTMESH/_void_bat_eyes.zms
+3ddata/EFFECT/hitup_01.eft
+3ddata/EFFECT/MOTION/_void_bat_orbit.zmo
+3ddata/EFFECT/Particles/Texture/_void_bat.dds
+3ddata/EFFECT/Particles/Texture/_void_eye.dds
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuff_Attack.zip</b> &mdash; 13 files, largest 5 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/attackup_01.eft
+3ddata/EFFECT/EFFECTMESH/_void_skull.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull_eyes.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull_jaw.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull_sockets.zms
+3ddata/EFFECT/MOTION/_void_skull_jaw.zmo
+3ddata/EFFECT/MOTION/_void_skull_spin.zmo
+3ddata/EFFECT/Particles/Texture/_void_bone.dds
+3ddata/EFFECT/Particles/Texture/_void_eye.dds
+3ddata/EFFECT/Particles/Texture/_void_socket.dds
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuff_AttackSpeed.zip</b> &mdash; 5 files, largest 576 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/Particles/defendup_01.ptl
+3ddata/EFFECT/Particles/Texture/_void_wisp.dds
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuff_Critical.zip</b> &mdash; 6 files, largest 576 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/Particles/criticalup_01.ptl
+3ddata/EFFECT/Particles/Texture/_void_corona.dds
+3ddata/EFFECT/Particles/Texture/_void_spark.dds
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuff_Damage.zip</b> &mdash; 9 files, largest 256 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/damage_up01.eft
+3ddata/EFFECT/EFFECTMESH/_void_well_01.zms
+3ddata/EFFECT/MOTION/_void_spin_z.zmo
+3ddata/EFFECT/Particles/damage_up01.ptl
+3ddata/EFFECT/Particles/Texture/_void_soul_01.dds
+3ddata/EFFECT/Particles/Texture/_void_well_01.dds
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuff_Defense.zip</b> &mdash; 4 files, largest 256 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/EFFECTMESH/defend_01/redglow1.dds
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuff_Dodge.zip</b> &mdash; 7 files, largest 256 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/MOTION/shirk_01.ZMO
+3ddata/EFFECT/MOTION/shirk_02.ZMO
+3ddata/EFFECT/Particles/shirkup_01.ptl
+3ddata/EFFECT/Particles/Texture/_void_smear.dds
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuff_MagicDefense.zip</b> &mdash; 7 files, largest 576 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/Particles/_horsepower_01.ptl
+3ddata/EFFECT/Particles/_horsepower_02.ptl
+3ddata/EFFECT/Particles/Texture/_void_lantern.dds
+3ddata/EFFECT/Particles/Texture/_void_lantern_glow.dds
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuff_MoveSpeed.zip</b> &mdash; 18 files, largest 256 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/EFFECTMESH/_void_cat_body.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_eyes.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_head.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_shadow.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_tail.zms
+3ddata/EFFECT/MOTION/_void_cat_look.zmo
+3ddata/EFFECT/MOTION/_void_cat_shadow.zmo
+3ddata/EFFECT/MOTION/_void_cat_swish.zmo
+3ddata/EFFECT/Particles/_void_cat_veil.ptl
+3ddata/EFFECT/Particles/Texture/_void_cat.dds
+3ddata/EFFECT/Particles/Texture/_void_eye.dds
+3ddata/EFFECT/Particles/Texture/_void_shadow.dds
+3ddata/EFFECT/Particles/Texture/_void_spark.dds
+3ddata/EFFECT/Particles/Texture/_void_veil.dds
+3ddata/EFFECT/smoke_07.eft
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyBuffs_All.zip</b> &mdash; 51 files, largest 576 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/attackup_01.eft
+3ddata/EFFECT/damage_up01.eft
+3ddata/EFFECT/EFFECTMESH/_void_bat_body.zms
+3ddata/EFFECT/EFFECTMESH/_void_bat_eyes.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_body.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_eyes.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_head.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_shadow.zms
+3ddata/EFFECT/EFFECTMESH/_void_cat_tail.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull_eyes.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull_jaw.zms
+3ddata/EFFECT/EFFECTMESH/_void_skull_sockets.zms
+3ddata/EFFECT/EFFECTMESH/_void_well_01.zms
+3ddata/EFFECT/EFFECTMESH/defend_01/redglow1.dds
+3ddata/EFFECT/hitup_01.eft
+3ddata/EFFECT/MOTION/_void_bat_orbit.zmo
+3ddata/EFFECT/MOTION/_void_cat_look.zmo
+3ddata/EFFECT/MOTION/_void_cat_shadow.zmo
+3ddata/EFFECT/MOTION/_void_cat_swish.zmo
+3ddata/EFFECT/MOTION/_void_skull_jaw.zmo
+3ddata/EFFECT/MOTION/_void_skull_spin.zmo
+3ddata/EFFECT/MOTION/_void_spin_z.zmo
+3ddata/EFFECT/MOTION/shirk_01.ZMO
+3ddata/EFFECT/MOTION/shirk_02.ZMO
+3ddata/EFFECT/Particles/_horsepower_01.ptl
+3ddata/EFFECT/Particles/_horsepower_02.ptl
+3ddata/EFFECT/Particles/_void_cat_veil.ptl
+3ddata/EFFECT/Particles/criticalup_01.ptl
+3ddata/EFFECT/Particles/damage_up01.ptl
+3ddata/EFFECT/Particles/defendup_01.ptl
+3ddata/EFFECT/Particles/shirkup_01.ptl
+3ddata/EFFECT/Particles/Texture/_void_bat.dds
+3ddata/EFFECT/Particles/Texture/_void_bone.dds
+3ddata/EFFECT/Particles/Texture/_void_cat.dds
+3ddata/EFFECT/Particles/Texture/_void_corona.dds
+3ddata/EFFECT/Particles/Texture/_void_eye.dds
+3ddata/EFFECT/Particles/Texture/_void_lantern.dds
+3ddata/EFFECT/Particles/Texture/_void_lantern_glow.dds
+3ddata/EFFECT/Particles/Texture/_void_shadow.dds
+3ddata/EFFECT/Particles/Texture/_void_smear.dds
+3ddata/EFFECT/Particles/Texture/_void_socket.dds
+3ddata/EFFECT/Particles/Texture/_void_soul_01.dds
+3ddata/EFFECT/Particles/Texture/_void_spark.dds
+3ddata/EFFECT/Particles/Texture/_void_veil.dds
+3ddata/EFFECT/Particles/Texture/_void_well_01.dds
+3ddata/EFFECT/Particles/Texture/_void_wisp.dds
+3ddata/EFFECT/smoke_07.eft
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyCombatText.zip</b> &mdash; 28 files, largest 288 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/_FAINTING_01.EFT
+3ddata/EFFECT/_MUTE_01.EFT
+3ddata/EFFECT/_SLEEP_01.EFT
+3ddata/EFFECT/Particles/_CRITICAL_01.PTL
+3ddata/EFFECT/Particles/_void_mute_01.ptl
+3ddata/EFFECT/Particles/_void_sleep_01.ptl
+3ddata/EFFECT/Particles/_void_stun_01.ptl
+3ddata/EFFECT/Particles/c_hit_01.ptl
+3ddata/EFFECT/Particles/Texture/_void_bat_flock.dds
+3ddata/EFFECT/Particles/Texture/_void_mute_01.dds
+3ddata/EFFECT/Particles/Texture/_void_sleep_01.dds
+3ddata/EFFECT/Particles/Texture/_void_stun_01.dds
+3ddata/EFFECT/Particles/Texture/Critical.DDS
+3ddata/EFFECT/Special/DIGITNUMBER01.DDS
+3ddata/EFFECT/Special/DIGITNUMBER02.DDS
+3ddata/EFFECT/Special/DIGITNUMBER03.DDS
+3ddata/EFFECT/Special/DIGITNUMBER04.DDS
+3ddata/EFFECT/Special/DIGITNUMBER05.DDS
+3ddata/EFFECT/Special/DIGITNUMBER06.DDS
+3ddata/EFFECT/Special/DIGITNUMBERABSORB01.DDS
+3ddata/EFFECT/Special/DIGITNUMBERBLOCK01.DDS
+3ddata/EFFECT/Special/DIGITNUMBERBLOCK02.DDS
+3ddata/EFFECT/Special/DIGITNUMBEREVADE01.DDS
+3ddata/EFFECT/Special/DIGITNUMBERIMMUNE01.DDS
+3ddata/EFFECT/Special/DIGITNUMBERMISS.DDS
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyMinimap.zip</b> &mdash; 6 files, largest 1.0 MB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/control/Res/glassui_03.dds
+data/ui/themes/rose/game/minimap.html
+data/ui/themes/rose/styles/spritesheet_spooky.css
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookySummonAuras.zip</b> &mdash; 16 files, largest 128 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/EFFECT/EFFECTMESH/_void_haunt_aurora_a.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_aurora_a.zms
+3ddata/EFFECT/EFFECTMESH/_void_haunt_aurora_b.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_aurora_b.zms
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_1.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_1.zms
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_2.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_2.zms
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_3.zmo
+3ddata/EFFECT/EFFECTMESH/_void_haunt_wisp_3.zms
+3ddata/EFFECT/mon_summons_01.eft
+3ddata/EFFECT/Particles/Texture/_void_haunt_aurora.dds
+3ddata/EFFECT/Particles/Texture/_void_haunt_wisp.dds
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookySummonGauge.zip</b> &mdash; 4 files, largest 11 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+data/ui/themes/rose/game/summon_gauge.html
+manifest.json
+README.txt
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyUI.zip</b> &mdash; 44 files, largest 1.0 MB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/control/Res/glassui_00.dds
+3ddata/control/Res/glassui_02.dds
+3ddata/control/Res/glassui_03.dds
+3ddata/control/Res/glassui_04.dds
+3ddata/control/Res/ui06_2.dds
+data/ui/themes/rose/game/chat_box.html
+data/ui/themes/rose/game/hud.html
+data/ui/themes/rose/game/minimap.html
+data/ui/themes/rose/imgs/gauge.dds
+data/ui/themes/rose/imgs/glassui_0.dds
+data/ui/themes/rose/imgs/group_manager.dds
+data/ui/themes/rose/imgs/party_controls.dds
+data/ui/themes/rose/styles/colors.css
+data/ui/themes/rose/styles/input.css
+data/ui/themes/rose/styles/listbox.css
+data/ui/themes/rose/styles/scrollbar.css
+data/ui/themes/rose/styles/spritesheet_spooky.css
+manifest.json
+README.txt
+res/appraisalstatextract.cur
+res/appraisalstattransfer.cur
+res/attack.cur
+res/colorpicker.cur
+res/cursor1.cur
+res/cursor2.cur
+res/default.cur
+res/identify.cur
+res/item_invem.cur
+res/item_inven.cur
+res/item_pick.cur
+res/left.cur
+res/noui01.cur
+res/npc.cur
+res/pal_01.pal
+res/quicksell.cur
+res/refinereset.cur
+res/repair.cur
+res/right.cur
+res/socket_drill.cur
+res/tradeunlock.cur
+res/user.cur
+res/user.ico
+res/wheel.cur
+```
+</details>
+
+<details>
+<summary><b>Halloween_SpookyWitchesCauldrons.zip</b> &mdash; 31 files, largest 256 KB</summary>
+
+```
+.pack/FILE_LIST.txt
+3ddata/item/common/necklace01.dds
+3ddata/item/common/necklace01.zms
+3ddata/item/common/ring01.zms
+3ddata/item/common/totem.dds
+3ddata/item/common/totem.zms
+3ddata/item/di10/di10.dds
+3ddata/item/di10/di10.zms
+3ddata/item/di17/di17.dds
+3ddata/item/di17/di17.zms
+3ddata/item/di22/d22.zms
+3ddata/item/di22/di22.dds
+3ddata/item/di23/di23.dds
+3ddata/item/di23/di23.zms
+3ddata/item/di46/di46.dds
+3ddata/item/di46/di46.zms
+3ddata/item/di50/di50.dds
+3ddata/item/di50/di50.zms
+3ddata/item/di52/di52.dds
+3ddata/item/di52/di52.zms
+3ddata/item/di55/rock.dds
+3ddata/item/di55/snow.zms
+3ddata/item/di64/di64.dds
+3ddata/item/di64/di64.zms
+3ddata/item/di65/di65.dds
+3ddata/item/di66/di66.dds
+3ddata/item/di67/di67.dds
+3ddata/item/di68/di68.dds
+3ddata/item/di68/di68.zms
+manifest.json
+README.txt
+```
+</details>
 
 <details>
 <summary><b>ROSE_AllBeams_Crimson.zip</b> &mdash; 31 files, largest 256 KB</summary>
@@ -1700,7 +2250,7 @@ README.txt
 </details>
 
 <details>
-<summary><b>ROSE_UI_Ancient.zip</b> &mdash; 48 files, largest 1.0 MB</summary>
+<summary><b>ROSE_UI_Ancient.zip</b> &mdash; 49 files, largest 1.0 MB</summary>
 
 ```
 3ddata/control/Res/glassui_00.dds
@@ -1725,11 +2275,12 @@ data/ui/themes/rose/game/hud.html
 data/ui/themes/rose/game/minimap.html
 data/ui/themes/rose/imgs/gauge.dds
 data/ui/themes/rose/imgs/glassui_0.dds
+data/ui/themes/rose/imgs/group_manager.dds
+data/ui/themes/rose/imgs/party_controls.dds
 data/ui/themes/rose/styles/colors.css
 data/ui/themes/rose/styles/input.css
 data/ui/themes/rose/styles/listbox.css
 data/ui/themes/rose/styles/scrollbar.css
-data/ui/themes/rose/styles/spritesheet_glassui.css
 FILE_LIST.txt
 README.txt
 res/appraisalstatextract.cur
@@ -1765,7 +2316,7 @@ README.txt
 </details>
 
 <details>
-<summary><b>ROSE_UI_Crimson.zip</b> &mdash; 48 files, largest 1.0 MB</summary>
+<summary><b>ROSE_UI_Crimson.zip</b> &mdash; 49 files, largest 1.0 MB</summary>
 
 ```
 3ddata/control/Res/glassui_00.dds
@@ -1790,11 +2341,12 @@ data/ui/themes/rose/game/hud.html
 data/ui/themes/rose/game/minimap.html
 data/ui/themes/rose/imgs/gauge.dds
 data/ui/themes/rose/imgs/glassui_0.dds
+data/ui/themes/rose/imgs/group_manager.dds
+data/ui/themes/rose/imgs/party_controls.dds
 data/ui/themes/rose/styles/colors.css
 data/ui/themes/rose/styles/input.css
 data/ui/themes/rose/styles/listbox.css
 data/ui/themes/rose/styles/scrollbar.css
-data/ui/themes/rose/styles/spritesheet_glassui.css
 FILE_LIST.txt
 README.txt
 res/appraisalstatextract.cur
@@ -1820,7 +2372,7 @@ res/wheel.cur
 </details>
 
 <details>
-<summary><b>ROSE_UI_Moldie.zip</b> &mdash; 48 files, largest 1.0 MB</summary>
+<summary><b>ROSE_UI_Moldie.zip</b> &mdash; 49 files, largest 1.0 MB</summary>
 
 ```
 3ddata/control/Res/glassui_00.dds
@@ -1845,11 +2397,12 @@ data/ui/themes/rose/game/hud.html
 data/ui/themes/rose/game/minimap.html
 data/ui/themes/rose/imgs/gauge.dds
 data/ui/themes/rose/imgs/glassui_0.dds
+data/ui/themes/rose/imgs/group_manager.dds
+data/ui/themes/rose/imgs/party_controls.dds
 data/ui/themes/rose/styles/colors.css
 data/ui/themes/rose/styles/input.css
 data/ui/themes/rose/styles/listbox.css
 data/ui/themes/rose/styles/scrollbar.css
-data/ui/themes/rose/styles/spritesheet_glassui.css
 FILE_LIST.txt
 README.txt
 res/appraisalstatextract.cur
@@ -1875,7 +2428,7 @@ res/wheel.cur
 </details>
 
 <details>
-<summary><b>ROSE_UI_Void.zip</b> &mdash; 48 files, largest 1.0 MB</summary>
+<summary><b>ROSE_UI_Void.zip</b> &mdash; 49 files, largest 1.0 MB</summary>
 
 ```
 3ddata/control/Res/glassui_00.dds
@@ -1900,11 +2453,12 @@ data/ui/themes/rose/game/hud.html
 data/ui/themes/rose/game/minimap.html
 data/ui/themes/rose/imgs/gauge.dds
 data/ui/themes/rose/imgs/glassui_0.dds
+data/ui/themes/rose/imgs/group_manager.dds
+data/ui/themes/rose/imgs/party_controls.dds
 data/ui/themes/rose/styles/colors.css
 data/ui/themes/rose/styles/input.css
 data/ui/themes/rose/styles/listbox.css
 data/ui/themes/rose/styles/scrollbar.css
-data/ui/themes/rose/styles/spritesheet_glassui.css
 FILE_LIST.txt
 README.txt
 res/appraisalstatextract.cur
@@ -1931,16 +2485,19 @@ res/wheel.cur
 
 ---
 
-108 packs, 1161 files in total.
+126 packs, 1589 files in total.
 
 Every file type present, counted:
 
-- `.dds` &mdash; 502
-- `.zms` &mdash; 234
-- `.txt` &mdash; 216
-- `.json` &mdash; 82
-- `.cur` &mdash; 76
-- `.css` &mdash; 20
-- `.ptl` &mdash; 14
-- `.html` &mdash; 13
-- `.zmo` &mdash; 4
+- `.dds` &mdash; 652
+- `.zms` &mdash; 306
+- `.txt` &mdash; 252
+- `.cur` &mdash; 120
+- `.json` &mdash; 100
+- `.ptl` &mdash; 45
+- `.zmo` &mdash; 41
+- `.css` &mdash; 27
+- `.html` &mdash; 22
+- `.eft` &mdash; 20
+- `.pal` &mdash; 2
+- `.ico` &mdash; 2
