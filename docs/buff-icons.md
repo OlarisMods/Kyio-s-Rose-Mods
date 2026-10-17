@@ -11,7 +11,7 @@ The colour is the point. Four people's buffs stacked in a party list is where
 you actually need to see who is missing what, and a column of same-coloured
 plates tells you nothing.
 
-[Download](../../releases/latest/download/ROSE_Buff_Icons.zip)
+[Download](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_Buff_Icons.zip)
 
 **Read this before installing a second icon pack.** They are all one shared
 sheet — `3ddata\control\Res\stateicon.dds` — rather than separate images, and

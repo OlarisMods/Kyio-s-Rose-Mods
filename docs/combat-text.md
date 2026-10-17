@@ -8,10 +8,10 @@ changing their whole interface. 13 files.
 ![Combat text, every damage type](../images/combat_text_all_themes.png)
 
 **Download:**
-[Void](../../releases/latest/download/ROSE_CombatText_Void.zip) ·
-[Crimson](../../releases/latest/download/ROSE_CombatText_Crimson.zip) ·
-[Moldie](../../releases/latest/download/ROSE_CombatText_Moldie.zip) ·
-[Ancient](../../releases/latest/download/ROSE_CombatText_Ancient.zip)
+[Void](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_CombatText_Void.zip) ·
+[Crimson](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_CombatText_Crimson.zip) ·
+[Moldie](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_CombatText_Moldie.zip) ·
+[Ancient](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_CombatText_Ancient.zip)
 
 ## Large
 
@@ -21,10 +21,10 @@ The original artwork leaves roughly a third of each number's space empty, so at 
 you're reading smaller digits than you need to be. This fills that space. Same colors, same
 behaviour, same everything else.
 
-[Void](../../releases/latest/download/ROSE_CombatText_Void_Large.zip) ·
-[Crimson](../../releases/latest/download/ROSE_CombatText_Crimson_Large.zip) ·
-[Moldie](../../releases/latest/download/ROSE_CombatText_Moldie_Large.zip) ·
-[Ancient](../../releases/latest/download/ROSE_CombatText_Ancient_Large.zip)
+[Void](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_CombatText_Void_Large.zip) ·
+[Crimson](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_CombatText_Crimson_Large.zip) ·
+[Moldie](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_CombatText_Moldie_Large.zip) ·
+[Ancient](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_CombatText_Ancient_Large.zip)
 
 The size the game draws these at lives in the effect definition, which a mod can't reach — so
 36% is the whole of what the artwork can give. The digits now stop one pixel short of their

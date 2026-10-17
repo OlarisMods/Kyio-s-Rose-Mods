@@ -18,4 +18,4 @@ the game.
 
 One plain text file. Open it in Notepad and read it if you like; there's nothing else in the pack.
 
-**Download:** [Community Window](../../releases/latest/download/ROSE_UI_CommunityWindow.zip)
+**Download:** [Community Window](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_UI_CommunityWindow.zip)

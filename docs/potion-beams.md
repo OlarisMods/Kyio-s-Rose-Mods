@@ -16,9 +16,9 @@ they all share the same beam.
 </details>
 
 **Download:**
-[Void](../../releases/latest/download/ROSE_Potion_Void.zip) ·
-[Crimson](../../releases/latest/download/ROSE_Potion_Crimson.zip) ·
-[Moldie](../../releases/latest/download/ROSE_Potion_Moldie.zip) ·
-[Verdigris](../../releases/latest/download/ROSE_Potion_Verdigris.zip) ·
-[Lime](../../releases/latest/download/ROSE_Potion_Lime.zip) ·
-[Chem](../../releases/latest/download/ROSE_Potion_Chem.zip)
+[Void](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_Potion_Void.zip) ·
+[Crimson](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_Potion_Crimson.zip) ·
+[Moldie](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_Potion_Moldie.zip) ·
+[Verdigris](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_Potion_Verdigris.zip) ·
+[Lime](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_Potion_Lime.zip) ·
+[Chem](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_Potion_Chem.zip)
