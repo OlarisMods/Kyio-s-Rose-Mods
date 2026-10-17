@@ -12,6 +12,7 @@ logic.**
 |---|---|---|
 | **[Void Halloween](docs/halloween.md)** | eight seasonal packs: spooky interface, effects, drops | *new* |
 | **[UI Themes](docs/ui-themes.md)** | four complete interface recolors, cursors and all | 4 packs |
+| **[ROSE UI Editor](https://github.com/OlarisMods/ROSE_UI_Editor)** | make your own theme from two colors, or a random pair | *new tool* |
 | **[Combat Text](docs/combat-text.md)** | the floating damage numbers, on their own | 8 packs |
 | **[Loot Beams](docs/loot-beams.md)** | a beam over drops worth stopping for, and a new model for each | 11 groups |
 | **[Potion Beams](docs/potion-beams.md)** | the potion flask and its beam | 6 colours |

@@ -16,6 +16,17 @@ gets left behind.
 
 Drop groups are independent of each other and of the UI themes — there is no wrong combination.
 
+### Updating a UI theme from before 16 October 2026
+
+Delete this one file from your ROSE folder before installing, if it is there:
+
+    data\ui\themes\rose\styles\spritesheet_glassui.css
+
+Every UI theme made before the 16 October 2026 patch shipped a copy of it. After the patch,
+an old copy hides the game's new buttons: the group manager button becomes a **white square**,
+and some icons go missing. No current pack ships it, so once it is gone it stays gone.
+[ROSE UI Editor](https://github.com/OlarisMods/ROSE_UI_Editor) removes it for you.
+
 ## Uninstalling
 
 **Delete the files you copied in.** That's the whole process.
@@ -36,11 +47,12 @@ Fair question to ask of any mod. Here's what's checkable rather than just claime
 
 - **There is no installer and no executable.** Every pack contains only `.dds`
   textures, `.zms` mesh geometry, `.zmo` motion data, `.ptl` particle
-  definitions, `.cur` cursors, `.css` and `.html` (plain text you can open and
+  definitions, `.eft` effect definitions, `.cur` cursors, a `.pal` colour
+  palette and an `.ico` window icon, `.css` and `.html` (plain text you can open and
   read), a `manifest.json`, and `.txt` readmes. No `.exe`, no `.dll`, no
   scripts. Nothing in these archives can run.
 - **Everything is browsable right here.** [packs/CONTENTS.md](../packs/CONTENTS.md)
-  lists every file in all 97 packs, generated straight from the archives
+  lists every file in all 126 packs, generated straight from the archives
   themselves. You can look before you download.
 - **SHA-256 checksums** for every zip are in [CHECKSUMS.txt](../CHECKSUMS.txt), with instructions
   for verifying them.
@@ -51,8 +63,9 @@ Fair question to ask of any mod. Here's what's checkable rather than just claime
 
 ## Known limits
 
-Fonts, particle effects, nameplate health bars, and character-sheet stat numbers are
-engine-side and can't be changed by a mod. They stay stock in every theme.
+Fonts and character-sheet stat numbers are engine-side and can't be changed by a mod. They
+stay stock in every theme. (Nameplate health bars could not be changed either until the
+16 October 2026 patch; they now follow the bar colours of whichever theme you use.)
 
 ## Notes
 

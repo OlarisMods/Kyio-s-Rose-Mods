@@ -26,6 +26,14 @@ cursors, gauges, and combat text.
 [Moldie](../../releases/latest/download/ROSE_UI_Moldie.zip) ·
 [Ancient](../../releases/latest/download/ROSE_UI_Ancient.zip)
 
+**Updated for the 16 October 2026 patch.** The new minimap frame, the chat settings button,
+the party controls and the group manager button are all themed, and every color and tweak the
+themes had before is kept. Coming from an older version? Delete one leftover file first —
+[see installing](installing.md#updating-a-ui-theme-from-before-16-october-2026).
+
+**Want your own colors?** [ROSE UI Editor](https://github.com/OlarisMods/ROSE_UI_Editor) builds
+a complete theme from any two colors, or a random matched pair — with undo.
+
 Potion colors are **not** included in the theme packs — they are
 [their own thing](potion-beams.md), so you can mix and match rather than having a
 color forced on you.

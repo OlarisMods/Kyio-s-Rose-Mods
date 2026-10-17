@@ -10,6 +10,20 @@ and the floating combat numbers.
 
 Client-side, cosmetic, and fully reversible. No server-side anything.
 
+
+--------------------------------------------------------------------
+UPDATED FOR THE 16 OCTOBER 2026 PATCH
+--------------------------------------------------------------------
+The patch rebuilt much of the interface and moved some window art.
+This version carries the same look onto the patched files, so new
+features (like the chat settings button) still work.
+
+IF YOU HAD AN OLDER VERSION OF ANY UI THEME INSTALLED, delete this
+file from your ROSE folder before installing -- it is no longer part
+of any theme, and an old copy hides the patch's new icons (inventory
+weight, mall points, quest markers):
+
+      <ROSE>\data\ui\themes\rose\styles\spritesheet_glassui.css
 --------------------------------------------------------------------
 HOW TO INSTALL
 --------------------------------------------------------------------
@@ -76,3 +90,29 @@ NOTES
 * All artwork here is original work, produced by recolouring my own
   Void set. No third-party assets are included and no game files are
   redistributed.
+
+--------------------------------------------------------------------
+FIXED IN THIS VERSION
+--------------------------------------------------------------------
+The small square buttons were invisible. They still worked -- you
+could click them -- but nothing was drawn, which made choice boxes
+and character creation look broken.
+
+This affected the quantity arrows, the plus/minus buttons, the
+trash/move/resize window buttons, the settings and scoreboard
+buttons, and the craft amount buttons.
+
+Sorry about that. If you found it, thank you for reporting it.
+
+--------------------------------------------------------------------
+ALSO FIXED
+--------------------------------------------------------------------
+A number of controls were washed out -- the right colour, but so faint
+they read as grey. That made them look like the theme had missed them.
+
+Fixed: the large buttons (System Menu, Join Queue and the like), the
+window tabs both across the top and on window edges, the scrollbar
+thumbs, the slider handles and the dropdown arrows.
+
+The number keypad is still the game's own colours. It is drawn by an
+older part of the interface that a theme cannot reach.

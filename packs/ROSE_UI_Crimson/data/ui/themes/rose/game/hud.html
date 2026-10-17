@@ -4,6 +4,7 @@
         <title></title>
         <link type="text/template" href="../templates/window-box.html" />
         <link type="text/template" href="../templates/elements/gauge.html" />
+        <link type="text/rcss" href="../styles/spritesheet_itemicon.css" />
 
         <style>
             body {
@@ -12,8 +13,6 @@
 
             .window-title {
                 font-size: 12dp;
-                color: #ffe3e0;                        /* VOID: lavender name */
-                font-effect: glow(1dp 3dp #f03c3c);    /* VOID: violet bloom */
             }
 
             #window-title-text {
@@ -24,10 +23,13 @@
                 padding-top: 20dp;
             }
 
-            #state-icon-container {
-                margin-top: 5dp;
-                visibility: hidden;
-            }
+            #state-icon-container { margin-top: 5dp; width: 195dp; }
+            .hud-status-row { display: flex; flex-wrap: wrap; }
+            .hud-status-icon { display: inline-block; width: 20dp; height: 20dp; margin: 0 1dp 1dp 0; flex-shrink: 0; }
+            .hud-status-icon img { width: 20dp; height: 20dp; pointer-events: none; }
+            .hud-status-icon.blink { opacity: 0.25; }
+            .hud-status-icon.inactive img { image-color: rgb(255, 0, 0); }
+            .hud-status-icon.warning img { image-color: rgb(255, 180, 180); }
 
             #window-content.content {
                 padding: 1dp 2dp 1dp 1dp;
@@ -60,62 +62,23 @@
                 text-align: right;
             }
 
-            /* ===== VOID TEXT PASS (was: b.weight, span.level { color: yellow; }) =====
-               This is the DIAGNOSTIC. If these recolor in-game, HUD text is ours.
-               If they stay yellow, they're engine-drawn like the char-sheet stats. */
+            b.weight,
             span.level {
-                color: #ffe3e0;                        /* VOID: lavender level (was yellow) */
-                font-effect: glow(1dp 2dp #f03c3c);
+                color: yellow;
             }
 
-            b.weight {
-                color: #8BE9FD;                        /* VOID: cyan weight readout (was yellow) */
-                font-effect: glow(1dp 2dp #f03c3c);
-            }
-
-            /* EXP % and Fuel % labels */
-            #exp span,
-            #fuel span {
-                color: #ffe3e0;                        /* VOID: lavender percent labels */
-                font-effect: glow(1dp 2dp #f03c3c);
-            }
-
-            /* ===== VOID LOW-HP PULSE (was: red -> white) ===== */
             @keyframes low {
                 from {
-                    color: #FF3366;                    /* VOID: danger red-pink */
+                    color: #ff3366;
                 }
 
                 to {
-                    color: #ffe3e0;                    /* VOID: lavender */
+                    color: #ffe3e0;
                 }
             }
 
             gauge.low-value-animation {
                 animation: 1.5s cubic-in-out infinite alternate low;
-            }
-
-            /* ===== VOID BAR PROBE =====
-               The vanilla low-HP effect animates `color` on the <gauge>, which suggests
-               the fill sprite is tinted by the element's color. If so, these recolor the
-               WHOLE bar with no sprite work. Watch what changes:
-                 - if the BAR FILLS shift color -> fill is color-tinted (big win)
-                 - if only the NUMBERS/text shift -> color reaches text only; fills need a sprite repaint
-               Either way we learn the boundary this restart. */
-            gauge#health {
-                color: #FF3366;                        /* Void danger red-pink */
-            }
-
-            gauge#mana {
-                color: #f03c3c;                        /* Void violet */
-            }
-
-            gauge#exp {
-                color: #ff4d4d;                        /* Void magenta-violet (matches clan/chat) */
-            }
-
-            gauge#fuel {
-                color: #6EE7B7;                        /* Void mint (PAT energy) */
             }
 
             div.container {
@@ -146,7 +109,38 @@
                 left: 100%;
                 bottom: 50dp;
             }
-        </style>
+
+/* ---- kept from the pack: rules it added that the patched file does not have ---- */
+/* EXP % and Fuel % labels */
+            #exp span,
+            #fuel span {
+                color: #ffe3e0;                        /* VOID: lavender percent labels */
+                font-effect: glow(1dp 2dp #f03c3c);
+            }
+
+/* ===== VOID BAR PROBE =====
+               The vanilla low-HP effect animates `color` on the <gauge>, which suggests
+               the fill sprite is tinted by the element's color. If so, these recolor the
+               WHOLE bar with no sprite work. Watch what changes:
+                 - if the BAR FILLS shift color -> fill is color-tinted (big win)
+                 - if only the NUMBERS/text shift -> color reaches text only; fills need a sprite repaint
+               Either way we learn the boundary this restart. */
+            gauge#health {
+                color: #FF3366;                        /* Void danger red-pink */
+            }
+
+gauge#mana {
+                color: #f03c3c;                        /* Void violet */
+            }
+
+gauge#exp {
+                color: #ff4d4d;                        /* Void magenta-violet (matches clan/chat) */
+            }
+
+gauge#fuel {
+                color: #6EE7B7;                        /* Void mint (PAT energy) */
+            }
+</style>
     </head>
 
     <body id="hud" onclick="self-target">
@@ -202,7 +196,10 @@
         </div>
 
         <!-- State Icons -->
-        <div id="state-icon-container" onclick="ignore">
+        <div id="state-icon-container" onclick="ignore" data-model="hud-statuses">
+            <div class="hud-status-row" data-for="group : groups" data-if="group.statuses.size > 0">
+                <span class="hud-status-icon" data-for="status : group.statuses" data-class-blink="status.blink" data-class-inactive="!status.active" data-class-warning="status.is_warning" data-attr-hud-status="status.index"><img data-attr-sprite="status.sprite"/></span>
+            </div>
         </div>
     </body>
 </rml>

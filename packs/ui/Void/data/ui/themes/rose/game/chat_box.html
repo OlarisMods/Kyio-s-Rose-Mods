@@ -37,10 +37,12 @@
                 display: inline-block;
             }
 
+            body #chat-settings,
             body #mover {
                 display: none;
             }
 
+            body:hover #chat-settings,
             body:hover #mover {
                 display: inline-block;
             }
@@ -55,6 +57,12 @@
                 position: absolute;
                 top: 2dp;
                 right: 27dp;
+            }
+
+            #chat-settings {
+                position: absolute;
+                top: 2dp;
+                right: 52dp;
             }
 
             handle {
@@ -89,9 +97,9 @@
             {
                 display: block;
                 word-break: break-word;
-                font-effect: outline(1dp black);
+                font-effect: outline(1dp #000000);
                 overflow: hidden scroll;
-                decorator: horizontal-gradient(rgba(54, 34, 74, 175) rgba(30, 18, 46, 115));
+                decorator: horizontal-gradient(rgba(54, 34, 74, 140) rgba(30, 18, 46, 40));
                 padding-left: 15dp;
                 height: 65%;
             }
@@ -100,9 +108,9 @@
             {
                 display: block;
                 word-break: break-word;
-                font-effect: outline(1dp black);
+                font-effect: outline(1dp #000000);
                 overflow: hidden scroll;
-                decorator: horizontal-gradient(rgba(54, 34, 74, 175) rgba(30, 18, 46, 115));
+                decorator: horizontal-gradient(rgba(54, 34, 74, 140) rgba(30, 18, 46, 40));
                 padding-left: 15dp;
                 height: 35%;
             }
@@ -137,13 +145,13 @@
 
             #input-container
             {
-                decorator: horizontal-gradient(rgba(54, 34, 74, 175) rgba(30, 18, 46, 115));
+                decorator: horizontal-gradient(rgba(54, 34, 74, 140) rgba(30, 18, 46, 40));
                 height: 64dp;
             }
 
             #input-tab-container
             {
-                font-effect: outline(1dp black);
+                font-effect: outline(1dp #000000);
                 height: 34dp;
                 overflow: hidden auto;
             }
@@ -179,84 +187,84 @@
                 text-decoration: underline;
             }
 
-            .timestamp {
+            .timestamp
+            {
                 color: #9585a5;
-                font-effect: glow(1dp 2dp #9585a5), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-chat {
+            .chat-message-chat
+            {
                 color: #f2ecff;
-                font-effect: glow(1dp 3dp #f2ecff), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-shout {
+            .chat-message-shout
+            {
                 color: #ff6b9d;
-                font-effect: glow(1dp 2dp #ff6b9d), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-party {
+            .chat-message-party
+            {
                 color: #8be9fd;
-                font-effect: glow(1dp 2dp #8be9fd), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-clan {
+            .chat-message-clan
+            {
                 color: #ff00ff;
-                font-effect: glow(1dp 2dp #ff00ff), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-clan-notification {
+            .chat-message-clan-notification
+            {
                 color: #ff00ff;
-                font-effect: glow(1dp 2dp #ff00ff), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-trade {
+            .chat-message-trade
+            {
                 color: #33c4ad;
-                font-effect: glow(1dp 2dp #33c4ad), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-whisper {
+            .chat-message-whisper
+            {
                 color: #ff9bec;
-                font-effect: glow(1dp 2dp #ff9bec), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-social-notification {
+            .chat-message-social-notification
+            {
                 color: #ff9bec;
-                font-effect: glow(1dp 2dp #ff9bec), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-notice {
+            .chat-message-notice
+            {
                 color: #ffcbb0;
-                font-effect: glow(1dp 2dp #ffcbb0), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-system {
+            .chat-message-system
+            {
                 color: #e6d4ff;
-                font-effect: glow(1dp 2dp #e6d4ff), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-error {
+            .chat-message-error
+            {
                 color: #ff4d5e;
-                font-effect: glow(1dp 2dp #ff4d5e), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-quest {
+            .chat-message-quest
+            {
                 color: #9be0f5;
-                font-effect: glow(1dp 2dp #9be0f5), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-quest-reward {
+            .chat-message-quest-reward
+            {
                 color: #d8a9f0;
-                font-effect: glow(1dp 2dp #d8a9f0), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-group {
+            .chat-message-group
+            {
                 color: #a9b6ff;
-                font-effect: glow(1dp 2dp #a9b6ff), outline(1dp rgba(15,8,24,220));
             }
 
-            .chat-message-group-leader {
+            .chat-message-group-leader
+            {
                 color: #7c8fe8;
-                font-effect: glow(1dp 2dp #7c8fe8), outline(1dp rgba(15,8,24,220));
             }
 
             .chat-name-gm
@@ -323,6 +331,7 @@
             </div>
         </div>
 
+        <button id="chat-settings" class="settings" onclick="chat_settings" tooltip="Chat settings"></button>
         <handle id="mover" class="button-move" move_target="#document"></handle>
         <handle id="resizer" class="button-resize" size_target="#document"></handle>
     </body>

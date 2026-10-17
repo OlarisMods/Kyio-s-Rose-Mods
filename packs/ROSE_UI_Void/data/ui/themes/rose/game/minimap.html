@@ -6,7 +6,7 @@
 
         <style>
             body {
-                width: 219dp;
+                width: 210dp;
             }
 
             .title {
@@ -25,11 +25,10 @@
 
             #minimap-root {
                 position: relative;
-                width: 219dp;
-                overflow: visible;
+                width: 206dp;
             }
 
-            /* ââ Minimized state ââ */
+            /* ── Minimized state ── */
 
             #minimap-minimized {
                 position: relative;
@@ -59,8 +58,8 @@
                 width: 140dp;
                 height: 18dp;
                 font-weight: 800;
-                font-effect: outline(1dp black);
-                color: white;
+                font-effect: outline(1dp #000000);
+                color: #ffffff;
                 text-align: center;
                 overflow: hidden;
                 white-space: nowrap;
@@ -74,7 +73,7 @@
                 height: 14dp;
                 font-size: 12dp;
                 color: #ccc;
-                font-effect: outline(1dp black);
+                font-effect: outline(1dp #000000);
                 text-align: center;
             }
 
@@ -84,34 +83,28 @@
                 top: 2dp;
             }
 
-            /* ââ Normal state ââ */
+            /* ── Normal state ── */
 
             #minimap-normal {
                 position: relative;
-                width: 219dp;
-                height: 219dp;
-                overflow: visible;
+                width: 206dp;
+                height: 210dp;
             }
 
             /* Zone name */
             #zone-name {
                 position: absolute;
+                left: 10dp;
+                top: 12dp;
+                width: 160dp;
+                height: 18dp;
                 font-size: 12dp;
                 font-weight: 800;
-                font-effect: outline(1dp black);
-                color: white;
+                font-effect: outline(1dp #000000);
+                color: #ffffff;
+                text-align: center;
                 overflow: hidden;
                 white-space: nowrap;
-                background-color: rgba(54,34,74,220);
-                text-align: center;
-                border-width: 1dp;
-                border-color: rgba(235,210,255,255);
-                left: 50dp;
-                top: -6dp;
-                width: 119dp;
-                height: 24dp;
-                border-radius: 6dp;
-                line-height: 24dp;
             }
 
             #minimap-frame {
@@ -127,12 +120,12 @@
             /* Minimap viewport */
             #minimap-viewport {
                 position: absolute;
+                left: 33dp;
+                top: 33dp;
+                width: 142dp;
+                height: 142dp;
                 overflow: hidden;
                 clip: always;
-                left: 34dp;
-                top: 34dp;
-                width: 152dp;
-                height: 152dp;
             }
 
             #minimap-map {
@@ -167,15 +160,15 @@
                 position: absolute;
             }
 
-            /* ââ Buttons ââ */
+            /* ── Buttons ── */
             /* Minimize */
             .btn-minimize {
                 position: absolute;
+                right: 6dp;
+                top: 9dp;
                 width: 29dp;
                 height: 25dp;
                 decorator: image(GEN_BTN07);
-                left: 176dp;
-                top: -10dp;
             }
             .btn-minimize:hover {
                 decorator: image(GEN_BTN08);
@@ -187,11 +180,11 @@
             /* World Map */
             .btn-worldmap {
                 position: absolute;
+                left: 12dp;
+                top: 34dp;
                 width: 43dp;
                 height: 43dp;
                 decorator: image(GEN_DECO55);
-                left: -20dp;
-                top: 48dp;
             }
             .btn-worldmap:hover {
                 opacity: 0.8;
@@ -203,8 +196,8 @@
             /* Day/Night indicator */
             .day-night-icon {
                 position: absolute;
-                left: -20dp;
-                top: 92dp;
+                right: 3dp;
+                top: 34dp;
             }
 
             /* Game Arena */
@@ -215,7 +208,6 @@
                 width: 30dp;
                 height: 30dp;
                 decorator: image(button-scoreboard-n);
-                display: none;
             }
             .btn-gamearena:hover {
                 opacity: 0.8;
@@ -232,7 +224,6 @@
                 width: 43dp;
                 height: 43dp;
                 decorator: image(GEN_BTN106);
-                display: none;
             }
             .btn-giftbox:hover {
                 decorator: image(GEN_BTN107);
@@ -272,7 +263,7 @@
                 height: 29dp;
                 font-size: 12dp;
                 font-weight: 800;
-                color: white;
+                color: #ffffff;
                 text-align: center;
                 vertical-align: middle;
                 line-height: 29dp;
@@ -281,11 +272,11 @@
             /* Item Mall */
             .btn-itemmall {
                 position: absolute;
+                left: 24dp;
+                bottom: 5dp;
                 width: 43dp;
                 height: 43dp;
                 decorator: image(GEN_BTN82);
-                left: -20dp;
-                top: 136dp;
             }
             .btn-itemmall:hover {
                 decorator: image(GEN_BTN83);
@@ -297,11 +288,11 @@
             /* Zoom buttons */
             .btn-zoomin {
                 position: absolute;
+                right: 15dp;
+                bottom: 62dp;
                 width: 20dp;
                 height: 20dp;
                 decorator: image(GEN_BTN85);
-                left: 209dp;
-                top: 88dp;
             }
             .btn-zoomin:hover {
                 decorator: image(GEN_BTN86);
@@ -312,11 +303,11 @@
 
             .btn-zoomout {
                 position: absolute;
+                right: 28dp;
+                bottom: 40dp;
                 width: 20dp;
                 height: 20dp;
                 decorator: image(GEN_BTN88);
-                left: 209dp;
-                top: 118dp;
             }
             .btn-zoomout:hover {
                 decorator: image(GEN_BTN89);
@@ -328,54 +319,44 @@
             /* Coordinates */
             #coordinates-text {
                 position: absolute;
+                left: 71dp;
+                bottom: 28dp;
+                width: 67dp;
+                height: 14dp;
                 font-size: 12dp;
                 font-weight: 800;
                 color: #ccc;
-                font-effect: outline(1dp black);
-                background-color: rgba(54,34,74,220);
+                font-effect: outline(1dp #000000);
                 text-align: center;
-                border-width: 1dp;
-                border-color: rgba(235,210,255,255);
-                left: 40dp;
-                top: 200dp;
-                width: 62dp;
-                height: 18dp;
-                border-radius: 6dp;
-                line-height: 18dp;
             }
 
             /* Time */
             #time-area {
                 position: absolute;
-                background-color: rgba(54,34,74,220);
+                left: 71dp;
+                bottom: 12dp;
+                width: 67dp;
+                height: 14dp;
                 text-align: center;
-                border-width: 1dp;
-                border-color: rgba(235,210,255,255);
-                left: 117dp;
-                top: 200dp;
-                width: 62dp;
-                height: 18dp;
-                border-radius: 6dp;
             }
 
             #time-text {
                 width: 67dp;
+                height: 14dp;
                 font-size: 12dp;
                 font-weight: 800;
                 color: #ccc;
-                font-effect: outline(1dp black);
+                font-effect: outline(1dp #000000);
                 text-align: center;
-                line-height: 18dp;
-                height: 18dp;
             }
 
-            /* ââ Tooltips ââ */
+            /* ── Tooltips ── */
             .minimap-tooltip {
                 display: none;
                 position: absolute;
                 background-color: #000000a3;
                 padding: 3dp 6dp;
-                color: white;
+                color: #ffffff;
                 white-space: nowrap;
                 font-effect: none;
             }
@@ -413,7 +394,7 @@
 
     <body id="game-minimap">
         <div id="minimap-root" data-model="minimap">
-            <!-- âââ Minimized state âââ -->
+            <!-- ─── Minimized state ─── -->
             <div id="minimap-minimized" data-class-hidden="!is_minimized">
                 <handle move_target="#document" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%;"></handle>
                 <span id="zone-name-min">{{zone_name}}</span>
@@ -421,14 +402,16 @@
                 <button class="btn-restore" data-event-click="toggle_minimize"></button>
             </div>
 
-            <!-- âââ Normal state âââ -->
+            <!-- ─── Normal state ─── -->
             <div id="minimap-normal" data-class-hidden="is_minimized">
                 <!-- Map Viewport -->
-                <masked id="minimap-viewport" mask-radius="16dp">
-                    <div id="minimap-map">
+                <masked id="minimap-viewport" mask-radius="50%">
+                    <div id="minimap-map" data-style-width="map_width + 'dp'" data-style-height="map_height + 'dp'"
+                         data-style-left="map_left + 'px'" data-style-top="map_top + 'px'">
                         <img id="minimap-map-image"
                              class="map-image"
                              data-attr-src="map_texture_source"
+                             data-style-width="map_width + 'dp'" data-style-height="map_height + 'dp'"
                         ></img>
 
                         <img
