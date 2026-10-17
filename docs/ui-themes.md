@@ -21,10 +21,10 @@ cursors, gauges, and combat text.
 </details>
 
 **Download:**
-[Void](../../releases/latest/download/ROSE_UI_Void.zip) ·
-[Crimson](../../releases/latest/download/ROSE_UI_Crimson.zip) ·
-[Moldie](../../releases/latest/download/ROSE_UI_Moldie.zip) ·
-[Ancient](../../releases/latest/download/ROSE_UI_Ancient.zip)
+[Void](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_UI_Void.zip) ·
+[Crimson](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_UI_Crimson.zip) ·
+[Moldie](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_UI_Moldie.zip) ·
+[Ancient](https://github.com/OlarisMods/Kyio-s-Rose-Mods/releases/latest/download/ROSE_UI_Ancient.zip)
 
 **Updated for the 16 October 2026 patch.** The new minimap frame, the chat settings button,
 the party controls and the group manager button are all themed, and every color and tweak the
